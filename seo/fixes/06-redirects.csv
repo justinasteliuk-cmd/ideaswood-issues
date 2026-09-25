@@ -1,0 +1,27 @@
+from,to,type,note
+^http://(www\.)?ideaswood\.eu/(.*)$,https://ideaswood.eu/$2,301,SERVER LEVEL (.htaccess/nginx/Cloudflare) – single hop
+^https://www\.ideaswood\.eu/(.*)$,https://ideaswood.eu/$1,301,SERVER LEVEL
+/x/,/,410 or 301,test page
+/category/blog/,/blog/,301,duplicate blog index
+/category/uncategorized/,/blog/,301,after moving posts to real categories
+/product-category/houses/log-cabins/,/product-category/log-cabins/,301,category consolidation – main money page
+/product-category/wooden-houses/log-cabins/,/product-category/log-cabins/,301,category consolidation
+/product-category/log-cabins/wooden-houses/,/product-category/wooden-houses/,301,inverted hierarchy
+/product-category/log-cabins/wooden-houses/garden-house/,/product-category/log-cabins/garden-house/,301,duplicate
+/product-category/bbq-grill-cabin/grill-cabins/,/product-category/grill-cabins/,301,duplicate
+/product-category/grill-cabins/grill-cabins-grill-cabins/,/product-category/grill-cabins/,301,stuttering slug (rename category slug first)
+/product-category/camping-house/(.*),/product-category/sauna/outdoor-sauna/sauna-pods/ OR 410,301,legacy camping pods – point to closest current glamping/pod category if exists
+/product-category/pavilions/(.*),/product-category/pergola/wooden-pergola/,301,legacy
+/product/(28|44|58|68)mm-(.*),closest current model or /product-category/log-cabins/,301,legacy wall-thickness products – map one by one
+/product/double-grill-cabin-(.*),/product-category/grill-cabins/,301,legacy
+/product/exclusive-grill-cabin-92-m2/,/product-category/grill-cabins/,301,legacy
+/product/pavilion-(.*),/product-category/pergola/wooden-pergola/,301,legacy
+/product/sauna-barrel-(24|40|59)m-(.*),/product-category/sauna/,301,legacy → or matching current barrel sauna
+/product/plan-camping-bus-5-9m/,/product-category/log-cabins/,301,legacy
+/product/camping-pod-3-0m-x-4-8m/,/product-category/log-cabins/,301,legacy
+/products/(.*)\.html,/product-category/log-cabins/,301,pre-WordPress Joomla shop
+/lt/(.*),/,301,old Joomla LT
+/product/wooden-dinning-set/,/product/wooden-dining-set/,301,typo fix
+/product/dinning-set/,/product/dining-set/,301,typo fix
+/product/dinning-chairs-set-of-4/,/product/dining-chairs-set-of-4/,301,typo fix
+/product/talinn-5x10-m/,/product/tallinn-5x10-m/,301,typo fix
