@@ -16,7 +16,7 @@ Paste into Dispatch AFTER Phase 1 is done. Attach or paste the tables below.
 >
 > **F. Typos.** Rename products: Wooden Dinning Set → Wooden Dining Set, Dinning Set → Dining Set, Dinning chairs set of 4 → Dining chairs set of 4, Talinn → Tallinn, category "Welness" → "Wellness". Change slugs accordingly — Rank Math will offer an automatic 301; accept it.
 >
-> **G. Delete** page `/x/` (move to trash). Set `/eu-project/` to noindex (keep it live).
+> **G. Page `/x/`** is a Koralan UK 110 wood-treatment article published with the title "x". If it duplicates `/wood-impregnation-treatment-for-log-cabins-complete-guide-to-koralan-uk-110/`, trash it and 301 `/x/` to that post. If it is the only copy, retitle it "Log Cabin Wood Treatment: Koralan UK 110 Guide", change the slug to `/log-cabin-wood-treatment-koralan-uk-110/` and accept the 301. Set `/eu-project/` to noindex (keep it live).
 >
 > **H. Report:** table of every change (URL, before, after), anything skipped and why, and screenshots folder path.
 >

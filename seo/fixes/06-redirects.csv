@@ -1,7 +1,7 @@
 from,to,type,note
 ^http://(www\.)?ideaswood\.eu/(.*)$,https://ideaswood.eu/$2,301,SERVER LEVEL (.htaccess/nginx/Cloudflare) – single hop
 ^https://www\.ideaswood\.eu/(.*)$,https://ideaswood.eu/$1,301,SERVER LEVEL
-/x/,/,410 or 301,test page
+/x/,/wood-impregnation-treatment-for-log-cabins-complete-guide-to-koralan-uk-110/,301,/x/ is a Koralan article titled 'x' – redirect to the proper post (don't delete)
 /category/blog/,/blog/,301,duplicate blog index
 /category/uncategorized/,/blog/,301,after moving posts to real categories
 /product-category/houses/log-cabins/,/product-category/log-cabins/,301,category consolidation – main money page
