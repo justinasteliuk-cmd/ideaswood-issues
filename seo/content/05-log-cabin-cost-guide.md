@@ -1,4 +1,5 @@
 # Page: /how-much-does-a-log-cabin-cost/
+> ⚠️ 2026-10-01: ideaswood.eu already published /how-much-does-a-garden-cabin-cost/ and /how-much-does-a-garden-sauna-cost/ (other session). Do NOT publish this as a new page — use it only to extend those posts.
 **SEO title:** How Much Does a Log Cabin Cost in 2026? Full Price Guide
 **Meta:** Real log cabin prices by size and wall thickness, plus foundation, delivery, insulation, electrics and installation costs. Budget your garden room properly.
 **Focus:** log cabin cost, how much is a log cabin, garden room cost UK
