@@ -1,0 +1,45 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": ["Organization", "Manufacturer"],
+      "@id": "https://ideaswood.eu/#organization",
+      "name": "IdeasWood",
+      "alternateName": ["Ideaswood", "Log Cabins Factory"],
+      "url": "https://ideaswood.eu/",
+      "logo": "https://ideaswood.eu/wp-content/uploads/LOGO-FILE.png",
+      "foundingDate": "2007",
+      "description": "European manufacturer of log cabins, wooden houses, garden rooms, garden sheds and saunas made from Nordic pine and Scandinavian spruce. Factory in Lithuania, delivery across Europe, the UK and Ireland. Retail, trade and wholesale.",
+      "email": "info@ideaswood.eu",
+      "telephone": "+37061005085",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "STREET ADDRESS",
+        "addressLocality": "Vilnius",
+        "postalCode": "POSTCODE",
+        "addressCountry": "LT"
+      },
+      "areaServed": ["GB", "IE", "DE", "FR", "NL", "BE", "DK", "SE", "NO", "FI", "AT", "CH", "EU"],
+      "knowsAbout": ["Log cabins", "Wooden houses", "Garden rooms", "Garden sheds", "Summer houses", "Saunas", "Glamping pods"],
+      "sameAs": [
+        "https://www.facebook.com/logcabinsfactory/",
+        "https://www.instagram.com/ideaswoodeu/"
+      ],
+      "contactPoint": [{
+        "@type": "ContactPoint",
+        "telephone": "+37061005085",
+        "email": "info@ideaswood.eu",
+        "contactType": "sales",
+        "availableLanguage": ["English", "Lithuanian", "Russian"]
+      }]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://ideaswood.eu/#website",
+      "url": "https://ideaswood.eu/",
+      "name": "IdeasWood",
+      "publisher": { "@id": "https://ideaswood.eu/#organization" },
+      "inLanguage": "en"
+    }
+  ]
+}

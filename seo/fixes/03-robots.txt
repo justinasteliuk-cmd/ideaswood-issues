@@ -1,0 +1,14 @@
+# Recommended robots.txt for ideaswood.eu (WordPress + WooCommerce)
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+Disallow: /cart/
+Disallow: /checkout/
+Disallow: /my-account/
+Disallow: /*?add-to-cart=
+Disallow: /*?orderby=
+Disallow: /*?filter_
+Disallow: /*?s=
+Disallow: /?s=
+
+Sitemap: https://ideaswood.eu/sitemap_index.xml
