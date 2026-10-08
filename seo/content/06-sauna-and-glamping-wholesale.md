@@ -1,4 +1,5 @@
 # Pages: /wholesale/saunas/ and /glamping-pods/
+> ⚠️ 2026-10-08: the sauna half overlaps the live page /wellness-saunas/ – use it to rewrite that page (new title/H1), not as a new URL. The glamping half has no live page.
 Sub-pages of /log-cabin-manufacturer/. Same trade CTA block. Fill [X] with verified facts only.
 
 ---
