@@ -1,7 +1,7 @@
 # Google Business Profile, Trustpilot and B2B directory listings
 
 ## 0. Company fact sheet (use WORD FOR WORD everywhere — fill once, reuse)
-> ⚠️ Decide first: one name, one phone, one address, one founding year, manufacturer wording.
+> ⚠️ Decide first: one name, one phone, one address, one founding year, manufacturer wording. Live claims to reconcile (seen 2026-10-08): /about-us/ says the factory makes ~3,200 m³ per month for customers in 15+ countries; the homepage says "since 2007", ideaswood.com says "since 1993"; company registers show a wholesale-coded firm with ~2 staff. Use only numbers you can document.
 
 **Name:** IdeasWood
 **Legal entity:** IDEAS for PEOPLE, UAB (code 302555740) [confirm]
