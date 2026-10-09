@@ -1,0 +1,559 @@
+<title>Ideaswood SEO Baseline</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=Source+Sans+3:wght@400;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+:root{--bg:#f3f4f0;--surface:#fbfbf8;--ink:#1d231e;--muted:#5d665e;--line:#d9ddd4;--accent:#2f5d3f;--accent-soft:#e1ebe2;--bad:#a23b2a;--bad-soft:#f6e3de;--good:#2d6b3c;--good-soft:#dcefdf;--warn:#8a6412;--warn-soft:#f4ead0;color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#141815;--surface:#1b201c;--ink:#e6e9e3;--muted:#9aa49b;--line:#2e362f;--accent:#8cc49c;--accent-soft:#223327;--bad:#e8907e;--bad-soft:#3a211c;--good:#8cd19c;--good-soft:#1f3524;--warn:#e0bd6a;--warn-soft:#352c17;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#141815;--surface:#1b201c;--ink:#e6e9e3;--muted:#9aa49b;--line:#2e362f;--accent:#8cc49c;--accent-soft:#223327;--bad:#e8907e;--bad-soft:#3a211c;--good:#8cd19c;--good-soft:#1f3524;--warn:#e0bd6a;--warn-soft:#352c17;color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font:16px/1.55 "Source Sans 3",system-ui,sans-serif}
+.wrap{max-width:1100px;margin:0 auto;padding-inline:20px;padding-block:32px 64px}
+h1,h2,h3{font-family:Archivo,system-ui,sans-serif;text-wrap:balance;line-height:1.15;margin:0}
+h1{font-size:clamp(28px,5vw,42px);font-weight:800;letter-spacing:-.01em}
+h2{font-size:24px;font-weight:700;margin-bottom:6px}
+.eyebrow{font:500 12px "JetBrains Mono",monospace;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+.lede{max-width:68ch;color:var(--muted);margin:10px 0 0}
+section{margin-top:48px;display:grid;gap:14px}
+.sub{color:var(--muted);max-width:70ch;margin:0}
+nav{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}
+nav a{font:500 13px "JetBrains Mono",monospace;color:var(--accent);background:var(--accent-soft);padding:6px 10px;border-radius:4px;text-decoration:none}
+nav a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-top:28px}
+.kpi{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:14px 16px}
+.kpi b{display:block;font:800 34px Archivo,sans-serif;font-variant-numeric:tabular-nums}
+.kpi span{color:var(--muted);font-size:14px}
+.kpi.bad b{color:var(--bad)}
+.tw{overflow-x:auto;border:1px solid var(--line);border-radius:6px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-size:14px}
+th{text-align:left;font:500 11px "JetBrains Mono",monospace;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);padding:10px 12px;border-bottom:1px solid var(--line);white-space:nowrap}
+td{padding:9px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+tr:last-child td{border-bottom:0}
+.n{font-variant-numeric:tabular-nums;color:var(--muted)}
+.base{font-variant-numeric:tabular-nums}
+.mono{font:13px "JetBrains Mono",monospace;word-break:break-all;min-width:160px}
+.old{color:var(--muted);text-decoration:line-through;text-decoration-color:var(--bad);min-width:180px}
+.meta{color:var(--muted);font-size:13px;margin-top:4px;min-width:260px}
+.pill{display:inline-block;font:500 11px "JetBrains Mono",monospace;padding:3px 7px;border-radius:3px;white-space:nowrap}
+.todo{background:var(--warn-soft);color:var(--warn)} .miss{background:var(--bad-soft);color:var(--bad)} .hit{background:var(--good-soft);color:var(--good)}
+ol.block{margin:0;padding-left:22px;display:grid;gap:10px;max-width:80ch}
+.prompt{position:relative;background:var(--surface);border:1px solid var(--line);border-left:3px solid var(--accent);border-radius:4px}
+.prompt pre{margin:0;padding:16px;white-space:pre-wrap;font:13px/1.55 "JetBrains Mono",monospace;max-height:420px;overflow:auto}
+.prompt button{position:absolute;top:10px;right:10px;font:500 12px "JetBrains Mono",monospace;background:var(--accent);color:var(--bg);border:0;border-radius:4px;padding:6px 10px;cursor:pointer}
+.draft summary{cursor:pointer;padding:14px 16px;font:600 15px Archivo,sans-serif} .draft[open] summary{border-bottom:1px solid var(--line)}
+.phase{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.phase div{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:14px 16px}
+.phase h3{font-size:16px;margin-bottom:4px} .phase p{margin:0;color:var(--muted);font-size:14px}
+.note{font-size:14px;color:var(--muted);max-width:80ch}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+<div class="wrap">
+<div class="eyebrow">ideaswood.eu · audit date 2026-09-25 · baseline</div>
+<h1>Ideaswood SEO baseline audit</h1>
+<p class="lede">Where ideaswood.eu stands today for English Google searches, what blocks page 1, and the fix pack. Every future report is measured against the scorecard below.</p>
+<nav><a href="#log">Progress</a><a href="#scorecard">Scorecard</a><a href="#blockers">Blockers</a><a href="#plan">Plan</a><a href="#dispatch">Dispatch tasks</a><a href="#pages">New pages</a><a href="#titles">Titles &amp; meta</a><a href="#redirects">Redirects</a><a href="#rankings">Rankings</a></nav>
+<div class="kpis">
+<div class="kpi bad"><b>0 / 37</b><span>non-brand keywords in the top 10</span></div>
+<div class="kpi bad"><b>#7</b><span>ideaswood.eu for the search "ideaswood"</span></div>
+<div class="kpi bad"><b>23</b><span>old www/http URLs still indexed</span></div>
+<div class="kpi bad"><b>0</b><span>reviews or directory listings found</span></div>
+</div>
+
+<section id="log"><h2>Progress log</h2><p class="sub">One row per daily check. Google usually takes days to weeks to pick up site changes.</p>
+<div class="tw"><table><thead><tr><th>Date</th><th>Non-brand top 10</th><th>"ideaswood"</th><th>Fixes live on site</th><th>What changed</th></tr></thead><tbody>
+<tr><td class="n">2026-09-25</td><td class="base">0 / 37</td><td class="base">#7</td><td class="base">0</td><td>Baseline audit. Fix pack and Dispatch tasks ready.</td></tr>
+<tr><td class="n">2026-09-26</td><td class="base">0 / 37</td><td class="base">#8</td><td class="base">0</td><td>No Dispatch run reported yet, so the site is unchanged. ideaswood.com.au appeared at #7 for "ideaswood", ahead of ideaswood.eu. ideaswood.com still holds #9 and #10. Drafted two new landing pages: manufacturer/wholesale and UK delivery.</td></tr>
+<tr><td class="n">2026-09-27</td><td class="base">0 / 37</td><td class="base">#8</td><td class="base">0</td><td>No change on the site or in Google. Found that /x/ is a real wood-treatment article titled "x", so the Dispatch task now redirects it instead of deleting it. Drafted 3 more pages: wall thickness (28/44/70mm), UK planning permission, cost guide.</td></tr>
+<tr><td class="n">2026-09-28</td><td class="base">0 / 37</td><td class="base">#7</td><td class="base">0</td><td>Site still unchanged. Brand search moved back to #7 because YouTube dropped out, not because of a fix. Drafted sauna wholesale and glamping pod pages, plus a Google Business Profile, Trustpilot and directory kit with a shared company fact sheet.</td></tr>
+<tr><td class="n">2026-09-29</td><td class="base">–</td><td class="base">–</td><td class="base">0</td><td>Decision: ideaswood.com and .com.au belong to IdeasWood and all three domains stay. The fix is now hreflang between the domains instead of a merge, and the plan is ready for the .com session.</td></tr>
+<tr><td class="n">2026-10-01</td><td class="base">0 / 37</td><td class="base">#5*</td><td class="base">2</td><td>Another session published two new cost posts on ideaswood.eu (garden cabin cost and garden sauna cost). The cost guide draft here is now marked as material for those posts, not a new page. Titles, typos, empty categories and www duplicates are not fixed yet. *Brand position comes from an extended search because the search tool changed, so it can't be compared directly with earlier days.</td></tr>
+<tr><td class="n">2026-10-08</td><td class="base">0 / 37</td><td class="base">#5*</td><td class="base">2</td><td>No new pages and no fixes since 10-01. The sauna wholesale draft overlaps /wellness-saunas/, so it is now marked as a rewrite of that page instead of a new URL. The manufacturer/wholesale, UK delivery, wall thickness, UK planning and glamping drafts still have no live page.</td></tr>
+</tbody></table></div></section>
+<section id="scorecard"><h2>Scorecard</h2><p class="sub">Baseline values from Google index and search data. The Status column changes as fixes land.</p>
+<div class="tw"><table class=""><thead><tr><th>#</th><th>Metric</th><th>2026-09-25</th><th>Target (90 days)</th><th>Status</th></tr></thead><tbody><tr><td class="n">1</td><td>Non-brand keywords in top 10 (of 37 tracked)</td><td class="base"><strong>0</strong></td><td>10+ Tier-A</td><td><span class="pill todo">To do</span></td></tr><tr><td class="n">2</td><td>Brand query &quot;ideaswood&quot; – position of ideaswood.eu</td><td class="base"><strong>7</strong> (below 6 social profiles)</td><td>1</td><td><span class="pill todo">To do</span></td></tr><tr><td class="n">3</td><td>&quot;log cabin manufacturer Lithuania&quot; – #1 result</td><td class="base">ideaswood <strong>Facebook</strong> page, site not ranking</td><td>site top 3</td><td><span class="pill todo">To do</span></td></tr><tr><td class="n">4</td><td>URLs indexed on legacy www/http hosts</td><td class="base"><strong>23</strong></td><td>0</td><td><span class="pill todo">To do</span></td></tr><tr><td class="n">5</td><td>Duplicate domain (ideaswood.com mirrors .eu; both owned)</td><td class="base"><strong>Yes</strong>, no canonical/hreflang</td><td>hreflang .eu/.com/.com.au live</td><td><span class="pill todo">To do</span></td></tr><tr><td class="n">6</td><td>Category pages with &quot;page could not be found&quot; in snippet</td><td class="base"><strong>10</strong></td><td>0</td><td><span class="pill todo">To do</span></td></tr><tr><td class="n">7</td><td>Competing &quot;log cabins&quot; category trees</td><td class="base"><strong>3</strong></td><td>1</td><td><span class="pill todo">To do</span></td></tr><tr><td class="n">8</td><td>Generic / keyword-less titles</td><td class="base"><strong>19</strong></td><td>0</td><td><span class="pill todo">To do</span></td></tr><tr><td class="n">9</td><td>Titles with &quot;Buy … in UK&quot; template</td><td class="base"><strong>12</strong></td><td>0</td><td><span class="pill todo">To do</span></td></tr><tr><td class="n">10</td><td>Brand suffix variants in titles</td><td class="base"><strong>7</strong></td><td>1</td><td><span class="pill todo">To do</span></td></tr><tr><td class="n">11</td><td>Typos in titles/slugs (Welness, Dinning, Talinn)</td><td class="base"><strong>6 URLs</strong></td><td>0</td><td><span class="pill todo">To do</span></td></tr><tr><td class="n">12</td><td>Test/junk pages indexed (/x/, uncategorized)</td><td class="base"><strong>2</strong></td><td>0</td><td><span class="pill todo">To do</span></td></tr><tr><td class="n">13</td><td>Organization/Product schema confirmed</td><td class="base">Unknown</td><td>Valid in Rich Results Test</td><td><span class="pill todo">To do</span></td></tr><tr><td class="n">14</td><td>Phone numbers in use</td><td class="base"><strong>2</strong></td><td>1</td><td><span class="pill todo">To do</span></td></tr><tr><td class="n">15</td><td>Company founding year stated</td><td class="base"><strong>2</strong> (1993 &amp; 2007)</td><td>1</td><td><span class="pill todo">To do</span></td></tr><tr><td class="n">16</td><td>Reviews (Google / Trustpilot) found</td><td class="base"><strong>0 / 0</strong></td><td>25+ / 15+</td><td><span class="pill todo">To do</span></td></tr><tr><td class="n">17</td><td>B2B directory listings (Europages, Kompass, Spassio, klaster.lt …)</td><td class="base"><strong>0</strong></td><td>15+</td><td><span class="pill todo">To do</span></td></tr><tr><td class="n">18</td><td>Earned backlinks from relevant sites</td><td class="base"><strong>~0</strong> found</td><td>30+</td><td><span class="pill todo">To do</span></td></tr><tr><td class="n">19</td><td>B2B manufacturer / wholesale landing page</td><td class="base"><strong>None</strong></td><td>Live</td><td><span class="pill todo">To do</span></td></tr><tr><td class="n">20</td><td>Wall-thickness pages (28/44/70mm)</td><td class="base"><strong>None</strong></td><td>Live</td><td><span class="pill todo">To do</span></td></tr><tr><td class="n">21</td><td>UK &amp; Ireland delivery pages</td><td class="base"><strong>None</strong></td><td>Live</td><td><span class="pill todo">To do</span></td></tr><tr><td class="n">22</td><td>PageSpeed mobile (home / product)</td><td class="base">Not measured</td><td>≥70 / LCP &lt;2.5s</td><td><span class="pill todo">To do</span></td></tr><tr><td class="n">23</td><td>Search Console clicks / impressions (3 mo)</td><td class="base">Pending Dispatch export</td><td>+100%</td><td><span class="pill todo">To do</span></td></tr></tbody></table></div></section>
+
+<section id="blockers"><h2>What blocks page 1</h2><p class="sub">In order of impact.</p>
+<ol class="block">
+<li><strong>Google can't tell which site is the company.</strong> ideaswood.eu and ideaswood.com carry the same pages with no hreflang, so they compete with each other. The old www shop, factory.ideaswood.eu ("logcabinsfactory.com") and business.ideaswood.eu all compete. There are also 2 Facebook pages, 2 Instagram accounts, 2 phone numbers, 2 addresses and 2 founding years (1993 and 2007). The registered company (IDEAS for PEOPLE, UAB, about 2 employees) doesn't match the "factory" claims.</li>
+<li><strong>The site structure is broken.</strong> Log cabins sit in 3 separate category trees, 10 categories look like empty or error pages to Google, and 23 old URLs were never redirected.</li>
+<li><strong>Page titles can't rank.</strong> Products are named only by model ("Verno", "Kaia") without saying what they are, and categories use "Buy … in UK" while prices are in EUR.</li>
+<li><strong>Key pages are missing.</strong> Competitors have pages for "log cabin manufacturer", wholesale, wall thickness (28/44/70mm), UK and Ireland delivery, costs and planning permission. Ideaswood has none of these.</li>
+<li><strong>No trust signals from other sites.</strong> No reviews, no directory listings, no backlinks. For "log cabin manufacturer Lithuania", Google ranks ideaswood's Facebook page #1, but not the website.</li>
+</ol></section>
+
+<section id="plan"><h2>Plan</h2>
+<div class="phase">
+<div><h3>1 · Technical base</h3><p>Days 1–2 · Dispatch. SEO plugin, schema, noindex, robots.txt, sitemap, Search Console export.</p></div>
+<div><h3>2 · Structure &amp; titles</h3><p>Days 2–5 · Dispatch. Redirects, merge categories, fix empty categories, new titles and meta.</p></div>
+<div><h3>3 · Business decisions</h3><p>This week · Justinas. One phone, one address, one founding year, the "manufacturer" story.</p></div>
+<div><h3>4 · New landing pages</h3><p>Weeks 2–4 · Claude writes, Dispatch publishes. Manufacturer/wholesale, 28/44/70mm, UK and Ireland delivery, costs, planning permission, IdeasPlanner 3D.</p></div>
+<div><h3>5 · Reviews &amp; links</h3><p>Weeks 2–12. Google Business Profile, Trustpilot, 30 directories and outreach targets.</p></div>
+<div><h3>6 · Measure</h3><p>Daily this week, then weekly · Claude. Re-run the same 38 searches and update the scorecard.</p></div>
+</div>
+<p class="note">Realistic timing: long-tail and B2B searches (for example "log cabin manufacturer Lithuania", "garden sauna wholesale supplier") can reach page 1 in 4–8 weeks after phases 1–4. "Summer house kits" or "44mm log cabin" need 3–6 months plus links. "Log cabins" in the UK takes 6–12+ months against Dunster House, Tuin and BillyOh.</p></section>
+
+<section id="dispatch"><h2>Dispatch tasks</h2><p class="sub">Copy each one into Dispatch on your PC. Run phase 2 after phase 1 is done.</p>
+<h3>Phase 1 · Technical base</h3>
+<div class="prompt"><button type="button" data-copy="p1">Copy</button><pre id="p1">Open the ideaswood.eu WordPress admin in Chrome (I&#x27;m already logged in). Take BEFORE screenshots of every setting you change. Do these steps and log each one:
+
+1. SEO plugin: check whether Rank Math or Yoast is installed. If neither, install Rank Math (free). If both, keep one only.
+2. Organization schema (Rank Math &gt; Titles &amp; Meta &gt; Local SEO, or Yoast &gt; Site representation): type Organization, name &quot;IdeasWood&quot;, logo, phone +37061005085, info@ideaswood.eu, Vilnius, LT, social profiles facebook.com/logcabinsfactory and instagram.com/ideaswoodeu.
+3. Set noindex on: tag archives, author archives, date archives, attachment pages, /product-category/featured/, cart, checkout, my-account.
+4. Replace robots.txt with:
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+Disallow: /cart/
+Disallow: /checkout/
+Disallow: /my-account/
+Disallow: /*?add-to-cart=
+Disallow: /*?orderby=
+Disallow: /*?filter_
+Disallow: /*?s=
+Disallow: /?s=
+
+Sitemap: https://ideaswood.eu/sitemap_index.xml
+5. Confirm sitemap_index.xml loads and submit it in Google Search Console.
+6. Search Console export: Performance, last 3 months (Queries, Pages, Countries) and the Pages (indexing) report. Save the CSVs to Desktop/ideaswood-seo/.
+7. Run PageSpeed Insights (mobile) on the homepage and one product page. Record the score, LCP, CLS and INP.
+8. Do not change prices, products or design. If anything is unclear, stop and ask me.
+
+Finish with a report: what was done, what wasn&#x27;t and why, plus the Search Console numbers (clicks, impressions, average position, top 20 queries).</pre></div>
+<h3>Phase 2 · Structure and titles</h3>
+<div class="prompt"><button type="button" data-copy="p2">Copy</button><pre id="p2">Open ideaswood.eu WordPress admin in Chrome. Take BEFORE screenshots of every page you change.
+
+**A. Soft-404 check first.** Open these categories on the live site and report whether they show products or a &quot;page could not be found&quot; / &quot;no products&quot; message: sauna, garden-furniture, wooden-houses, summer-house, garden-house, grill-cabins, wooden-pergola, storage-sheds, garages-carports, pergola-cabins. If the message appears, find the cause (empty category, widget, theme block) and report — don&#x27;t delete categories.
+
+**B. Category consolidation.** Main log cabin category = `/product-category/log-cabins/`. Make it the PRIMARY category for all log cabin products (Rank Math: &quot;primary category&quot;). Do not delete the duplicate categories yet — add 301 redirects from them (list below) using Rank Math → Redirections (or the Redirection plugin).
+
+**C. Redirects.** Add every row from the redirect table. For regex rows enable regex. For legacy `(28|44|58|68)mm-` products, map each one to the closest current model (same size/wall) — send me the list you chose. Test 5 redirects afterwards with an incognito window.
+
+**D. www / http.** Check if `https://www.ideaswood.eu/product/44mm-linus-4x5-n/` redirects to `https://ideaswood.eu/...` in ONE step. If not, tell me the hosting provider/panel (cPanel, Cloudflare, etc.) — do NOT edit .htaccess without confirming with me.
+
+**E. Titles &amp; meta.** For each URL in the titles table set SEO title and meta description exactly as given (Rank Math/Yoast box on that page/category). Set global title templates: posts/pages/products `%title% | IdeasWood`, categories `%term% | IdeasWood` — remove &quot;Buy … in UK&quot;.
+
+**F. Typos.** Rename products: Wooden Dinning Set → Wooden Dining Set, Dinning Set → Dining Set, Dinning chairs set of 4 → Dining chairs set of 4, Talinn → Tallinn, category &quot;Welness&quot; → &quot;Wellness&quot;. Change slugs accordingly — Rank Math will offer an automatic 301; accept it.
+
+**G. Page `/x/`** is a Koralan UK 110 wood-treatment article published with the title &quot;x&quot;. If it duplicates `/wood-impregnation-treatment-for-log-cabins-complete-guide-to-koralan-uk-110/`, trash it and 301 `/x/` to that post. If it is the only copy, retitle it &quot;Log Cabin Wood Treatment: Koralan UK 110 Guide&quot;, change the slug to `/log-cabin-wood-treatment-koralan-uk-110/` and accept the 301. Set `/eu-project/` to noindex (keep it live).
+
+**H. Report:** table of every change (URL, before, after), anything skipped and why, and screenshots folder path.
+
+Do not change prices, product content, images or design.
+
+Titles &amp; meta table and redirect table: use the tables on this same page (sections &#x27;New titles and meta descriptions&#x27; and &#x27;Redirect map&#x27;).</pre></div>
+</section>
+
+<section id="pages"><h2>New pages (drafts)</h2><p class="sub">Written for the missing money pages. Fill every [X] with real figures before publishing; nothing is invented. Then hand each one to Dispatch to publish.</p><details class="prompt draft"><summary>Page: /log-cabin-manufacturer/</summary><button type="button" data-copy="d0">Copy</button><pre id="d0"># Page: /log-cabin-manufacturer/
+**SEO title:** Log Cabin Manufacturer &amp; Wholesale Supplier – Made in Lithuania | IdeasWood
+**Meta:** Trade supply of log cabins, garden rooms, sheds and saunas in Nordic spruce. Private label, mixed trucks, dealer pricing. Made in Lithuania, delivered across Europe &amp; the UK.
+**Focus keywords:** log cabin manufacturer, log cabin wholesale supplier, log cabin manufacturer Lithuania, private label log cabins
+**Schema:** Organization (from fixes/01) + FAQPage (FAQ below)
+&gt; ⚠️ Fill every [BRACKET] with verified facts only. The manufacturer wording must match Justinas&#x27; decision (own factory vs partner factories) — both versions given where it matters.
+
+---
+
+## H1: Log Cabin Manufacturer &amp; Wholesale Supplier from Lithuania
+
+Log cabins, garden rooms, sheds, summer houses and outdoor saunas for dealers, garden centres, builders and hospitality projects. Nordic spruce, precision-cut in Lithuania, shipped as complete kits across Europe, the UK and Ireland.
+
+**[Get trade price list]**  **[Book a call]**
+
+### Why retailers source from IdeasWood
+- **Nordic spruce, slow-grown.** Tight growth rings, low knots, kiln-dried to [X]% moisture. Less twisting, fewer returns.
+- **CNC-cut profiles.** Every log is machined to the same tolerance, so kits go together first time. *(own-factory version)* / Cut on CNC lines at our partner factories in Lithuania, inspected by our team before loading. *(partner version)*
+- **One supplier, full range.** 28mm sheds to 70mm+ residential log homes, saunas, grill cabins, pergolas and garden furniture on one truck.
+- **Mixed-load trucks.** Combine models and sizes to fill a truck. Minimum order: [X].
+- **Private label.** Your brand on packaging, manuals and labels from [X] units.
+- **Lead time:** [X–Y] weeks from order to delivery. Stock models: [X] weeks.
+- **Since [2007].** [X] buildings delivered to [X] countries.
+
+### What we supply
+| Range | Wall thickness | Typical use |
+|---|---|---|
+| Garden sheds &amp; storage | 19–28mm | Tools, bikes, storage |
+| Garden rooms &amp; offices | 44mm | Home office, studio, gym |
+| Summer houses | 28–44mm | Seasonal living space |
+| Insulated log houses | 70mm+ | Guest house, holiday let, year-round use |
+| Outdoor saunas | Barrel, cube, cabin | Retail, hotels, spas |
+| Grill cabins &amp; pergolas | 44mm | Hospitality, gardens |
+
+### How trade orders work
+1. **Send us your range and volumes.** We quote per model and per full truck.
+2. **Samples and drawings.** Technical drawings, assembly manuals and product photos for your website.
+3. **Production and quality check.** Moisture, profile and packaging checked before loading.
+4. **Delivery.** Curtain-side trucks to your warehouse, with all customs paperwork for the UK.
+5. **After-sales.** Replacement parts shipped within [X] days.
+
+### Who we work with
+Garden building retailers, garden centres, online shops, holiday parks and glamping sites, hotels and spas, builders and developers. *[Add 2–3 real partner logos or case studies once permission is granted.]*
+
+### Trade FAQ
+**What is the minimum order?** [X] units or one mixed truck.
+**Can you make custom sizes?** Yes. Custom sizes and layouts from [X] units, drawn in our IdeasPlanner 3D tool.
+**Do you deliver to the UK after Brexit?** Yes. We handle the export declaration and EORI paperwork; you pay UK import VAT on arrival.
+**Which certificates do you have?** [FSC/PEFC chain of custody, CE for saunas – only list what is real.]
+**Can I visit?** Yes, [factory / showroom] visits in Vilnius by appointment.
+
+**CTA block:** Request the trade price list — name, company, country, products of interest, expected annual volume.
+</pre></details><details class="prompt draft"><summary>Page: /log-cabin-delivery-uk/  (duplicate as /log-cabin-delivery-ireland/ with IE specifics)</summary><button type="button" data-copy="d1">Copy</button><pre id="d1"># Page: /log-cabin-delivery-uk/  (duplicate as /log-cabin-delivery-ireland/ with IE specifics)
+**SEO title:** Log Cabin Delivery to the UK – Costs, Customs &amp; Lead Times | IdeasWood
+**Meta:** How we deliver log cabins from Lithuania to England, Scotland, Wales and Northern Ireland: delivery cost, lead time, import VAT and what happens on delivery day.
+**Focus keywords:** log cabin delivery UK, log cabin from Europe to UK, log cabin import VAT UK
+**Schema:** FAQPage
+
+---
+
+## H1: Log Cabin Delivery to the UK
+
+We deliver log cabins, garden rooms and saunas from Lithuania to anywhere in mainland UK and Northern Ireland. Here is exactly what it costs, how long it takes and what you need to do.
+
+### Delivery cost
+| Region | Price from | Lead time |
+|---|---|---|
+| England &amp; Wales | €[X] | [X–Y] weeks |
+| Scotland (mainland) | €[X] | [X–Y] weeks |
+| Northern Ireland | €[X] | [X–Y] weeks |
+| Highlands &amp; islands | On request | — |
+Delivery cost is shown in your quote before you pay.
+
+### Import VAT and customs
+Since Brexit, goods from the EU carry UK import VAT (20%). *[Choose one and state it clearly:]*
+- **Option A – DDP:** our prices for UK buyers include import VAT and customs clearance. Nothing more to pay on delivery.
+- **Option B – DAP:** we invoice without Lithuanian VAT, handle export paperwork, and you pay UK import VAT to the carrier on arrival. We show the estimated amount in your quote.
+
+&gt; ⚠️ Decide A or B. Today product pages show EUR prices incl. Lithuanian 21% VAT to UK visitors — this confuses buyers and must be fixed on product pages too.
+
+### Delivery day
+- Kit arrives on a curtain-side lorry, packed on pallets up to [X] m long and [X] kg.
+- Kerbside delivery. The driver does not carry the kit into your garden — plan 2 people and 1–2 hours to unload.
+- Check access: the lorry needs [X] m road width. Tell us about narrow lanes, and we&#x27;ll arrange a smaller vehicle.
+
+### Before your cabin arrives
+- **Foundation:** concrete slab, paving slabs or ground screws, level within [X] mm. See our foundation guide.
+- **Planning permission:** most garden rooms under 2.5 m high near the boundary don&#x27;t need planning permission in England (permitted development). See our UK planning guide.
+- **Assembly:** self-build with our manual, or ask us for an installer in your area.
+
+### FAQ
+**How long does delivery to the UK take?** [X–Y] weeks from order for stock models.
+**Do I pay customs duty?** Timber buildings from the EU are normally duty-free under the UK–EU trade agreement (rules of origin); import VAT still applies.
+**Can you deliver to Ireland?** Yes — see Log Cabin Delivery to Ireland (EU, no customs, Irish VAT rules).
+**What if something is damaged?** Photograph it, note it on the delivery note and email us within 48 hours. We ship replacement parts free.
+</pre></details><details class="prompt draft"><summary>Pages: /log-cabins/28mm/ · /log-cabins/44mm/ · /log-cabins/70mm/ + hub /log-cabin-wall-thickness/</summary><button type="button" data-copy="d2">Copy</button><pre id="d2"># Pages: /log-cabins/28mm/ · /log-cabins/44mm/ · /log-cabins/70mm/ + hub /log-cabin-wall-thickness/
+Build as 3 WooCommerce sub-categories (or filtered category landing pages) with the intro copy below ABOVE the product grid, plus one comparison guide (hub) linking to all three.
+
+---
+
+## HUB — /log-cabin-wall-thickness/
+**SEO title:** Log Cabin Wall Thickness: 28mm vs 44mm vs 70mm Explained
+**Meta:** Which log cabin wall thickness do you need? Compare 28mm, 44mm and 70mm logs for storage, garden offices and year-round living – warmth, strength and price.
+**Focus:** log cabin wall thickness, 44mm vs 70mm log cabin
+
+### H1: Log Cabin Wall Thickness: Which One Do You Need?
+Wall thickness decides how warm, strong and quiet your cabin is – and how much it costs. The short answer:
+
+| Wall | Best for | Year-round use | Typical size |
+|---|---|---|---|
+| **28mm** | Storage, summer house, kids&#x27; play room | No – seasonal | up to ~12 m² |
+| **44mm** | Garden office, studio, gym, hobby room | Yes, with floor &amp; roof insulation + heating | 10–30 m² |
+| **70mm** | Guest house, holiday let, living space | Yes – the best choice for daily use | 20 m²+ |
+
+#### 28mm – light and affordable
+Enough for tools, bikes and summer use. Keeps rain out and stays stable, but gets cold in winter. Choose it when you need space, not comfort.
+
+#### 44mm – the garden office standard
+The most popular choice in the UK and Europe. Solid enough for a heated office or gym all year. Add floor and roof insulation and a small heater and it is comfortable in winter.
+
+#### 70mm – for living in
+Thick logs hold heat, block noise and carry bigger spans and heavier roofs. The right choice for guest houses, holiday rentals and residential cabins.
+
+#### What else matters (as much as thickness)
+- **Timber quality:** slow-grown Nordic spruce has tighter rings – less twisting and cracking.
+- **Log profile:** double tongue-and-groove joints seal better than single.
+- **Windows and doors:** double glazing in all our 44mm+ cabins. [verify]
+- **Insulation:** floor and roof lose more heat than walls. See our insulation kit guide.
+- **Foundation:** level base, ventilation under the floor.
+
+#### FAQ
+**Is 44mm thick enough to use all year?** Yes, for an office or studio, if you insulate the floor and roof and add heating.
+**Do I need 70mm to live in a log cabin?** For daily living, yes. Most residential log homes use 70mm+ or insulated double walls.
+**Does a thicker wall need a bigger foundation?** The base must carry more weight; ask us for loads per model.
+
+---
+
+## /log-cabins/28mm/ (category intro)
+**Title:** 28mm Log Cabins &amp; Summer Houses | IdeasWood
+**Meta:** 28mm log cabins in Nordic spruce – affordable summer houses, playhouses and garden storage. Easy self-assembly, delivered to the UK and Europe.
+**H1:** 28mm Log Cabins
+Light, affordable cabins for summer use and storage. Nordic spruce, tongue-and-groove logs, double doors and windows, ready to assemble in a day. Need to use it in winter? Look at our 44mm cabins.
+
+## /log-cabins/44mm/ (category intro)
+**Title:** 44mm Log Cabins – Garden Offices &amp; Rooms | IdeasWood
+**Meta:** 44mm log cabins in slow-grown Nordic spruce – garden offices, studios and gyms you can use all year. Sizes from [X] m², delivered to the UK and Europe.
+**H1:** 44mm Log Cabins
+The garden office standard. 44mm Nordic spruce logs, double-glazed windows and a strong floor, ready for insulation and heating so you can work in it all year. Choose from [X] models, from compact 3x3m offices to 6x4m rooms with a canopy.
+
+## /log-cabins/70mm/ (category intro)
+**Title:** 70mm Log Cabins – Residential &amp; Holiday Cabins | IdeasWood
+**Meta:** 70mm log cabins and log houses for year-round living, guest houses and holiday lets. Warm, quiet and strong. Delivered across the UK and Europe.
+**H1:** 70mm Log Cabins
+Thick 70mm logs for cabins people live in: guest houses, holiday lets and residential log homes. Better heat retention and sound insulation, larger spans and multi-room layouts.
+
+&gt; Dispatch note: assign each log cabin product to its wall-thickness sub-category as well as its primary category. Product names already show thickness in old slugs (28mm-, 44mm-, 68mm-) – check the current product attribute &quot;wall thickness&quot;.
+</pre></details><details class="prompt draft"><summary>Page: /log-cabin-planning-permission-uk/</summary><button type="button" data-copy="d3">Copy</button><pre id="d3"># Page: /log-cabin-planning-permission-uk/
+**SEO title:** Do You Need Planning Permission for a Log Cabin in the UK?
+**Meta:** Height limits, boundary rules, building regulations and when a garden room needs planning permission in England, Scotland, Wales and Northern Ireland.
+**Focus:** log cabin planning permission UK, garden room planning permission
+**Schema:** FAQPage + Article (author: named IdeasWood person)
+&gt; ⚠️ Legal summary for England as of 2026 – have Justinas or a UK partner confirm before publishing, and add &quot;last checked&quot; date. Link to planningportal.gov.uk.
+
+## H1: Do You Need Planning Permission for a Log Cabin?
+In England, most garden log cabins do **not** need planning permission. They count as &quot;permitted development&quot; (Class E outbuildings) if they meet these rules:
+
+### Permitted development rules (England)
+- **Not in front of the house:** not forward of the principal elevation facing a road.
+- **Height:** single storey, eaves max **2.5 m**; total height max **4 m** with a dual-pitched roof or **3 m** for any other roof.
+- **Near the boundary:** within **2 m** of a boundary, total height max **2.5 m**.
+- **Coverage:** outbuildings and extensions must not cover more than **50%** of the land around the original house.
+- **Use:** must be &quot;incidental&quot; to the house – office, gym, studio, hobby room, storage. Not a separate home or a bedroom.
+- **No verandas, balconies or raised platforms** over 0.3 m high.
+
+### When you DO need planning permission
+- You want to sleep or live in it, or rent it out as a separate dwelling.
+- Listed building, or land in a conservation area, National Park, AONB/National Landscape or World Heritage Site (stricter limits: e.g. outbuildings more than 20 m from the house limited to 10 m² in designated land).
+- Flats, maisonettes, or where permitted development rights were removed.
+
+### Building regulations (separate from planning)
+- **Under 15 m²** with no sleeping accommodation: usually exempt.
+- **15–30 m²**, no sleeping accommodation: exempt if at least **1 m from the boundary** or built from non-combustible materials.
+- **Over 30 m²**, or with sleeping accommodation: building regulations apply.
+- Electrics must meet Part P – use a registered electrician.
+
+### Scotland, Wales, Northern Ireland
+Each nation has its own permitted development rules, similar in spirit but with different limits. Write one short section per nation only after checking the official source (mygov.scot, gov.wales, nidirect.gov.uk). [Do not publish this section unverified.]
+
+### Which IdeasWood cabins fit permitted development?
+[List models with total height ≤2.5 m (for near-boundary placement) and ≤4 m, with links.] → Build this as a filter &quot;Fits UK permitted development (≤2.5 m)&quot; – a strong conversion and SEO feature no Baltic competitor has.
+
+### FAQ
+**Can I put a log cabin at the bottom of my garden without planning permission?** Usually yes, if it is within 2 m of the boundary and no higher than 2.5 m.
+**Can I use a garden office without permission?** Yes, as long as it is used as part of your home and not as a separate business open to the public.
+**Can I sleep in my log cabin?** Occasional use as a guest room is a grey area; regular sleeping or renting needs permission and building regs.
+**Do I need permission for a sauna?** Treated like any outbuilding – same height and boundary rules.
+</pre></details><details class="prompt draft"><summary>Page: /how-much-does-a-log-cabin-cost/</summary><button type="button" data-copy="d4">Copy</button><pre id="d4"># Page: /how-much-does-a-log-cabin-cost/
+&gt; ⚠️ 2026-10-01: ideaswood.eu already published /how-much-does-a-garden-cabin-cost/ and /how-much-does-a-garden-sauna-cost/ (other session). Do NOT publish this as a new page — use it only to extend those posts.
+**SEO title:** How Much Does a Log Cabin Cost in 2026? Full Price Guide
+**Meta:** Real log cabin prices by size and wall thickness, plus foundation, delivery, insulation, electrics and installation costs. Budget your garden room properly.
+**Focus:** log cabin cost, how much is a log cabin, garden room cost UK
+&gt; Fill price ranges from the live IdeasWood catalogue (Dispatch can export: product, size, wall, price). Current indexed data: log cabin category €1,261–€17,063; Alma 7x8 m €10,320; Takoma 12x8 m (75 m²) €37,459.
+
+## H1: How Much Does a Log Cabin Cost?
+A garden log cabin kit costs from about **€[X]** for a small 28mm cabin to **€[X]** for a 70mm guest house. The kit is usually 50–70% of the total. Here is the full budget.
+
+### 1. The cabin kit
+| Type | Size | Wall | Kit price from |
+|---|---|---|---|
+| Summer house | 3x3 m | 28mm | €[X] |
+| Garden office | 4x3 m | 44mm | €[X] |
+| Garden room with canopy | 5x4 m | 44mm | €[X] |
+| Guest house | 6x5 m | 70mm | €[X] |
+| Residential log house | 8x7 m | 70mm+ | €10,320 (Alma) |
+
+### 2. Other costs to budget
+| Item | Typical cost (UK) | Notes |
+|---|---|---|
+| Delivery from Lithuania | €[X] | See delivery page |
+| UK import VAT | 20% of goods value | If not already included |
+| Foundation | £[X]–£[X] | Slab, paving or ground screws |
+| Assembly | DIY or £[X]–£[X] | 1–3 days for 2 people |
+| Floor &amp; roof insulation | €[X] | Needed for year-round use |
+| Wood treatment | £[X] | Within 2 weeks of assembly |
+| Electrics | £[X]–£[X] | Registered electrician |
+| Roofing (shingles/EPDM) | £[X] | If not in kit |
+
+### 3. Example budgets
+- **Garden office 4x3 m, 44mm:** kit €[X] + delivery €[X] + base £[X] + insulation €[X] + electrics £[X] ≈ **£[X] total**
+- **Guest house 6x5 m, 70mm:** ≈ **£[X] total**
+
+### 4. How to save
+Order a standard size; assemble yourself; combine delivery with neighbours or a dealer order; insulate floor and roof first (biggest heat loss).
+
+### FAQ
+**Is a log cabin cheaper than an extension?** Usually 3–5x cheaper per m² and rarely needs planning permission.
+**Does a log cabin add value to my house?** A well-built, insulated garden room is widely seen as adding value; a cheap shed is not.
+**Why are Baltic log cabins cheaper than UK-made ones?** Timber comes from nearby Nordic forests and production costs are lower; quality depends on timber grade and moisture.
+</pre></details><details class="prompt draft"><summary>Pages: /wholesale/saunas/ and /glamping-pods/</summary><button type="button" data-copy="d5">Copy</button><pre id="d5"># Pages: /wholesale/saunas/ and /glamping-pods/
+&gt; ⚠️ 2026-10-08: the sauna half overlaps the live page /wellness-saunas/ – use it to rewrite that page (new title/H1), not as a new URL. The glamping half has no live page.
+Sub-pages of /log-cabin-manufacturer/. Same trade CTA block. Fill [X] with verified facts only.
+
+---
+
+## /wholesale/saunas/
+**SEO title:** Outdoor Sauna Manufacturer &amp; Wholesale Supplier | IdeasWood
+**Meta:** Barrel saunas, sauna pods and cabin saunas for retailers, spas and hotels. Nordic spruce and thermowood, private label, mixed trucks. Made in Lithuania.
+**Focus:** sauna wholesale supplier, outdoor sauna manufacturer Europe, barrel sauna manufacturer, sauna manufacturer Lithuania
+
+### H1: Outdoor Sauna Manufacturer &amp; Wholesale Supplier
+Barrel, pod, cube and cabin saunas for retailers, garden centres, hotels, spas and glamping sites. Built in Lithuania from Nordic spruce and thermowood, delivered across Europe and the UK.
+
+**Range**
+| Model type | Sizes | Heater | Best for |
+|---|---|---|---|
+| Barrel sauna | Ø 1.97–2.27 m, 2.4–5.9 m long | Wood or electric | Gardens, retail best-seller |
+| Barrel sauna with changing room | 4.0–5.9 m | Wood or electric | Holiday lets, spas |
+| Sauna pod | [X] | Wood or electric | Glamping, hotels |
+| Cabin / cube sauna | [X] | Wood or electric | Premium gardens, wellness |
+| Hot tub with external stove | [X] | Wood | Add-on sale |
+
+**For trade buyers**
+- Mixed trucks with log cabins and hot tubs · minimum order [X]
+- Private label from [X] units
+- Heaters: [brands – e.g. Harvia/Huum – only if true], CE-marked [verify]
+- Lead time [X–Y] weeks · replacement parts in [X] days
+- Assembly manuals, 3D drawings and product photos for your web shop
+
+**FAQ**
+**Thermowood or spruce?** Thermowood resists moisture and rot better outdoors; spruce is lighter-coloured and cheaper. We supply both.
+**Are your saunas CE certified?** [Only answer if documented.]
+**Do you sell to private customers?** Yes – see our retail sauna range [link to /product-category/sauna/].
+
+---
+
+## /glamping-pods/
+**SEO title:** Glamping Pods Manufacturer – Insulated Pods for Campsites | IdeasWood
+**Meta:** Insulated timber glamping pods and camping cabins for campsites, farms and holiday parks. Built in Lithuania, delivered to the UK and Europe.
+**Focus:** glamping pods manufacturer, camping pods for sale, glamping pods UK supplier
+&gt; Old indexed URLs /product-category/camping-house/camping-pods/... redirect here once this page is live (update fixes/06-redirects.csv).
+
+### H1: Glamping Pods for Campsites and Holiday Parks
+Insulated timber pods that earn from the first season. Nordic spruce, [X]mm walls, double glazing, ready for electrics and a small bathroom. Sold singly or by the truckload.
+
+**Sizes**
+| Pod | Size | Sleeps | Insulated |
+|---|---|---|---|
+| Compact pod | 2.4 m wide | 2 | Yes / No |
+| Family pod | 3.0 x 4.8 m | 4 | Yes |
+| Pod with en-suite | [X] | [X] | Yes |
+
+**Why site owners choose IdeasWood**
+- Thick timber walls – warm, quiet, long-lasting
+- Flat-pack delivery; a pod goes up in [X] days with 2 people
+- Custom layouts drawn in IdeasPlanner 3D before you order
+- Trade pricing for 3+ pods
+
+**UK planning note:** glamping pods usually need planning permission (change of use of land). Talk to your local planning authority first; we supply drawings for your application.
+
+**FAQ**
+**How long does a glamping pod last?** With treatment every [X] years, 25+ years. [verify]
+**Can I get finance?** [If a partner exists.]
+**Do you install?** [Yes via partners / kit only.]
+</pre></details><details class="prompt draft"><summary>Google Business Profile, Trustpilot and B2B directory listings</summary><button type="button" data-copy="d6">Copy</button><pre id="d6"># Google Business Profile, Trustpilot and B2B directory listings
+
+## 0. Company fact sheet (use WORD FOR WORD everywhere — fill once, reuse)
+&gt; ⚠️ Decide first: one name, one phone, one address, one founding year, manufacturer wording.
+
+**Name:** IdeasWood
+**Legal entity:** IDEAS for PEOPLE, UAB (code 302555740) [confirm]
+**Address:** [ONE address], Vilnius, Lithuania
+**Phone:** +370 610 05085 [confirm single number]
+**Email:** info@ideaswood.eu · **Web:** https://ideaswood.eu
+**Founded:** [2007 or other – one answer]
+
+**Short description (150 chars):**
+Log cabins, garden rooms, saunas and wooden house kits in Nordic spruce. Made in Lithuania, delivered across Europe and the UK. Retail and trade.
+
+**Long description (~150 words):**
+IdeasWood designs and supplies log cabins, garden rooms, summer houses, garden sheds, outdoor saunas and wooden house kits built from slow-grown Nordic spruce. [Manufacturing sentence – own factory OR partner factories in Lithuania.] Every kit is precision-cut, packed with a step-by-step assembly manual and delivered by truck to homeowners, dealers and developers across Europe, the UK and Ireland. Our range runs from 28mm garden storage to 70mm+ residential log homes, with custom layouts drawn in our IdeasPlanner 3D tool. Trade customers get mixed-load trucks, private-label options and dealer pricing. [Since YEAR, X buildings delivered to X countries – only verified numbers.]
+
+**Categories / keywords:** log cabins, garden buildings, prefabricated wooden houses, timber houses, saunas, glamping pods, garden sheds, summer houses, garden furniture.
+
+---
+
+## 1. Google Business Profile (business.google.com)
+- **Business type:** &quot;Log cabin manufacturer&quot; if available, else &quot;Manufacturer&quot; (primary); secondary: &quot;Prefabricated house companies&quot;, &quot;Sauna store&quot;, &quot;Shed builder&quot;.
+- **Address:** show if customers can visit (showroom/factory); otherwise service-area business with service areas: United Kingdom, Ireland, Germany, [others].
+- **Name:** exactly &quot;IdeasWood&quot; — no keywords in the name (Google suspends for that).
+- **Website:** https://ideaswood.eu/?utm_source=google&amp;utm_medium=organic&amp;utm_campaign=gbp
+- **Products:** add 10 best-sellers with photo, price from, link.
+- **Photos:** 20+ real photos – factory/warehouse, loading trucks, finished customer cabins, team. No stock images.
+- **Posts:** 1 per week (new model, delivery photo, guide link).
+- **Q&amp;A:** seed 5 questions from the delivery/planning FAQ.
+- **Verification:** video verification is common – have the premises, signage and tools ready.
+
+## 2. Trustpilot (free business account)
+- Claim ideaswood.eu at business.trustpilot.com.
+- Invite method: after delivery + 14 days, send email: &quot;How was your IdeasWood cabin? Leave a review&quot; → Trustpilot link.
+- Invite ALL customers (Trustpilot forbids selective inviting). No incentives for reviews.
+- Import past customers from the last 12 months (with consent) – target 15+ reviews in 60 days.
+- Reply to every review within 48 h, including negative ones.
+- Add the Trustpilot TrustBox widget to product pages and the footer.
+
+**Review request email (template):**
+&gt; Subject: How is your new log cabin?
+&gt; Hi [Name], your [Model] was delivered two weeks ago – we hope assembly went well. Would you share your experience in a short review? It takes two minutes and helps other buyers choose. [Review link] If anything is not right, reply to this email and we&#x27;ll fix it first. — [Name], IdeasWood
+
+Also ask for a Google review in the same email (second link) once GBP is verified.
+
+## 3. Directory listings – first 10 (Month 1, priority A)
+Use the fact sheet above for every one. Track: date submitted, URL, status, link type.
+
+| # | Directory | Action | Categories to choose |
+|---|---|---|---|
+| 1 | Europages (europages.co.uk) | Free company profile + products | Log houses, log cabins, prefabricated wooden houses, saunas |
+| 2 | Kompass (kompass.com) | Free listing | NACE 16.23 (if applicable), export markets UK/IE/DE/Nordics |
+| 3 | Fordaq (fordaq.com) | Seller profile | Log houses, garden buildings |
+| 4 | Lithuanian Association of Timber House Producers (timberhouses.lt) | Membership enquiry | – |
+| 5 | Enterprise Lithuania / Versli Lietuva | Exporters database + trade missions | Wood products, prefab houses |
+| 6 | Medis.lt (existing profile) | Claim + fix NAP + add website | – |
+| 7 | Rekvizitai.lt | Claim + fix NAP + products | – |
+| 8 | Spassio prefab manufacturers guide | Email editor with fact sheet + 5 photos | – |
+| 9 | Construction UK – Log Cabins | Listing as EU supplier to UK | Log cabins |
+| 10 | International Glamping Business suppliers | Free basic listing | Glamping pods, saunas |
+
+**Outreach email for list posts (Spassio, Glampitect, Gardenforum):**
+&gt; Subject: Lithuanian log cabin maker for your [list/guide]
+&gt; Hi [Name], I read your [article title]. We&#x27;re IdeasWood, a Lithuanian [manufacturer/supplier] of log cabins, garden rooms and saunas, delivering to the UK and Europe. Could we be considered for the list? Fact sheet, photos and a short quote are below – happy to answer any questions. [Fact sheet] — [Name, role, phone]
+</pre></details><details class="prompt draft"><summary>ideaswood.eu / .com / .com.au – cross-domain setup (all three owned by IdeasWood)</summary><button type="button" data-copy="d7">Copy</button><pre id="d7"># ideaswood.eu / .com / .com.au – cross-domain setup (all three owned by IdeasWood)
+
+Decision 2026-09-29 (Justinas): all three domains stay. No 301 merge. ideaswood.com is handled in a separate session.
+
+## Why something still has to be done
+Google currently sees the same English pages on .eu and .com (same slugs, same guide), so it picks one and filters the other, and brand search splits across 4 domains. Without signals, .eu and .com compete with each other for every keyword.
+
+## Fix: hreflang + self-canonicals (both sites must carry the same tags)
+| Domain | hreflang | Market |
+|---|---|---|
+| ideaswood.eu | en-GB, en-IE, en (x-default) | UK, Ireland, EU (EUR, metric) |
+| ideaswood.com | en-US (+ en-CA if relevant) | North America (USD, ft) |
+| ideaswood.com.au | en-AU, en-NZ | Australia / NZ |
+
+On each equivalent page, all three sites list all versions, e.g. on ideaswood.eu/the-ultimate-log-cabin-guide/:
+```html
+&lt;link rel=&quot;canonical&quot; href=&quot;https://ideaswood.eu/the-ultimate-log-cabin-guide/&quot;&gt;
+&lt;link rel=&quot;alternate&quot; hreflang=&quot;en-GB&quot; href=&quot;https://ideaswood.eu/the-ultimate-log-cabin-guide/&quot;&gt;
+&lt;link rel=&quot;alternate&quot; hreflang=&quot;en-IE&quot; href=&quot;https://ideaswood.eu/the-ultimate-log-cabin-guide/&quot;&gt;
+&lt;link rel=&quot;alternate&quot; hreflang=&quot;en-US&quot; href=&quot;https://ideaswood.com/the-ultimate-log-cabin-guide/&quot;&gt;
+&lt;link rel=&quot;alternate&quot; hreflang=&quot;en-AU&quot; href=&quot;https://ideaswood.com.au/the-ultimate-log-cabin-guide/&quot;&gt;
+&lt;link rel=&quot;alternate&quot; hreflang=&quot;x-default&quot; href=&quot;https://ideaswood.eu/the-ultimate-log-cabin-guide/&quot;&gt;
+```
+Rules: tags must be reciprocal (a page missing the return tag is ignored); only pair pages that really are equivalent; each page canonicals to itself, never to the other domain.
+
+## Also needed so the sites are not near-duplicates
+- Localise: currency, units, delivery/VAT text, phone format, examples per market.
+- One set of company facts across all three (founding year: .eu says 2007, .com says 1993 – pick one).
+- Organization schema: same @id / sameAs listing all three domains.
+- Footer on each: &quot;IdeasWood worldwide: EU &amp; UK · USA · Australia&quot; linking the other sites.
+
+## For the .com session
+Pass this file to the session working on ideaswood.com so both sides implement the same hreflang map.
+</pre></details></section>
+<section id="titles"><h2>New titles and meta descriptions</h2><p class="sub">26 key pages. Products follow one pattern: <em>Model WxDm Type – Wall mm, m²</em>, for example "Alma 7x8m Insulated Log House – 3 Rooms, 32 m²". Fix typos: Dinning → Dining, Talinn → Tallinn, Welness → Wellness.</p>
+<div class="tw"><table class=""><thead><tr><th>URL</th><th>Now</th><th>New title / meta description</th><th>Focus keyword</th></tr></thead><tbody><tr><td class="mono">/</td><td class="old">Log Cabins and Wooden Houses Manufacturer &amp; Supplier - Ideaswood</td><td><strong>Log Cabin &amp; Wooden House Manufacturer in Europe | IdeasWood</strong><div class="meta">Log cabins, garden rooms, saunas and wooden house kits made from slow-grown Nordic spruce. Built in Lithuania, delivered across the UK, Ireland and Europe. Get a quote.</div></td><td class="mono">log cabin manufacturer</td></tr><tr><td class="mono">/about-us/</td><td class="old">About us - ideaswood.eu</td><td><strong>About IdeasWood – Log Cabin Makers from Lithuania</strong><div class="meta">Who we are, how we build and where our Nordic spruce comes from. Meet the team behind IdeasWood log cabins, garden rooms and wooden houses.</div></td><td class="mono">ideaswood</td></tr><tr><td class="mono">/contact-us/</td><td class="old">Contact Us - ideaswood.eu</td><td><strong>Contact IdeasWood – Quotes &amp; Delivery to UK and EU</strong><div class="meta">Ask for a log cabin or wooden house quote, delivery price or trade terms. Call +370 610 05085 or email info@ideaswood.eu – we reply within 24 hours.</div></td><td class="mono">log cabin quote</td></tr><tr><td class="mono">/product-category/log-cabins/</td><td class="old">Buy Premium Log cabins in UK - ideaswood.eu</td><td><strong>Log Cabins for Sale – 28mm to 70mm Kits | IdeasWood</strong><div class="meta">100+ log cabin kits in Nordic spruce, 28mm to 70mm walls. Garden rooms, offices and residential cabins with delivery to the UK, Ireland and Europe.</div></td><td class="mono">log cabins for sale</td></tr><tr><td class="mono">/product-category/log-cabins/garden-house/</td><td class="old">Buy Wooden Garden house in UK - ideaswood.eu</td><td><strong>Wooden Garden Houses &amp; Garden Rooms | IdeasWood</strong><div class="meta">Wooden garden houses and garden rooms in Nordic spruce – home office, studio or guest room. Kit or installed, delivered to the UK and Europe.</div></td><td class="mono">wooden garden house</td></tr><tr><td class="mono">/product-category/log-cabins/wooden-houses/summer-house/</td><td class="old">Buy Wooden Summer house in UK - IdeasWood.eu&#x27;s</td><td><strong>Wooden Summer Houses – Kits in Nordic Spruce | IdeasWood</strong><div class="meta">Timber summer houses with double glazing, 28–70mm walls and easy self-assembly. Compare sizes and prices, delivered to the UK, Ireland and the EU.</div></td><td class="mono">summer house kits</td></tr><tr><td class="mono">/product-category/log-cabins/storage-sheds/</td><td class="old">Buy Wooden Storage sheds in UK - IdeasWood.eu&#x27;s</td><td><strong>Wooden Garden Sheds &amp; Storage Sheds | IdeasWood</strong><div class="meta">Solid timber garden sheds and storage sheds in Nordic spruce. Thick walls, strong floors and roofs, flat-pack delivery to the UK and Europe.</div></td><td class="mono">wooden garden sheds</td></tr><tr><td class="mono">/product-category/log-cabins/garages-carports/</td><td class="old">Buy Wooden Garages / Carports in UK - ideaswood.eu</td><td><strong>Wooden Garages &amp; Carports – Timber Kits | IdeasWood</strong><div class="meta">Timber garages and carports built from Nordic spruce log profiles. Single and double sizes, delivered as a complete kit across the UK and Europe.</div></td><td class="mono">wooden garage kit</td></tr><tr><td class="mono">/product-category/log-cabins/pergola-cabins/</td><td class="old">Buy Pergola cabins in UK - ideaswood.eu</td><td><strong>Log Cabins with Veranda &amp; Pergola | IdeasWood</strong><div class="meta">Log cabins with a covered veranda or side pergola – extra outdoor living space in one kit. Nordic spruce, delivered to the UK and Europe.</div></td><td class="mono">log cabin with veranda</td></tr><tr><td class="mono">/product-category/wooden-houses/</td><td class="old">Premium Wooden Houses Kits in UK - ideaswood.eu</td><td><strong>Wooden House Kits – Insulated Timber Homes | IdeasWood</strong><div class="meta">Insulated wooden house kits and residential log homes from Lithuania. 70mm+ walls, full plans and delivery across Europe, the UK and Ireland.</div></td><td class="mono">wooden house kits</td></tr><tr><td class="mono">/product-category/houses/timber-frame-houses/</td><td class="old">Timber Frame Houses | ideaswood.eu</td><td><strong>Timber Frame House Kits – Prefab Homes from Lithuania | IdeasWood</strong><div class="meta">Prefabricated timber frame houses made in Lithuania. Energy-efficient, fast to build, delivered with drawings to the UK, Ireland and Europe.</div></td><td class="mono">timber frame house kits</td></tr><tr><td class="mono">/product-category/sauna/</td><td class="old">Buy Welness Sauna in UK - ideaswood.eu</td><td><strong>Outdoor Saunas – Barrel &amp; Cabin Saunas | IdeasWood</strong><div class="meta">Barrel saunas, sauna pods and cabin saunas in Nordic spruce and thermowood. Retail and trade supply across the UK and Europe.</div></td><td class="mono">outdoor sauna</td></tr><tr><td class="mono">/product-category/sauna/outdoor-sauna/sauna-pods/</td><td class="old">Sauna pods - IdeasWood.eu&#x27;s</td><td><strong>Sauna Pods – Outdoor Garden Saunas | IdeasWood</strong><div class="meta">Compact outdoor sauna pods for gardens, hotels and glamping sites. Wood-fired or electric heaters, delivered across Europe and the UK.</div></td><td class="mono">sauna pods</td></tr><tr><td class="mono">/product-category/furniture/garden-furniture/</td><td class="old">Buy Garden furniture in UK - ideaswood.eu</td><td><strong>Wooden Garden Furniture – Dining &amp; Lounge Sets | IdeasWood</strong><div class="meta">Solid wood garden furniture: dining sets, lounge sets and bistro sets built to last outdoors. Delivered with our log cabins or on their own.</div></td><td class="mono">wooden garden furniture</td></tr><tr><td class="mono">/product-category/pergola/wooden-pergola/</td><td class="old">Buy Wooden pergola in UK - ideaswood.eu</td><td><strong>Wooden Pergolas – Timber Pergola Kits | IdeasWood</strong><div class="meta">Freestanding and wall-mounted wooden pergola kits in Nordic spruce. Easy assembly, delivered across the UK and Europe.</div></td><td class="mono">wooden pergola kit</td></tr><tr><td class="mono">/product-category/grill-cabins/grill-cabins-grill-cabins/</td><td class="old">Grill Cabins | ideaswood.eu</td><td><strong>BBQ Grill Cabins – Nordic Grill Huts | IdeasWood</strong><div class="meta">Hexagonal BBQ grill cabins with central grill and seating for up to 12. Nordic spruce, supplied as a kit to the UK and Europe.</div></td><td class="mono">bbq grill cabin</td></tr><tr><td class="mono">/product-category/hot-tub/outside-firewood-heater/</td><td class="old">Hot tub with outside firewood stove</td><td><strong>Wood-Fired Hot Tubs with External Stove | IdeasWood</strong><div class="meta">Wood-fired hot tubs with external firewood heater – fast heating, easy cleaning. Supplied with our saunas and garden buildings across Europe.</div></td><td class="mono">wood fired hot tub</td></tr><tr><td class="mono">/wellness-saunas/</td><td class="old">Wellness Saunas - ideaswood.eu</td><td><strong>Sauna Manufacturer &amp; Wholesale Supplier | IdeasWood</strong><div class="meta">Wholesale and private-label outdoor saunas for resellers, retailers and hospitality. Barrel, cube and cabin saunas made in Lithuania.</div></td><td class="mono">sauna wholesale supplier</td></tr><tr><td class="mono">/easy-installation/</td><td class="old">Easy installation | ideaswood.eu</td><td><strong>How to Install a Log Cabin – Step-by-Step Guide | IdeasWood</strong><div class="meta">Our log cabins are built for self-assembly. See the foundation, tools and step-by-step process – most garden cabins go up in 1–3 days.</div></td><td class="mono">how to install a log cabin</td></tr><tr><td class="mono">/the-ultimate-log-cabin-guide/</td><td class="old">The Ultimate Log Cabin Guide - ideaswood.eu</td><td><strong>The Ultimate Log Cabin Buying Guide (2026) | IdeasWood</strong><div class="meta">Wall thickness, timber, foundations, insulation, planning permission and costs – everything to check before you buy a log cabin.</div></td><td class="mono">log cabin buying guide</td></tr><tr><td class="mono">/thermowood-cladding-for-timber-buildings/</td><td class="old">Thermowood cladding: what it is ... - ideaswood.eu</td><td><strong>Thermowood Cladding: Pros</strong><div class="meta"> Cons &amp; Where to Use It</div></td><td class="mono">What thermowood is, how it performs on log cabins and saunas, and where untreated spruce is the better choice.</td></tr><tr><td class="mono">/everything-you-need-to-know-about-insulation-kits-for-sheds-cabins-modular-homes/</td><td class="old">Everything You Need to Know About Insulation Kits ...</td><td><strong>Log Cabin Insulation Kits: Floor</strong><div class="meta"> Roof &amp; Walls Explained</div></td><td class="mono">How to insulate a log cabin or shed for year-round use – floor, roof and wall insulation kits, U-values and costs.</td></tr><tr><td class="mono">/wood-impregnation-treatment-for-log-cabins-complete-guide-to-koralan-uk-110/</td><td class="old">Wood Impregnation Treatment for Log Cabins ...</td><td><strong>Log Cabin Wood Treatment: Koralan UK 110 Guide</strong><div class="meta">How and when to treat a new log cabin, why impregnation matters and how to apply Koralan UK 110 correctly.</div></td><td class="mono">log cabin wood treatment</td></tr><tr><td class="mono">/pvc-windows-for-log-cabins/</td><td class="old">PVC Windows for Log Cabins — Specs ... | IdeasWood</td><td><strong>PVC Windows for Log Cabins – Specs &amp; Sizes | IdeasWood</strong><div class="meta">Why we recommend PVC double-glazed windows for log cabins: U-values, sizes, colours and how they fit our 44–70mm walls.</div></td><td class="mono">log cabin windows</td></tr><tr><td class="mono">/blog/</td><td class="old">IdeasWood Blog – Tips &amp; Ideas for Wooden Cabins</td><td><strong>Log Cabin Guides &amp; Garden Building Tips | IdeasWood</strong><div class="meta">Practical guides on choosing, installing, insulating and caring for log cabins, garden rooms and saunas.</div></td><td class="mono">log cabin guides</td></tr><tr><td class="mono">/scandinavian-wooden-houses-australia/</td><td class="old">Eco Scandinavian Wooden Houses in Australia – ...</td><td><strong>Scandinavian Wooden House Kits – Delivered to Australia</strong><div class="meta">Scandinavian-style wooden house kits in Nordic spruce, shipped to Australia with plans and assembly guide.</div></td><td class="mono">wooden house kits australia</td></tr></tbody></table></div></section>
+
+<section id="redirects"><h2>Redirect map</h2><p class="sub">301 unless noted. Set the first two rows at server level (hosting or Cloudflare), not in a WordPress plugin.</p>
+<div class="tw"><table class=""><thead><tr><th>From</th><th>To</th><th>Type</th><th>Note</th></tr></thead><tbody><tr><td class="mono">^http://(www\.)?ideaswood\.eu/(.*)$</td><td class="mono">https://ideaswood.eu/$2</td><td>301</td><td>SERVER LEVEL (.htaccess/nginx/Cloudflare) – single hop</td></tr><tr><td class="mono">^https://www\.ideaswood\.eu/(.*)$</td><td class="mono">https://ideaswood.eu/$1</td><td>301</td><td>SERVER LEVEL</td></tr><tr><td class="mono">/x/</td><td class="mono">/wood-impregnation-treatment-for-log-cabins-complete-guide-to-koralan-uk-110/</td><td>301</td><td>/x/ is a Koralan article titled &#x27;x&#x27; – redirect to the proper post (don&#x27;t delete)</td></tr><tr><td class="mono">/category/blog/</td><td class="mono">/blog/</td><td>301</td><td>duplicate blog index</td></tr><tr><td class="mono">/category/uncategorized/</td><td class="mono">/blog/</td><td>301</td><td>after moving posts to real categories</td></tr><tr><td class="mono">/product-category/houses/log-cabins/</td><td class="mono">/product-category/log-cabins/</td><td>301</td><td>category consolidation – main money page</td></tr><tr><td class="mono">/product-category/wooden-houses/log-cabins/</td><td class="mono">/product-category/log-cabins/</td><td>301</td><td>category consolidation</td></tr><tr><td class="mono">/product-category/log-cabins/wooden-houses/</td><td class="mono">/product-category/wooden-houses/</td><td>301</td><td>inverted hierarchy</td></tr><tr><td class="mono">/product-category/log-cabins/wooden-houses/garden-house/</td><td class="mono">/product-category/log-cabins/garden-house/</td><td>301</td><td>duplicate</td></tr><tr><td class="mono">/product-category/bbq-grill-cabin/grill-cabins/</td><td class="mono">/product-category/grill-cabins/</td><td>301</td><td>duplicate</td></tr><tr><td class="mono">/product-category/grill-cabins/grill-cabins-grill-cabins/</td><td class="mono">/product-category/grill-cabins/</td><td>301</td><td>stuttering slug (rename category slug first)</td></tr><tr><td class="mono">/product-category/camping-house/(.*)</td><td class="mono">/product-category/sauna/outdoor-sauna/sauna-pods/ OR 410</td><td>301</td><td>legacy camping pods – point to closest current glamping/pod category if exists</td></tr><tr><td class="mono">/product-category/pavilions/(.*)</td><td class="mono">/product-category/pergola/wooden-pergola/</td><td>301</td><td>legacy</td></tr><tr><td class="mono">/product/(28|44|58|68)mm-(.*)</td><td class="mono">closest current model or /product-category/log-cabins/</td><td>301</td><td>legacy wall-thickness products – map one by one</td></tr><tr><td class="mono">/product/double-grill-cabin-(.*)</td><td class="mono">/product-category/grill-cabins/</td><td>301</td><td>legacy</td></tr><tr><td class="mono">/product/exclusive-grill-cabin-92-m2/</td><td class="mono">/product-category/grill-cabins/</td><td>301</td><td>legacy</td></tr><tr><td class="mono">/product/pavilion-(.*)</td><td class="mono">/product-category/pergola/wooden-pergola/</td><td>301</td><td>legacy</td></tr><tr><td class="mono">/product/sauna-barrel-(24|40|59)m-(.*)</td><td class="mono">/product-category/sauna/</td><td>301</td><td>legacy → or matching current barrel sauna</td></tr><tr><td class="mono">/product/plan-camping-bus-5-9m/</td><td class="mono">/product-category/log-cabins/</td><td>301</td><td>legacy</td></tr><tr><td class="mono">/product/camping-pod-3-0m-x-4-8m/</td><td class="mono">/product-category/log-cabins/</td><td>301</td><td>legacy</td></tr><tr><td class="mono">/products/(.*)\.html</td><td class="mono">/product-category/log-cabins/</td><td>301</td><td>pre-WordPress Joomla shop</td></tr><tr><td class="mono">/lt/(.*)</td><td class="mono">/</td><td>301</td><td>old Joomla LT</td></tr><tr><td class="mono">/product/wooden-dinning-set/</td><td class="mono">/product/wooden-dining-set/</td><td>301</td><td>typo fix</td></tr><tr><td class="mono">/product/dinning-set/</td><td class="mono">/product/dining-set/</td><td>301</td><td>typo fix</td></tr><tr><td class="mono">/product/dinning-chairs-set-of-4/</td><td class="mono">/product/dining-chairs-set-of-4/</td><td>301</td><td>typo fix</td></tr><tr><td class="mono">/product/talinn-5x10-m/</td><td class="mono">/product/tallinn-5x10-m/</td><td>301</td><td>typo fix</td></tr></tbody></table></div></section>
+
+<section id="rankings"><h2>Rankings baseline</h2><p class="sub">38 exact searches, recorded 2026-09-25. Checked with a US-based search tool, so treat positions as a guide until Search Console data comes in.</p>
+<div class="tw"><table class=""><thead><tr><th>Search</th><th>Tier</th><th>Sep 25</th><th>Latest</th><th>#1 (Sep 25)</th><th>#2</th><th>#3</th></tr></thead><tbody><tr><td>log cabin manufacturer Lithuania</td><td class="n">A</td><td><span class="pill miss">not ranking</span></td><td><span class="pill miss">not ranking</span></td><td class="mono">facebook.com</td><td class="mono">eurowood.lt</td><td class="mono">eurowood.lt</td></tr><tr><td>log cabins manufacturer Europe</td><td class="n">A</td><td><span class="pill miss">not ranking</span></td><td><span class="pill miss">not ranking</span></td><td class="mono">en.wikipedia.org</td><td class="mono">loghomes.sk</td><td class="mono">palmakologcabins.co.uk</td></tr><tr><td>wooden house manufacturer Lithuania</td><td class="n">A</td><td><span class="pill miss">not ranking</span></td><td><span class="pill miss">not ranking</span></td><td class="mono">klaster.lt</td><td class="mono">spassio.com</td><td class="mono">woodhouses.eu</td></tr><tr><td>garden sauna wholesale supplier</td><td class="n">A</td><td><span class="pill miss">not ranking</span></td><td><span class="pill miss">not ranking</span></td><td class="mono">gardensauna.co.uk</td><td class="mono">saunamarketplace.com</td><td class="mono">en.wikipedia.org</td></tr><tr><td>log cabin wholesale supplier</td><td class="n">A</td><td><span class="pill miss">not ranking</span></td><td><span class="pill miss">not ranking</span></td><td class="mono">globalsources.com</td><td class="mono">pinecab2b.com</td><td class="mono">wholesaleloghomes.com</td></tr><tr><td>Nordic spruce log cabin kits</td><td class="n">A</td><td><span class="pill miss">not ranking</span></td><td><span class="pill miss">not ranking</span></td><td class="mono">palmako.co.uk</td><td class="mono">summerhouse24.co.uk</td><td class="mono">homesteadsupplier.com</td></tr><tr><td>prefab wooden houses from Lithuania</td><td class="n">A</td><td><span class="pill miss">not ranking</span></td><td><span class="pill miss">not ranking</span></td><td class="mono">klaster.lt</td><td class="mono">spassio.com</td><td class="mono">ecobustas.lt</td></tr><tr><td>garden room kits Europe</td><td class="n">A</td><td><span class="pill miss">not ranking</span></td><td><span class="pill miss">not ranking</span></td><td class="mono">thegardenroomguide.co.uk</td><td class="mono">palmako.co.uk</td><td class="mono">lumohouses.com</td></tr><tr><td>44mm log cabin</td><td class="n">A</td><td><span class="pill miss">not ranking</span></td><td><span class="pill miss">not ranking</span></td><td class="mono">powersheds.com</td><td class="mono">tigersheds.com</td><td class="mono">logcabinkits.co.uk</td></tr><tr><td>70mm log cabin</td><td class="n">A</td><td><span class="pill miss">not ranking</span></td><td><span class="pill miss">not ranking</span></td><td class="mono">tuin.co.uk</td><td class="mono">tigersheds.com</td><td class="mono">tigersheds.com</td></tr><tr><td>barrel sauna manufacturer</td><td class="n">A</td><td><span class="pill miss">not ranking</span></td><td><span class="pill miss">not ranking</span></td><td class="mono">fieldmag.com</td><td class="mono">almostheaven.com</td><td class="mono">almostheaven.com</td></tr><tr><td>glamping pods manufacturer europe</td><td class="n">A</td><td><span class="pill miss">not ranking</span></td><td><span class="pill miss">not ranking</span></td><td class="mono">moderncampground.com</td><td class="mono">epicmonday.com</td><td class="mono">epicmonday.com</td></tr><tr><td>log cabins for sale Europe</td><td class="n">B</td><td><span class="pill miss">not ranking</span></td><td><span class="pill miss">not ranking</span></td><td class="mono">summerhouse24.co.uk</td><td class="mono">en.wikipedia.org</td><td class="mono">bertsch-holzbau.eu</td></tr><tr><td>wooden garden house kits</td><td class="n">B</td><td><span class="pill miss">not ranking</span></td><td><span class="pill miss">not ranking</span></td><td class="mono">alibaba.com</td><td class="mono">gardenista.com</td><td class="mono">freedomroom.com</td></tr><tr><td>summer house kits</td><td class="n">B</td><td><span class="pill miss">not ranking</span></td><td><span class="pill miss">not ranking</span></td><td class="mono">summerhouse24.co.uk</td><td class="mono">rolifeonline.com</td><td class="mono">salamanderstoves.com</td></tr><tr><td>residential log cabins</td><td class="n">B</td><td><span class="pill miss">not ranking</span></td><td><span class="pill miss">not ranking</span></td><td class="mono">pinterest.com</td><td class="mono">en.wikipedia.org</td><td class="mono">en.wikipedia.org</td></tr><tr><td>log cabin kits UK</td><td class="n">B</td><td><span class="pill miss">not ranking</span></td><td><span class="pill miss">not ranking</span></td><td class="mono">summerhouse24.co.uk</td><td class="mono">dunsterhouse.co.uk</td><td class="mono">logcabinkits.co.uk</td></tr><tr><td>insulated log cabins</td><td class="n">B</td><td><span class="pill miss">not ranking</span></td><td><span class="pill miss">not ranking</span></td><td class="mono">gardenbuildingsdirect.co.uk</td><td class="mono">tigersheds.com</td><td class="mono">tentsile.com</td></tr><tr><td>garden log cabins</td><td class="n">B</td><td><span class="pill miss">not ranking</span></td><td><span class="pill miss">not ranking</span></td><td class="mono">gardenbuildingsdirect.co.uk</td><td class="mono">tigersheds.com</td><td class="mono">tigersheds.com</td></tr><tr><td>outdoor sauna manufacturer Europe</td><td class="n">B</td><td><span class="pill miss">not ranking</span></td><td><span class="pill miss">not ranking</span></td><td class="mono">corso-saunamanufaktur.com</td><td class="mono">saunamanufacture.com</td><td class="mono">baltresto.com</td></tr><tr><td>log cabin delivery to Ireland</td><td class="n">B</td><td><span class="pill miss">not ranking</span></td><td><span class="pill miss">not ranking</span></td><td class="mono">loghouse.ie</td><td class="mono">timberliving.ie</td><td class="mono">timberkitbuildings.ie</td></tr><tr><td>log cabins</td><td class="n">C</td><td><span class="pill miss">not ranking</span></td><td><span class="pill miss">not ranking</span></td><td class="mono">en.wikipedia.org</td><td class="mono">en.wikipedia.org</td><td class="mono">en.wikipedia.org</td></tr><tr><td>garden sheds</td><td class="n">C</td><td><span class="pill miss">not ranking</span></td><td><span class="pill miss">not ranking</span></td><td class="mono">summerwood.com</td><td class="mono">eartheasy.com</td><td class="mono">costco.com</td></tr><tr><td>wooden houses</td><td class="n">C</td><td><span class="pill miss">not ranking</span></td><td><span class="pill miss">not ranking</span></td><td class="mono">hobbylobby.com</td><td class="mono">amazon.com</td><td class="mono">target.com</td></tr><tr><td>summerhouses</td><td class="n">C</td><td><span class="pill miss">not ranking</span></td><td><span class="pill miss">not ranking</span></td><td class="mono">en.wikipedia.org</td><td class="mono">en.wikipedia.org</td><td class="mono">merriam-webster.com</td></tr><tr><td>log cabin manufacturer</td><td class="n">B</td><td><span class="pill miss">not ranking</span></td><td><span class="pill miss">not ranking</span></td><td class="mono">eloghomes.com</td><td class="mono">loghome.com</td><td class="mono">southlandloghomes.com</td></tr><tr><td>log cabin factory Lithuania</td><td class="n">A</td><td><span class="pill miss">not ranking</span></td><td><span class="pill miss">not ranking</span></td><td class="mono">facebook.com</td><td class="mono">woodfactory.lt</td><td class="mono">eurowood.lt</td></tr><tr><td>sauna manufacturer Lithuania</td><td class="n">A</td><td><span class="pill miss">not ranking</span></td><td><span class="pill miss">not ranking</span></td><td class="mono">ensun.io</td><td class="mono">accio.com</td><td class="mono">eskalada.com</td></tr><tr><td>private label log cabins supplier for dealers</td><td class="n">A</td><td><span class="pill miss">not ranking</span></td><td><span class="pill miss">not ranking</span></td><td class="mono">bloggang.com</td><td class="mono">globenewswire.com</td><td class="mono">eurodita.com</td></tr><tr><td>garden shed manufacturer Europe wholesale</td><td class="n">A</td><td><span class="pill miss">not ranking</span></td><td><span class="pill miss">not ranking</span></td><td class="mono">globalsources.com</td><td class="mono">globalsources.com</td><td class="mono">europages.co.uk</td></tr><tr><td>camping pods manufacturer Lithuania</td><td class="n">A</td><td><span class="pill miss">not ranking</span></td><td><span class="pill miss">not ranking</span></td><td class="mono">alibaba.com</td><td class="mono">prweb.com</td><td class="mono">energyhouses.com</td></tr><tr><td>wooden summer houses manufacturer Lithuania</td><td class="n">A</td><td><span class="pill miss">not ranking</span></td><td><span class="pill miss">not ranking</span></td><td class="mono">woodenme.com</td><td class="mono">spassio.com</td><td class="mono">eurowood.lt</td></tr><tr><td>timber frame houses Lithuania export</td><td class="n">A</td><td><span class="pill miss">not ranking</span></td><td><span class="pill miss">not ranking</span></td><td class="mono">gtaic.ai</td><td class="mono">klaster.lt</td><td class="mono">spassio.com</td></tr><tr><td>wooden garden furniture manufacturer Europe wholesale</td><td class="n">A</td><td><span class="pill miss">not ranking</span></td><td><span class="pill miss">not ranking</span></td><td class="mono">gardenforum.co.uk</td><td class="mono">europages.co.uk</td><td class="mono">mgtimberproductsltd.co.uk</td></tr><tr><td>barrel sauna kit</td><td class="n">B</td><td><span class="pill miss">not ranking</span></td><td><span class="pill miss">not ranking</span></td><td class="mono">saunamarketplace.com</td><td class="mono">saunamarketplace.com</td><td class="mono">fieldmag.com</td></tr><tr><td>wooden garage kits</td><td class="n">B</td><td><span class="pill miss">not ranking</span></td><td><span class="pill miss">not ranking</span></td><td class="mono">dcstructures.com</td><td class="mono">jamaicacottageshop.com</td><td class="mono">amazon.com</td></tr><tr><td>log cabin houses to live in Europe</td><td class="n">B</td><td><span class="pill miss">not ranking</span></td><td><span class="pill miss">not ranking</span></td><td class="mono">nature.house</td><td class="mono">nature.house</td><td class="mono">en.wikipedia.org</td></tr><tr><td>ideaswood</td><td class="n">brand</td><td><span class="pill hit">7</span></td><td><span class="pill hit">5</span></td><td class="mono">instagram.com</td><td class="mono">linkedin.com</td><td class="mono">instagram.com</td></tr></tbody></table></div></section>
+</div>
+<script>
+document.querySelectorAll('[data-copy]').forEach(b=>b.addEventListener('click',()=>{const el=document.getElementById(b.dataset.copy);const t=el.textContent;const done=()=>{b.textContent='Copied';setTimeout(()=>b.textContent='Copy',1500)};try{navigator.clipboard.writeText(t).then(done,()=>sel(el))}catch(e){sel(el)}}));
+function sel(el){const r=document.createRange();r.selectNodeContents(el);const s=getSelection();s.removeAllRanges();s.addRange(r)}
+</script>
