@@ -56,7 +56,19 @@ Imti `b2b/proforma/proforma.ts`, **ne** Drive versiją (Drive neturi REX). `comp
 (chmod 640, savininkas tas, kuris paleidžia servisą). `ProtectSystem=strict`: `/var/lib/iw-registry/docs` turi būti `ReadWritePaths`.
 Checkout'e `vat.basis === "export"` ne ES šalims (GB, NO, CH, AU…), kad atsirastų kilmės deklaracija.
 
-Patikra: kaip runbook §4, plius testinis GB partneris: PDF su „European Union preferential origin“ ir HS 94061000.
+**Verslo taisyklė (Justinas, 2026-10-14):** checkout → sistema iškart sugeneruoja proformą su avanso suma →
+užsakymas laukia (`awaiting_advance`) → **tik įkritus avansui** užsakymas tampa aktyvus (`production`), gamybos terminas skaičiuojamas nuo avanso datos.
+Kad taisyklė neprasprūstų, privaloma:
+- Checkout'e įrašyti `orders.advance_due_cents = computeTotals(...).advanceCents`. **Jei paliksi NULL, DB trigeris leis aktyvuoti užsakymą jau gavus 1 centą.**
+- `stageAfterPayment()` paduoti **visų** šio užsakymo `advance` mokėjimų sumą, ne paskutinio. Dalinis mokėjimas: užsakymas laukia toliau, kol suma padengta.
+- Banko importas susieja mokėjimą su užsakymu pagal mokėjimo paskirtį = proformos numerį. Mokėjimas be numerio patenka į admin sąrašą „nesusieti mokėjimai“ rankiniam susiejimui. Nė vienas mokėjimas negali dingti tyliai.
+- Aktyvavus užsakymą klientui siunčiamas laiškas „Avansas gautas, gamyba pradėta, numatoma data …“.
+- Proforma galioja 14 d. Jei avanso nėra, 7-ą dieną siunčiamas priminimas klientui, o 14-ą dieną pranešimas vadybininkui (ne automatinis atšaukimas).
+
+Patikra: kaip runbook §4, plius:
+1. Testinis GB partneris: PDF su „European Union preferential origin“ ir HS 94061000.
+2. Mokėjimas 50 % avanso: užsakymas lieka `awaiting_advance`. Likusi avanso dalis: pats pereina į `production`, `production_started_at` = antrojo mokėjimo data, klientas gauna laišką.
+3. `SELECT COUNT(*) FROM orders WHERE advance_due_cents IS NULL AND stage = 'awaiting_advance'` = 0.
 
 ### 5. Paveikslėliai ir renderių kilmė (runbook §8), tada kliento patogumai (§5 sąrašas)
 
