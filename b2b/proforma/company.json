@@ -1,0 +1,11 @@
+{
+  "name": "UAB „IDEAS for PEOPLE“",
+  "code": "302555740",
+  "vatNumber": "LT100009176917",
+  "eori": "LT302555740",
+  "rex": "LTREXLTMM0000202624",
+  "address": "Kastonu st. 8, D. Riese, Vilniaus raj., Lithuania",
+  "email": "info@ideaswood.eu",
+  "phone": "+370 678 22055",
+  "bank": { "name": "AB bankas „Swedbank“", "iban": "LT20 7300 0101 3612 3191", "swift": "HABALT22" }
+}
