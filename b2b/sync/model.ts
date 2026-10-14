@@ -51,7 +51,31 @@ export const STAGE_TO_SHEET: Record<Stage, string> = {
   delivered: "Delivered",
   cancelled: "Cancelled",
 };
-export const parseStage = (s: unknown): Stage | null => SHEET_TO_STAGE[String(s ?? "").trim().toLowerCase()] ?? null;
+/** Lapuose statusai rašomi laisvai („Ready to ship“, „08/19/2026 READY FOR DELIVERY“, „Waiting advance“).
+ *  Atpažįstam tik vienareikšmius. „Advance paid …“, „Drawings sent…“ → null: tai turi pataisyti žmogus,
+ *  nes mokėjimas be banko įrašo nėra mokėjimas. */
+export function parseStage(v: unknown): Stage | null {
+  const s = String(v ?? "").trim().toLowerCase().replace(/\s+/g, " ");
+  if (SHEET_TO_STAGE[s]) return SHEET_TO_STAGE[s];
+  if (/\b(paid|drawing)/.test(s)) return null;
+  if (/^(waiting|awaiting)( for)? advance/.test(s)) return "awaiting_advance";
+  if (/\bcancel/.test(s)) return "cancelled";
+  if (/\bdelivered\b/.test(s)) return "delivered";
+  if (/\b(shipped|loaded)\b/.test(s)) return "shipped";
+  if (/\bready\b/.test(s)) return "ready";
+  if (/\bproduction\b/.test(s)) return "production";
+  return null;
+}
+
+/** Sub-eilutės (durys, langai, priedai po pagrindine eilute) neturi datos ir statuso — paveldi iš pagrindinės. */
+export function inheritParent(lines: (OrderLine & { row: number })[]): (OrderLine & { row: number; parentRow: number | null })[] {
+  let parent: (OrderLine & { row: number }) | null = null;
+  return lines.map((l) => {
+    if (l.orderDate) { parent = l; return { ...l, parentRow: null }; }
+    if (parent && l.stage === null) return { ...l, orderDate: parent.orderDate, stage: parent.stage, parentRow: parent.row };
+    return { ...l, parentRow: null };
+  });
+}
 
 // ── Lapų reikšmių normalizavimas ────────────────────────────────────────────
 

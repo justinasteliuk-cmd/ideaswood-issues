@@ -25,6 +25,15 @@ test("normalizavimas: sumos, datos, statusai", () => {
   expect(parseStage("New Order")).toBe("awaiting_advance");
   expect(parseStage(" On Production ")).toBe("production");
   expect(parseStage("???")).toBeNull();
+  // Tikri statusai iš 44 klientų lapų (2026-10-14)
+  expect(parseStage("Ready to ship")).toBe("ready");
+  expect(parseStage("08/19/2026 READY FOR DELIVERY")).toBe("ready");
+  expect(parseStage("Waiting advance")).toBe("awaiting_advance");
+  expect(parseStage("on production")).toBe("production");
+  expect(parseStage("Advance paid 07.09 1043eur")).toBeNull();
+  expect(parseStage("Paid in full - waiting for remaining parts")).toBeNull();
+  expect(parseStage("waiting for drawings confirmation")).toBeNull();
+  expect(parseStage("Drawings sent to client")).toBeNull();
 });
 
 test("BM wood eilutė perskaitoma pagal antraštę, ne pagal poziciją", () => {

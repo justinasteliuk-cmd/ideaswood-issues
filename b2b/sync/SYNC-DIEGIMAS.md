@@ -17,6 +17,24 @@ Serveryje lieka prijungti 3 adapterius (registro DB, Sheets API, cockpit `push.p
 - **Avanso taisyklė galioja ir lape:** „On Production“ be avanso netaikoma, lape grąžinama „Awaiting advance“, o atvejis patenka į ataskaitą.
 - **Kliento raktas** yra jo lapo `spreadsheetId`, **užsakymo raktas** – stulpelis „Order Id“ lape (įrašo sinchronizacija).
 
+## Faktinė padėtis (44 aktyvūs lapai, nuskaityta 2026-10-14)
+
+Sąrašai yra **privačiame Drive**, aplanke šalia runbook'o. Viešoje repozitorijoje jų nėra: tai klientų el. paštai ir sumos.
+- `B2B prisijungimai — aktyvūs klientai 2026-10-14`: lapo id, įmonė, šalis, el. paštas, aktyvūs užsakymai ir €, prisijungimo būsena.
+- `B2B lapų radiniai prieš importą 2026-10-14`: eilutės, kurias reikia pataisyti lape prieš importą.
+
+| | |
+|---|---|
+| Aktyvių užsakymų | 44, ~316 tūkst. € (9 klientai) |
+| Prisijungimą galima kurti dabar | 15 klientų (tik 2 iš jų turi aktyvių užsakymų: BM wood, AMR) |
+| El. paštas rastas laiškuose, reikia Justino patvirtinimo | 7 (LH Plan+Bau, Housinger, Pinhomel ir kt.) |
+| El. pašto nėra niekur | 21, tarp jų **Udis 85 tūkst. €, Corsica, Tecno House, Kováč** |
+| Avansas sumokėtas, bet statusas „New Order“ | AMR ×5, BM wood, LH Plan+Bau (23 843 €). **Patikrinti, ar gamyba pradėta** |
+
+**Lapų savininkai trys:** justinas.teliuk@ (15), laurai.gudelytei@ (26), logcabinsfactory.com@ (3).
+Sinchronizacijos paslaugos paskyrai reikia **Editor** teisės į visus 44 lapus. Kitaip ji parašys tik į 15.
+Patikra: `reconcile` turi matyti 44 lapus, ne mažiau.
+
 ## Žingsniai serveryje (Mac Claude / Saqib)
 
 ### 0. Schema (pirma pažiūrėti, nespėlioti)
