@@ -24,7 +24,9 @@ Take a before screenshot and a backup first. Keep a change log (URL, before, aft
    - Export Search Console data (Queries, Pages, Countries for the last 3 months, and the indexing report) to Desktop/ideaswood-seo/.
 
 3. Structure and titles (seo/DISPATCH-phase2.md)
-   - Titles and meta: seo/fixes/04-titles-meta.csv.
+   - Titles and meta: seo/fixes/04-titles-meta.csv for pages and categories, seo/fixes/04b-product-titles.csv for 16 products (check the "verify_on_site" column against the live product before saving).
+   - Google Analytics (GA4): check it is installed on ideaswood.eu (one tag only, no duplicate from a plugin plus the theme) and that key events are tracked: quote request, contact form, phone and email clicks, add to cart. Report what is missing. Link GA4 to Search Console.
+   - Nova (marketing agent): ask Nova for the UTM naming it uses on social posts so GA4 can separate social traffic, and send Nova the final page list so posts link to the corrected URLs.
    - Redirects: seo/fixes/06-redirects.csv. Set http to https and www to non-www at server level, in a single hop.
    - About 10 categories show "could not be found" in Google (sauna, garden furniture, wooden houses, summer house, garden house, grill cabins, wooden pergola, storage sheds, garages/carports, pergola cabins). Find and report the cause.
    - Fix the typos: Welness to Wellness, Dinning to Dining, Talinn to Tallinn.
