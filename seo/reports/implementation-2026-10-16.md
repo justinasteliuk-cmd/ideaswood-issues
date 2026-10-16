@@ -99,3 +99,13 @@ All product-category pages use one Divi Theme Builder body template with a Blog 
 - Divi template owner / Saqib: Blog module on category pages; Lepton gallery injecting late.
 - .com session: fixes/07-cross-domain-hreflang.md.
 - Nova: marketing/growth/SEO-URLS-2026-10-16.md (garden-cabins 53 products condition now met).
+
+## 2026-10-18 addendum (Astra): robots.txt and canonical-host redirect applied
+
+| Where | Before | After |
+|---|---|---|
+| public_html/robots.txt | 11 rules, no /cart/, /checkout/, /my-account/, ?orderby, ?filter_, ?s= | as `fixes/03b-robots-TO-APPLY-2026-10-16.txt` |
+| public_html/.htaccess | http://www.ideaswood.eu took 2 hops (https://www, then non-www) | new "IdeasWood canonical host" block after the security headers: one 301 to https://ideaswood.eu, scoped to the ideaswood.eu / www.ideaswood.eu hosts only, /.well-known/ excluded |
+
+Server backups: `.htaccess.bak-20261018-seo`, `robots.txt.bak-20261018-seo`.
+Verified with curl: http://www.ideaswood.eu/product/alma-7x8-m/ → one 301 → https://ideaswood.eu/product/alma-7x8-m/ (200). Home, product and sitemap_index.xml return 200, and the security headers are intact. The other domains on the same cPanel account (ideaswood.com, staging.ideaswood.com, logcabinsfactory.com, timberescapes.com.au, abitazionidilegno.it) behave as before.

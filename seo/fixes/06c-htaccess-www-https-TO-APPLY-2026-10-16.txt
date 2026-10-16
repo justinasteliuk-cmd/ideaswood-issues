@@ -1,0 +1,11 @@
+# Įklijuoti public_html/.htaccess PAČIOJE PRADŽIOJE (prieš „# BEGIN LiteSpeed" ir „# BEGIN WordPress").
+# Tikslas: http://www.ideaswood.eu/... → https://ideaswood.eu/... VIENU šuoliu (dabar 2 šuoliai).
+# BEGIN IdeasWood canonical host
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www\.ideaswood\.eu$ [NC,OR]
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://ideaswood.eu/$1 [R=301,L]
+</IfModule>
+# END IdeasWood canonical host
+# Patikra po įklijavimo: curl -sI http://www.ideaswood.eu/product/alma-7x8-m/  → 301 Location: https://ideaswood.eu/product/alma-7x8-m/
