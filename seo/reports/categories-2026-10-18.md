@@ -1,6 +1,6 @@
 # ASTRA STATUS: ideaswood.eu kategorijų aprašymai
 
-Būsena: BLOCKED
+Būsena: IN PROGRESS
 
 - 2026-10-18 · vykdo Mac sesija „ideaswood.eu SEO vykdytojas". Failo nebuvo (Astra rašė, kad sukurtas), todėl sukūriau jį su šia antrašte.
 - Tekstai paruošti, bet į svetainę NEĮRAŠYTI: šiai sesijai auto-mode klasifikatorius užblokavo visus gyvus rašymus, kai užduotis atėjo iš kitos sesijos, o ne iš Justino. Užblokuota: WooCommerce kategorijų aprašymų PUT („Modify Shared Resources"), cPanel Fileman („DNS / Domain / Cert Changes"), Merchant Center .eu paskyros atidarymas („PII Data Handling"). Neapeidinėjau.
@@ -65,3 +65,23 @@ Mažesnės nei 300 žodžių: kategorijose su 2–4 modeliais daugiau patikrinam
 - Gyvai patikrinta 2026-10-18 (Store API ir HTML): **šios kategorijos aprašymas TUŠČIAS**, kaip ir visų jos subkategorijų. Teksto nei virš, nei po tinkleliu nėra; 0 žodžių, antraščių nėra, vidinių nuorodų nėra. Vienintelis ilgesnis tekstas puslapyje yra visos svetainės poraštės blurb'as „We are specialist for garden and house projects… slow grown northern Europe wood…", kurio „slow grown" teiginio niekas nepatvirtina (taisyklės pažeidimas, bet tai poraštė, ne kategorija; neperrašiau).
 - Todėl kategorijos aprašymo, kurį galima būtų perimti, nėra. „Smart Line" stilių radau Smart Line **produktų** tekstuose (pvz. /product/salvia-2/: matmenys pirmame sakinyje, sienos ir aukščiai, kas įskaičiuota ir kas įkainota atskirai, specifikacijų lentelė, be būdvardžių). Šiuo stiliumi ir Thermowood kategorijos aprašymu (vienintelis netuščias) parašyti 13 tekstų. Jei Justinas turėjo omenyje kitą puslapį (pvz. ideaswood.com ar staging), reikia URL.
 - Ledger pastaba: lanes lentelėje Divi šablonas priskirtas Saqib'ui, o Astra 10-18 leido man pakeisti Blog modulį. Nepakeičiau (blokuota), tad konflikto nėra; šablono žingsnį gali daryti bet kuris iš jų.
+
+
+## 2026-10-18 vakaras · Astra (Justinas patvirtino „Daryk")
+- UpdraftPlus DB kopija 2026-10-18 12:22 (serverio laiku), be failų. Aprašymai prieš keitimą: `~/Desktop/ideaswood-seo/backup/category-descriptions-before-2026-10-18.json` (visi 13 buvo tušti).
+- mu-plugin `wp-content/mu-plugins/iw-category-seo.php` įkeltas (naujas failas, šalia iw-vat-display.php); svetainė 200.
+- `apply-descriptions.ts --apply --split`: 13/13 aprašymų ir focus keyword įrašyti (HTTP 200).
+- **Problema:** WP kses filtras rašant per Application Password išmetė `<h1>`, `<h2>`, `<p>`, `<table>` (liko tik `<strong>`, `<a>`), nes kses nusistato anksčiau nei REST autentifikacija. B grupės puslapiuose tekstas yra teisingoje vietoje (intro virš, gidas po prekėmis), bet be antraščių, o lentelės susiliejo į eilutes („WallModelsPriceGood for"). Pataisymas: perrašyti per wp-admin kategorijos redagavimo formą (cookie sesija), tam reikia Justino sutikimo.
+- Divi Blog modulio pakeitimas 5 A šablonuose dar nepadarytas; iki tol A grupėje aprašymas nerodomas.
+
+## 2026-10-18 vakaras · vykdytojas (Justinas leido rašyti tiesiogiai šiame pokalbyje)
+- Dubliavimas patikrintas su Astra: ji įkėlė mu-plugin `iw-category-seo.php` ir paleido `apply-descriptions.ts --apply --split`, tada perdavė tęsinį man. Daugiau kategorijų nelieka.
+- **HTML pataisytas, 13/13.** Per REST (ir App Password, ir cookie + X-WP-Nonce) WP kses išvalo `<h1> <h2> <p> <table>`, nes admin šioje svetainėje neturi unfiltered_html. Pataisa: tie patys `cattexts.ts` tekstai pateikti per wp-admin kategorijos redagavimo formą (`edit-tags.php`, action=editedtag). Spąstas: formoje yra du `description` textarea, todėl reikia nustatyti abu. Patikrinta per API: visos 13 sutampa su šaltiniu (normalizuotai), `<h1>`/`<p>`/`<table>`/`<!--iw-below-->` vietoje.
+- **Gyvai (curl, 2026-10-18):**
+  - B grupė (garden-cabins, summer-houses-chalets, sheds-storage-cabins, camping-pods, a-frames, insulated-wooden-houses, villas-country-houses, garages-carports): H1 + intro virš tinklelio, gidas ir lentelės po juo, „could not be found" nėra, HTTP 200.
+  - A grupė (bbq-grill-cabin, sauna, hot-tubs, garden-furniture, pergola): tekstas po tinkleliu rodomas, nes Divi Shop modulis paleidžia `woocommerce_after_shop_loop`. Intro su H1 nerodomas, bet šie puslapiai turi savo šablono H1, tad dvigubo H1 nėra.
+- **NEPADARYTA: Divi Blog modulis 5 A šablonuose.** Šablonai: Sauna 12980/layout 9851, bbq grill cabins 12967/9428, Wooden Hot Tub 12970/9511, Garden Furniture 12973/9636, Pergola Main Page 12984/10616. Atidariau Sauna layout Visual Builder'yje, bet sekcijos trynimą užblokavo auto-mode klasifikatorius („Modify Shared Resources"). Uždariau nieko neišsaugojęs. Ledger'yje šablonai yra Saqib'o juosta.
+  - Rekomendacija: kiekviename layout'e ištrinti visą sekciją „Explore More Inspiration" (et_pb_text_4 + et_pb_blog_0). „Category description" modulio NEDĖTI, nes tekstas po tinkleliu jau rodomas per mu-plugin ir dubliuotųsi.
+  - Ta pati sekcija tikėtina ir kituose kategorijų šablonuose (outdoor Sauna 12982, wooden pergola 12960, pergola cabins 12962, aluminum pergola 12959, grill sets 12969, Indoor Sauna 12981).
+- Focus keywords įrašė Astra (`apply-descriptions.ts`).
+- DB kopija prieš mano rašymą: UpdraftPlus 2026-10-18 12:24 (serverio laiku).
