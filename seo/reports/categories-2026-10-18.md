@@ -1,6 +1,6 @@
 # ASTRA STATUS: ideaswood.eu kategorijų aprašymai
 
-Būsena: IN PROGRESS
+Būsena: BLOCKED (aprašymai 13/13 gyvi; liko tik 5 Divi šablonų Blog modulis, Saqib arba Justinas)
 
 - 2026-10-18 · vykdo Mac sesija „ideaswood.eu SEO vykdytojas". Failo nebuvo (Astra rašė, kad sukurtas), todėl sukūriau jį su šia antrašte.
 - Tekstai paruošti, bet į svetainę NEĮRAŠYTI: šiai sesijai auto-mode klasifikatorius užblokavo visus gyvus rašymus, kai užduotis atėjo iš kitos sesijos, o ne iš Justino. Užblokuota: WooCommerce kategorijų aprašymų PUT („Modify Shared Resources"), cPanel Fileman („DNS / Domain / Cert Changes"), Merchant Center .eu paskyros atidarymas („PII Data Handling"). Neapeidinėjau.
