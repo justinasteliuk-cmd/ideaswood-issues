@@ -1,6 +1,6 @@
 # ASTRA STATUS: ideaswood.eu kategorijų aprašymai
 
-Būsena: BLOCKED (aprašymai 13/13 gyvi; liko tik 5 Divi šablonų Blog modulis, Saqib arba Justinas)
+Būsena: DONE
 
 - 2026-10-18 · vykdo Mac sesija „ideaswood.eu SEO vykdytojas". Failo nebuvo (Astra rašė, kad sukurtas), todėl sukūriau jį su šia antrašte.
 - Tekstai paruošti, bet į svetainę NEĮRAŠYTI: šiai sesijai auto-mode klasifikatorius užblokavo visus gyvus rašymus, kai užduotis atėjo iš kitos sesijos, o ne iš Justino. Užblokuota: WooCommerce kategorijų aprašymų PUT („Modify Shared Resources"), cPanel Fileman („DNS / Domain / Cert Changes"), Merchant Center .eu paskyros atidarymas („PII Data Handling"). Neapeidinėjau.
@@ -85,3 +85,17 @@ Mažesnės nei 300 žodžių: kategorijose su 2–4 modeliais daugiau patikrinam
   - Ta pati sekcija tikėtina ir kituose kategorijų šablonuose (outdoor Sauna 12982, wooden pergola 12960, pergola cabins 12962, aluminum pergola 12959, grill sets 12969, Indoor Sauna 12981).
 - Focus keywords įrašė Astra (`apply-descriptions.ts`).
 - DB kopija prieš mano rašymą: UpdraftPlus 2026-10-18 12:24 (serverio laiku).
+
+
+## 2026-10-19 · Astra: Divi „Explore More Inspiration" sekcija išjungta (Justinas leido per naršyklę)
+- Visual Builder'yje (agentų Chrome, wp-admin sesija) sekcija „Explore More Inspiration" (Text + Blog modulis, kuris rodė „No Results Found / could not be found") **IŠJUNGTA** (Advanced → Visibility → Disable on Phone/Tablet/Desktop), NE ištrinta. Atšaukti: tame pačiame šablone nuimti tris varneles.
+- Taisyta 3 body šablonuose (sauna; bbq-grill-cabin; hot-tubs). garden-furniture ir pergola naudoja tuos pačius šablonus, tad susitvarkė kartu.
+- Gyvai (curl, 2026-10-19): visose 5 kategorijose „could not be found" = 0, „Explore More Inspiration" = 0, prekių tinklelis ir mūsų aprašymas yra. Visos 13 kategorijų turi H1 + tekstą. Pagrindinis, produktas, /wellness-saunas/, kainų gidas → 200.
+- Atsarginė kopija prieš: UpdraftPlus DB 2026-10-18 12:22 / 12:24.
+
+## 2026-10-19 · vykdytojas: „Explore More Inspiration" pašalinta (Justino leidimas šiame pokalbyje: „pašalink, suteikiu visus leidimus")
+- Sekcija („Explore More Inspiration" tekstas + Blog modulis) išvesdavo „No Results Found – The page you requested could not be found" visuose senųjų kategorijų Divi šablonuose. Pašalinta visa sekcija Divi Theme Builder per Layers skydelį. Kitos sekcijos (hero, prekės, DUK, naujienlaiškis) liko nepakeistos.
+- Pakeisti body layout'ai (šablonas → kategorija): Sauna (27), bbq grill cabins (23), Wooden Hot Tub (26), Garden Furniture (82), Pergola Main Page (72), outdoor Sauna (66), Indoor Sauna (65), wooden pergola (74), pergola cabins (205), aluminum pergola (73), grill sets (78), Square Hot Tub (180), Furniture (80). Prieš tai padaryta DB kopija (UpdraftPlus 2026-10-18 12:24, serverio laiku).
+- LiteSpeed Purge All.
+- **Patikrinta gyvai (curl, visos 42 produktų kategorijos):** „Explore More Inspiration" 0, „could not be found" 0, visos HTTP 200, prekių tinklelis yra visur. Vizualiai patikrintas /product-category/sauna/ (gidas su lentele po prekėmis, šablonas tęsiasi be spragų).
+- Pastaba: wooden pergola ir pergola cabins turėjo skirtingus layout'us, tad abu sutvarkyti atskirai.
