@@ -74,6 +74,8 @@ add_action( 'wp_head', function () {
 			'@id'   => $url . '#organization',
 			'name'  => get_bloginfo( 'name' ),
 			'url'   => $url,
+			// Justinas 2026-10-19: the company was founded in 2007 (one year on every site).
+			'foundingDate' => '2007',
 		);
 		if ( $logo ) {
 			$org['logo'] = $logo;
