@@ -55,6 +55,10 @@ function iw_seo_product_from_attributes( $id ) {
 	$pick = function ( $re ) use ( $attrs ) {
 		foreach ( $attrs as $k => $v ) {
 			if ( '' !== $v && preg_match( $re, $k ) ) {
+				// .com keeps the unit in the label ("… (ft)", "… (ft²)", "… (in)"): carry it over to a bare number.
+				if ( preg_match( '/\(([^)]{1,6})\)\s*$/', $k, $u ) && ! preg_match( '/[a-z²³"\']/i', $v ) ) {
+					$v .= ' ' . $u[1];
+				}
 				return $v;
 			}
 		}
