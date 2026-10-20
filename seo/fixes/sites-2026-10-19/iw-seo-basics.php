@@ -33,6 +33,60 @@ function iw_seo_clean( $text ) {
 	return $text;
 }
 
+/**
+ * Products without a short description (ideaswood.com, timberescapes, most of abitazionidilegno):
+ * build the snippet only from the product's own attributes — no invented claims. 2026-10-20.
+ */
+function iw_seo_product_from_attributes( $id ) {
+	if ( ! function_exists( 'wc_get_product' ) ) {
+		return '';
+	}
+	$p = wc_get_product( $id );
+	if ( ! $p ) {
+		return '';
+	}
+	$it    = 0 === strpos( get_locale(), 'it' );
+	$attrs = array();
+	foreach ( $p->get_attributes() as $a ) {
+		$label = wc_attribute_label( $a->get_name() );
+		$vals  = $a->is_taxonomy() ? wc_get_product_terms( $id, $a->get_name(), array( 'fields' => 'names' ) ) : $a->get_options();
+		$attrs[ $label ] = implode( ' / ', array_map( 'wp_strip_all_tags', (array) $vals ) );
+	}
+	$pick = function ( $re ) use ( $attrs ) {
+		foreach ( $attrs as $k => $v ) {
+			if ( '' !== $v && preg_match( $re, $k ) ) {
+				return $v;
+			}
+		}
+		return '';
+	};
+	$size  = $pick( '/width x length|size wxl|building size|misurare|dimensioni/i' );
+	$area  = $pick( '/inside area|internal area|area interna|superficie interna/i' );
+	$wall  = $pick( '/wall thickness|log thickness|spessore (delle )?pareti/i' );
+	$cats  = wp_get_post_terms( $id, 'product_cat', array( 'fields' => 'names' ) );
+	$cat   = '';
+	foreach ( (array) $cats as $c ) {
+		if ( ! preg_match( '/featured|uncategor|default/i', $c ) ) {
+			$cat = $c;
+			break;
+		}
+	}
+	$name  = wp_strip_all_tags( $p->get_name() );
+	$bits  = array();
+	if ( $size ) {
+		$bits[] = ( $it ? 'dimensioni ' : 'size ' ) . $size;
+	}
+	if ( $area ) {
+		$bits[] = ( $it ? 'superficie interna ' : 'internal area ' ) . $area;
+	}
+	if ( $wall ) {
+		$bits[] = ( $it ? 'pareti ' : 'walls ' ) . $wall;
+	}
+	$text = $name . ( $cat ? ' – ' . $cat : '' ) . ( $bits ? ': ' . implode( ', ', $bits ) . '.' : '.' );
+	$text .= $it ? ' Scopri specifiche e opzioni.' : ' See full specifications and options.';
+	return iw_seo_clean( $text );
+}
+
 function iw_seo_description() {
 	$host = preg_replace( '/^www\./', '', (string) wp_parse_url( home_url(), PHP_URL_HOST ) );
 	if ( is_front_page() ) {
@@ -42,6 +96,9 @@ function iw_seo_description() {
 		$post = get_queried_object();
 		if ( 'product' === get_post_type( $post ) && '' !== trim( (string) $post->post_excerpt ) ) {
 			return iw_seo_clean( $post->post_excerpt );
+		}
+		if ( 'product' === get_post_type( $post ) ) {
+			return iw_seo_product_from_attributes( $post->ID );
 		}
 		if ( has_excerpt( $post ) ) {
 			return iw_seo_clean( get_the_excerpt( $post ) );
