@@ -36,6 +36,11 @@ if (revertIdx > -1) {
   const backup = JSON.parse(await Bun.file(path).text()) as any[];
   let done = 0, skipped = 0, failed = 0;
   for (const b of backup) {
+    if (!b.bodyWritten && b.metaWritten) { // meta-only item: restore the meta alone
+      const m = await fetch(`${s.base}/wp-json/rankmath/v1/updateMeta`, { method: "POST", headers: H, body: JSON.stringify({ objectID: b.id, objectType: "post", meta: { rank_math_description: b.rank_math_description ?? "" } }) });
+      if (m.ok) { b.metaWritten = false; b.reverted = new Date().toISOString(); done++; console.log("reverted meta", b.slug); } else { failed++; console.log("FAIL revert meta", b.slug, m.status); }
+      save(path, backup); continue;
+    }
     if (!b.bodyWritten) continue;
     const cur = await getEdit(b.id);
     if (norm(cur.description) !== norm(b.writtenHtml)) { console.log("skip (description changed since apply):", b.slug); skipped++; continue; }
