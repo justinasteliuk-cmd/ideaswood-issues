@@ -28,6 +28,7 @@ async function getEdit(id: number) {
   }
   throw new Error(`GET ${id} failed 3x`);
 }
+const textOnly = (h: string) => norm((h || "").replace(/<[^>]+>/g, " ").replace(/&nbsp;|&#160;/g, " ").replace(/&amp;/g, "&").replace(/&#8211;|&ndash;/g, "-").replace(/&#215;/g, "×")).replace(/\s+/g, "");
 const save = (path: string, data: any) => writeFileSync(path, JSON.stringify(data, null, 1));
 
 if (revertIdx > -1) {
@@ -61,7 +62,8 @@ console.log("backup:", backup.length, "products ->", backupPath);
 // plan
 const plan = gen.map(o => {
   const b = byId.get(o.id)!;
-  const bodyOk = o.mode === "body" && norm(b.description) === norm(snap.get(o.id) || "");
+  // Snapshot is Store API (wpautop'd, entity-encoded HTML); live is raw post_content: compare text only.
+  const bodyOk = o.mode === "body" && textOnly(b.description) === textOnly(snap.get(o.id) || "");
   const bodyStale = o.mode === "body" && !bodyOk;
   const metaOk = !b.rank_math_description || b.rank_math_description.trim() === "";
   return { o, b, bodyOk, bodyStale, metaOk };
