@@ -1,40 +1,67 @@
-# Page: /log-cabin-planning-permission-uk/
-**SEO title:** Do You Need Planning Permission for a Log Cabin in the UK?
-**Meta:** Height limits, boundary rules, building regulations and when a garden room needs planning permission in England, Scotland, Wales and Northern Ireland.
-**Focus:** log cabin planning permission UK, garden room planning permission
-**Schema:** FAQPage + Article (author: named IdeasWood person)
-> ⚠️ Legal summary for England as of 2026 – have Justinas or a UK partner confirm before publishing, and add "last checked" date. Link to planningportal.gov.uk.
+# Page: /log-cabin-planning-permission-uk/  (publish-ready for England; other nations link out)
+**Status 2026-10-22:** The England figures below match the Planning Portal guidance as summarised by search results and Class E of the General Permitted Development Order. No official page could be opened from the cloud session. **Before publishing, the executor must open planningportal.co.uk (outbuildings) and gov.uk (building regulations: outbuildings) and confirm each number, then fill "Last checked".** Do not publish the Scotland, Wales, Northern Ireland or Ireland numbers; this page only links to the official pages for them.
 
-## H1: Do You Need Planning Permission for a Log Cabin?
-In England, most garden log cabins do **not** need planning permission. They count as "permitted development" (Class E outbuildings) if they meet these rules:
+**SEO title:** Do You Need Planning Permission for a Log Cabin? England Guide
+**Meta:** Height, boundary and size rules for a garden log cabin in England, when planning permission and building regulations apply, and how to check for your home.
+**Focus keyword:** log cabin planning permission
+**Schema:** Article, with the company named as author. Last checked: [DATE].
 
-### Permitted development rules (England)
-- **Not in front of the house:** not forward of the principal elevation facing a road.
-- **Height:** single storey, eaves max **2.5 m**; total height max **4 m** with a dual-pitched roof or **3 m** for any other roof.
-- **Near the boundary:** within **2 m** of a boundary, total height max **2.5 m**.
-- **Coverage:** outbuildings and extensions must not cover more than **50%** of the land around the original house.
-- **Use:** must be "incidental" to the house – office, gym, studio, hobby room, storage. Not a separate home or a bedroom.
-- **No verandas, balconies or raised platforms** over 0.3 m high.
+## H1: Do You Need Planning Permission for a Log Cabin in England?
+Most garden log cabins in England do not need planning permission. They count as permitted development, as long as they meet the rules below. If your cabin breaks one rule, you need to apply. This guide covers England. Rules in Scotland, Wales, Northern Ireland and Ireland differ; see the links at the end.
 
-### When you DO need planning permission
-- You want to sleep or live in it, or rent it out as a separate dwelling.
-- Listed building, or land in a conservation area, National Park, AONB/National Landscape or World Heritage Site (stricter limits: e.g. outbuildings more than 20 m from the house limited to 10 m² in designated land).
-- Flats, maisonettes, or where permitted development rights were removed.
+## The short answer
+| Your plan | Usually need planning permission? |
+|---|---|
+| Garden office, studio, gym or hobby room that meets the size and position rules | No |
+| Cabin forward of the front of your house, facing a road | Yes |
+| Cabin used as a separate home, holiday let or regular bedroom | Yes |
+| Any building on land in a conservation area, National Park, National Landscape (AONB) or World Heritage Site that breaks the stricter limits | Possibly. Check first. |
+| Your house is a flat, maisonette or listed building, or permitted development rights were removed | Yes or check with the council |
 
-### Building regulations (separate from planning)
-- **Under 15 m²** with no sleeping accommodation: usually exempt.
-- **15–30 m²**, no sleeping accommodation: exempt if at least **1 m from the boundary** or built from non-combustible materials.
-- **Over 30 m²**, or with sleeping accommodation: building regulations apply.
-- Electrics must meet Part P – use a registered electrician.
+## Permitted development rules for outbuildings in England
+Check each one for your garden:
+1. **Position.** The cabin must not stand in front of the main wall of the house that faces a road.
+2. **Height.** Single storey. Eaves no higher than 2.5 m. Total height no more than 4 m with a dual-pitched roof, or 3 m with any other roof.
+3. **Near a boundary.** If any part is within 2 m of a boundary, the total height must be no more than 2.5 m.
+4. **Size of the garden used.** Outbuildings and other additions must not cover more than half the land around the original house.
+5. **Platforms.** No raised platform higher than 30 cm. No verandas or balconies.
+6. **Use.** The cabin must be for use that goes with the house, such as an office, gym, studio, playroom or storage. Not a separate home, and not somewhere you sleep as a normal arrangement.
+7. **Designated land.** In a National Park, National Landscape (AONB), conservation area or World Heritage Site, an outbuilding more than 20 m from the house is limited to 10 m² of floor area. Other limits can also be stricter.
+8. **Listed buildings.** No permitted development for outbuildings in the grounds of a listed building. You need permission.
 
-### Scotland, Wales, Northern Ireland
-Each nation has its own permitted development rules, similar in spirit but with different limits. Write one short section per nation only after checking the official source (mygov.scot, gov.wales, nidirect.gov.uk). [Do not publish this section unverified.]
+When any rule does not fit, apply to your local planning authority, or ask them for a lawful development certificate to confirm that your plan is allowed.
 
-### Which IdeasWood cabins fit permitted development?
-[List models with total height ≤2.5 m (for near-boundary placement) and ≤4 m, with links.] → Build this as a filter "Fits UK permitted development (≤2.5 m)" – a strong conversion and SEO feature no Baltic competitor has.
+## Building regulations (different from planning)
+| Floor area of cabin | With no sleeping accommodation | Notes |
+|---|---|---|
+| Under 15 m² | Normally exempt | Exempt from building regulations in most cases |
+| 15 to 30 m² | Exempt if at least 1 m from the boundary, or built substantially of non-combustible material | Check fire spread |
+| Over 30 m² | Building regulations apply | Notify building control |
+| Any size with sleeping accommodation | Building regulations apply | |
 
-### FAQ
-**Can I put a log cabin at the bottom of my garden without planning permission?** Usually yes, if it is within 2 m of the boundary and no higher than 2.5 m.
-**Can I use a garden office without permission?** Yes, as long as it is used as part of your home and not as a separate business open to the public.
-**Can I sleep in my log cabin?** Occasional use as a guest room is a grey area; regular sleeping or renting needs permission and building regs.
-**Do I need permission for a sauna?** Treated like any outbuilding – same height and boundary rules.
+Electrics for a cabin must meet Part P of the building regulations. Use a registered electrician.
+
+## Which of our buildings fit under 2.5 m?
+[Executor: list the garden cabins in the live catalogue whose total ridge height is 2.5 m or less, with links. Use the height attribute on each product page. If height is missing for a product, leave it out.]
+
+## Checking your own garden
+1. Measure the distance from the cabin to each boundary and note the height of the highest point.
+2. Check whether your land is in a designated area on your council's website.
+3. Look at the Planning Portal's permitted development guidance, or ask your council for a lawful development certificate.
+
+## Official guidance
+- Planning Portal, outbuildings: planningportal.co.uk (Permitted development rights for outbuildings)
+- GOV.UK, building regulations for outbuildings: gov.uk
+- Scotland: gov.scot and your local council
+- Wales: gov.wales
+- Northern Ireland: nidirect.gov.uk and Planning NI
+- Republic of Ireland: citizensinformation.ie and your local authority
+
+## Planning permission questions
+**Can I put a log cabin at the bottom of my garden without permission?** Often yes in England, if it meets the height, position and use rules above. Within 2 m of the boundary, keep the total height at or below 2.5 m.
+**Can I use a garden cabin as an office?** Yes. An office that goes with your home counts as incidental use.
+**Can I sleep in my log cabin?** Occasional guest use can be fine. Regular sleeping or letting it out usually means you need permission and building regulations approval.
+**Do I need permission for a sauna or a garage?** A garden sauna follows the same rules as other outbuildings. A garage is also an outbuilding, but check the height rule for pitched roofs and the position rule.
+**Does the cabin need a foundation?** Yes. See [link: foundation or easy installation page] for the base we recommend.
+
+[CTA: Not sure your plan fits? Send us the size and your garden measurements through [link: contact page] and we'll tell you which of our models stay inside the limits. This is general guidance, not legal advice.]
