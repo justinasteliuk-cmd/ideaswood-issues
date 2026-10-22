@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "{{Model name}} Log Cabin 44mm – {{W}} x {{D}} m",
+  "brand": { "@type": "Brand", "name": "IdeasWood" },
+  "manufacturer": { "@id": "https://ideaswood.eu/#organization" },
+  "sku": "{{SKU}}",
+  "image": ["{{image-1}}", "{{image-2}}"],
+  "description": "{{Unique 2-3 sentence description: wall thickness, timber (Nordic spruce), footprint, roof, doors/windows, use case, delivery to UK/EU}}",
+  "material": "Nordic spruce",
+  "additionalProperty": [
+    { "@type": "PropertyValue", "name": "Wall thickness", "value": "44 mm" },
+    { "@type": "PropertyValue", "name": "Internal floor area", "value": "{{m2}} m²" },
+    { "@type": "PropertyValue", "name": "Ridge height", "value": "{{m}} m" }
+  ],
+  "offers": {
+    "@type": "Offer",
+    "url": "{{product URL}}",
+    "priceCurrency": "EUR",
+    "price": "{{price}}",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition",
+    "seller": { "@id": "https://ideaswood.eu/#organization" },
+    "shippingDetails": {
+      "@type": "OfferShippingDetails",
+      "shippingDestination": [{ "@type": "DefinedRegion", "addressCountry": "GB" }, { "@type": "DefinedRegion", "addressCountry": "IE" }],
+      "deliveryTime": { "@type": "ShippingDeliveryTime", "handlingTime": { "@type": "QuantitativeValue", "minValue": 14, "maxValue": 28, "unitCode": "DAY" } }
+    }
+  }
+}
