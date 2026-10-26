@@ -1,0 +1,95 @@
+<p><strong>Windows decide how a log cabin performs.</strong> They are the weakest thermal point in the wall, the part the end customer touches every day, and the first thing that looks tired if the wrong material was chosen. For most cabins we supply, we recommend PVC — and this article explains exactly why, with the specifications our partners quote to their own customers.</p>
+
+<figure><img class="wp-image-13302" src="https://ideaswood.eu/wp-content/uploads/pvc-sliding-doors-garden-room.jpg" alt="Anthracite PVC sliding doors on a timber garden room" /><figcaption>Anthracite PVC sliding doors on a garden room — the most common colour choice among our partners.</figcaption></figure>
+
+<h2>Why we recommend PVC windows for log cabins</h2>
+
+<p>Wooden windows suit a specific type of project: heritage buildings, high-end architectural cabins, and customers who want the material to match the log wall exactly. For everything else — garden offices, garden rooms, rental cabins, holiday units, and year-round insulated buildings — PVC is the more practical choice for four reasons.</p>
+
+<h3>1. No maintenance for the end customer</h3>
+<p>A wooden window needs re-oiling or repainting every two to four years, depending on orientation and climate. On a south- or west-facing wall the coating fails first, and once moisture reaches the timber the frame moves. PVC needs washing, nothing else. For a reseller this matters commercially: no maintenance means no warranty conversations three years after delivery.</p>
+
+<h3>2. Dimensional stability</h3>
+<p>Log walls settle. A PVC frame does not swell, shrink or twist with humidity, so the sash keeps closing correctly through the settlement period and through seasonal changes afterwards. Correct installation in a sliding frame still matters — see the installation note below.</p>
+
+<h3>3. Thermal performance</h3>
+<p>Modern multi-chamber PVC profiles reach thermal values that timber sections of the same depth struggle to match without going very thick. The profile we supply as standard is a <strong>6-chamber section, 70 mm frame depth, with two EPDM gaskets and a frame value of Uf = 1.1 W/m²K</strong>; entrance doors use a 5-chamber section at the same 70 mm depth. It accepts glass packages from 24 mm to 36 mm, which gives two glazing levels:</p>
+
+<ul>
+  <li><strong>Standard — double glazing</strong>, 24 mm glass package, Ug = 1.0 W/m²K (4-16Ar-4 with selective coating, argon filled). This is what is quoted unless the upgrade is specified.</li>
+  <li><strong>Upgrade — triple glazing</strong>, 36 mm glass package, Ug = 0.4 W/m²K (4-12-4-12-4, krypton filled, warm edge TGI spacer). Takes a 1200 × 1500 window to Uw = 0.72 W/m²K. Specify at quotation stage.</li>
+</ul>
+
+<figure><img class="wp-image-13301" src="https://ideaswood.eu/wp-content/uploads/pvc-anthracite-window-log-cabin-wall.jpg" alt="Anthracite RAL 7016 PVC window installed in a log cabin wall with settlement trim above" /><figcaption>Anthracite RAL 7016 PVC in a log wall — slim sightlines, with the settlement gap covered by trim above the frame.</figcaption></figure>
+
+<p>The glass package, not the frame, drives most of the heat loss in a window. This is why we quote the Ug value separately — a customer comparing two offers should compare glass packages first.</p>
+
+<h3>4. Cost</h3>
+<p>PVC windows in our standard sizes are currently offered at the same price as the equivalent wooden units. There is no premium to pay for the lower-maintenance option.</p>
+
+<figure><img class="wp-image-13400" src="https://ideaswood.eu/wp-content/uploads/pvc-windows-pin.jpg" alt="Anthracite PVC window units ready to ship" width="500" /><figcaption>Anthracite PVC units leaving the factory. Standard sizes ship from stock.</figcaption></figure>
+
+<h2>Standard window sizes for log cabins</h2>
+
+<p>Working from a standard size list keeps lead times short and prices predictable. Our standard range covers:</p>
+
+<table>
+  <thead><tr><th>Type</th><th>Height × Width (mm)</th><th>Area (m²)</th></tr></thead>
+  <tbody>
+    <tr><td>Single window, tilt only</td><td>520 × 500</td><td>0.26</td></tr>
+    <tr><td>Single window (sliding)</td><td>920 × 700</td><td>0.64</td></tr>
+    <tr><td>Single window</td><td>1170 × 700</td><td>0.82</td></tr>
+    <tr><td>Single window</td><td>1430 × 700</td><td>1.00</td></tr>
+    <tr><td>Double window</td><td>920 × 1300</td><td>1.20</td></tr>
+    <tr><td>Double window</td><td>1170 × 1300</td><td>1.52</td></tr>
+    <tr><td>Double window</td><td>1430 × 1300</td><td>1.86</td></tr>
+  </tbody>
+</table>
+
+<p>Non-standard sizes are produced to order. Tell us the opening dimensions and the wall thickness of the cabin, and we will confirm feasibility with the quote.</p>
+
+<h2>Colour options</h2>
+
+<figure><img class="wp-image-13300" src="https://ideaswood.eu/wp-content/uploads/pvc-window-colour-combinations.jpg" alt="PVC window colour combinations: white both sides, anthracite outside with white inside, anthracite both sides" /><figcaption>The three available combinations. Two different colours on one unit is not possible.</figcaption></figure>
+
+<p>PVC is available white, or foiled in a colour on one or both faces. Three combinations are available:</p>
+
+<ul>
+  <li>White inside and out — the standard, lowest-cost option</li>
+  <li>White inside, colour outside — the most common choice for cabins with dark cladding</li>
+  <li>Same colour inside and out</li>
+</ul>
+
+<p>Anthracite grey, brown, and black are the volumes we ship most; other RAL-range foils are available on request. One constraint worth knowing at quotation stage: two <em>different</em> colours cannot be combined on the same unit — the choice is colour/white, the same colour on both faces, or white/white.</p>
+
+<h2>Installation in a log wall</h2>
+
+<figure><img class="wp-image-13287" src="https://ideaswood.eu/wp-content/uploads/log-cabin-window-installation-sliding-frame.jpg" alt="Installing a window into a settling log cabin wall using a sliding frame and settlement gap" /><figcaption>Windows sit in a sliding frame with an open settlement gap above — never fill this gap with rigid foam.</figcaption></figure>
+
+<p>A log building settles for the first one to two years. Windows must therefore be installed in a sliding frame so the log wall can move independently of the window unit; fixing a frame rigidly to the logs will jam or crack it as the wall drops. The settlement gap above the window is left open and covered with trim, never filled with rigid foam. This applies to wooden and PVC windows equally, but PVC is less forgiving of a bad installation because the frame will not "give" — so it is worth stating explicitly in the assembly instructions you pass to your customer.</p>
+
+<h2>When to specify wooden windows instead</h2>
+
+<p>We are not arguing that PVC is always right. Choose wooden windows when:</p>
+
+<ul>
+  <li>the building is in a conservation area or has a planning condition specifying timber</li>
+  <li>the customer wants the window material to match the log wall visually</li>
+  <li>the project is a premium architectural build where the joinery is part of the design intent</li>
+</ul>
+
+<p>Both options are available for every cabin model in our range, and both are quoted from the same standard size list.</p>
+
+<h2>Summary for resellers</h2>
+
+<ul>
+  <li><strong>Default to PVC</strong> on garden offices, garden rooms, rental and holiday cabins</li>
+  <li><strong>Quote the Ug value</strong>, not just "double" or "triple" glazing — it is what customers compare</li>
+  <li><strong>Match the glazing to use</strong>: standard double (Ug 1.0) for seasonal cabins and garden rooms, triple (Ug 0.4) for year-round and insulated buildings</li>
+  <li><strong>Confirm the colour combination early</strong> — two different colours on one unit is not possible</li>
+  <li><strong>Include the sliding-frame installation note</strong> in the documentation you hand over</li>
+</ul>
+
+<p>Need window specifications for a specific cabin model? Contact your account manager or email <a href="mailto:info@ideaswood.eu">info@ideaswood.eu</a> and we will send the window schedule with the quote.</p>
+
+<p><a href="https://ideaswood.eu/product-category/log-cabins/">Browse our log cabin range</a> · <a href="https://ideaswood.eu/product-category/frame-houses/timber-frame-houses/">Timber frame houses</a> · <a href="https://ideaswood.eu/contact-us/">Contact us</a></p>
