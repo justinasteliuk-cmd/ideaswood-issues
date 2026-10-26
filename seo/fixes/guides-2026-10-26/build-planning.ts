@@ -84,7 +84,7 @@ ${table("other")}
 
 <h2>Planning permission questions</h2>
 <p><strong>Can I put a log cabin at the bottom of my garden without permission?</strong> Often yes in England, if it meets the height, position and use rules above. Within 2 m of a boundary, keep the total height at or below 2.5 m, measured from the ground.</p>
-<p><strong>Can I use a garden cabin as an office?</strong> Usually yes, if it is for your own household's use alongside the house. A business with staff or visiting clients may need planning permission, so ask your council.</p>
+<p><strong>Can I use a garden cabin as an office?</strong> Often yes, if it is used by your household alongside the house. Official guidance does not name office use explicitly, so if you are unsure, ask your council or apply for a Lawful Development Certificate.</p>
 <p><strong>Can I sleep in my log cabin?</strong> Permitted development does not cover a cabin used as a bedroom or as separate living accommodation, and a building with sleeping accommodation is not exempt from building regulations. Ask your council before you plan any sleeping use.</p>
 <p><strong>Do I need permission for a sauna or a garage?</strong> The Planning Portal lists sauna cabins and garages among outbuildings, so the same rules apply. Check the height limit for your roof type and the position rule.</p>
 <p><strong>Does the cabin need a foundation?</strong> Yes, every cabin needs a firm, level base. The base is arranged locally and is not part of the kit. Count its height when you check the 2.5 m limit.</p>
