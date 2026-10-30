@@ -1,0 +1,56 @@
+<p>A garden sauna is one of the most searched garden buildings — and prices online range from a few hundred to tens of thousands. Here are real prices from our current catalogue (September 2026), so you know what each type actually costs.</p>
+<p><em>All prices include VAT and are for the sauna building itself. Delivery is quoted to your address. The base, assembly, electrics and any permits are arranged locally and are not included. What comes in each kit is listed on the product page.</em></p>
+
+<h2>Quick price guide</h2>
+<table>
+<thead><tr><th>Type</th><th>Price range</th></tr></thead>
+<tbody>
+<tr><td><a href="https://ideaswood.eu/product-category/sauna/outdoor-sauna/barrels-sauna/">Barrel sauna</a></td><td>€2,707 – €7,655</td></tr>
+<tr><td><a href="https://ideaswood.eu/product-category/sauna/outdoor-sauna/sauna-pods/">Sauna pod</a></td><td>€3,896</td></tr>
+<tr><td><a href="https://ideaswood.eu/product-category/sauna/outdoor-sauna/sauna-cabins/">Sauna cabin</a></td><td>€3,690 – €17,851</td></tr>
+<tr><td><a href="https://ideaswood.eu/product-category/sauna/indoor-sauna/">Indoor sauna</a></td><td>from €1,000</td></tr>
+</tbody></table>
+
+<h2>What you get at different budgets</h2>
+<figure><a href="https://ideaswood.eu/product/sauna-barrel-17-m-o-197m/"><img src="https://ideaswood.eu/wp-content/uploads/sauna-barrel-17m-197m-01.jpg" alt="Barrel sauna 1.7 m" loading="lazy" /></a><figcaption>From €2,707 — a compact barrel sauna (1.7 m long, Ø 1.97 m)</figcaption></figure>
+<figure><a href="https://ideaswood.eu/product/sauna-s/"><img src="https://ideaswood.eu/wp-content/uploads/sauna-s-e1748331082325.png" alt="Sauna S" loading="lazy" /></a><figcaption>€3,690 — a small sauna cabin (Sauna S)</figcaption></figure>
+<figure><a href="https://ideaswood.eu/product/sauna-pod-2-4-x-1-9-m/"><img src="https://ideaswood.eu/wp-content/uploads/sauna-pod-24mx19-m.jpg" alt="Sauna pod 2.4 x 1.9 m" loading="lazy" /></a><figcaption>€3,896 — a sauna pod (2.4 × 1.9 m)</figcaption></figure>
+<figure><a href="https://ideaswood.eu/product/sauna-m/"><img src="https://ideaswood.eu/wp-content/uploads/sauna-m-1-e1748339402173.png" alt="Sauna M" loading="lazy" /></a><figcaption>€4,751 — a mid-size sauna cabin (Sauna M)</figcaption></figure>
+<figure><a href="https://ideaswood.eu/product/sauna-pulse/"><img src="https://ideaswood.eu/wp-content/uploads/Sauna-Pulse_3-Photo.jpg" alt="Sauna Pulse" loading="lazy" /></a><figcaption>€7,405 — a modern sauna cabin (Sauna Pulse)</figcaption></figure>
+<figure><a href="https://ideaswood.eu/product/sauna-barrel-5-9-m-dia-1-97-m/"><img src="https://ideaswood.eu/wp-content/uploads/camping-barrels-1-1.jpg" alt="Barrel sauna 5.9 m" loading="lazy" /></a><figcaption>€7,655 — a long barrel sauna (5.9 m, Ø 1.97 m)</figcaption></figure>
+<figure><a href="https://ideaswood.eu/product/sauna-zen/"><img src="https://ideaswood.eu/wp-content/uploads/Sauna-Zen_2-Photo.jpg" alt="Sauna Zen" loading="lazy" /></a><figcaption>€9,005 — a larger sauna cabin (Sauna Zen)</figcaption></figure>
+<figure><a href="https://ideaswood.eu/product/sauna-nova/"><img src="https://ideaswood.eu/wp-content/uploads/sauna-nova-1.jpg" alt="Sauna Nova" loading="lazy" /></a><figcaption>€17,851 — our largest sauna house (Sauna Nova)</figcaption></figure>
+
+<h2>What changes the price</h2>
+<ul>
+<li><strong>Size</strong> — how many people you want to seat, and whether you want a separate changing room.</li>
+<li><strong>Type</strong> — barrels are the most affordable per seat; cabins give more room and more design options.</li>
+<li><strong>What's in the kit</strong> — compare what each model includes before comparing prices.</li>
+<li><strong>Delivery</strong> — depends on where you are; we quote it for your address.</li>
+</ul>
+
+<h2>Seen a sauna you like somewhere else?</h2>
+<p>Send us the photo or a quick sketch. We'll draw it to your size and price it for free — <a href="https://ideaswood.eu/price-my-cabin/">price my sauna</a>. IdeasWood is the manufacturer; your request is handled with the nearest IdeasWood partner for your area.</p>
+<p>Looking at other garden buildings too? See <a href="https://ideaswood.eu/how-much-does-a-garden-cabin-cost/">real garden cabin prices</a>.</p>
+<p><strong>Do you sell garden buildings?</strong> We work with resellers across Europe — <a href="https://ideaswood.eu/smm/">become a partner</a>.</p>
+<script>
+(function(){
+  var K='iw_first_touch', ft=null;
+  try{ ft=JSON.parse(localStorage.getItem(K)||'null'); }catch(e){}
+  if(!ft){
+    var q=new URLSearchParams(location.search), ref=document.referrer||'';
+    var ext=ref && ref.indexOf(location.hostname)===-1;
+    var src=q.get('utm_source') ? (q.get('utm_source')+' / '+(q.get('utm_medium')||'')+(q.get('utm_campaign')?' / '+q.get('utm_campaign'):'')) : (ext ? new URL(ref).hostname : 'direct');
+    ft={source:src, landing:location.pathname+location.search, referrer:ref, at:new Date().toISOString()};
+    try{ localStorage.setItem(K, JSON.stringify(ft)); }catch(e){}
+  }
+  function fill(){
+    var set=function(n,v){ document.querySelectorAll('input[name="'+n+'"]').forEach(function(i){ i.value=v||''; }); };
+    set('lead-source', ft.source); set('lead-landing', ft.landing); set('lead-referrer', ft.referrer);
+  }
+  document.addEventListener('DOMContentLoaded', fill); fill();
+  document.addEventListener('wpcf7mailsent', function(e){
+    if(typeof gtag==='function'){ gtag('event','generate_lead',{form_name:'price_my_cabin', form_id:String(e.detail&&e.detail.contactFormId||''), lead_source:ft.source, first_page:ft.landing}); }
+  });
+})();
+</script>

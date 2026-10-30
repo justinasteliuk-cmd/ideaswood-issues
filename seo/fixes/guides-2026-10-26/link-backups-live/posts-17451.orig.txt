@@ -1,0 +1,73 @@
+<p>"How much does a garden cabin cost?" is the first question almost everyone asks — and most websites avoid answering it. Here are real prices from our current catalogue (September 2026), so you know what to expect before you start.</p>
+<p><em>All prices include VAT and are for the building itself. Delivery is quoted to your address. Foundations, assembly, electrics, plumbing and permits are arranged locally and are not included.</em></p>
+
+<h2>Quick price guide</h2>
+<table>
+<thead><tr><th>What you want</th><th>Typical price range</th></tr></thead>
+<tbody>
+<tr><td><a href="https://ideaswood.eu/product-category/sheds-storage-cabins/">Garden shed / storage</a></td><td>€1,200 – €3,900</td></tr>
+<tr><td><a href="https://ideaswood.eu/product-category/garden-cabins/">Garden cabin</a></td><td>from ~€1,300 for a small basic cabin (floor extra); ~€5,000 for a typical mid-size one; up to ~€15,300</td></tr>
+<tr><td><a href="https://ideaswood.eu/product-category/home-offices-studios/">Garden office / studio</a></td><td>€5,900 – €7,100</td></tr>
+<tr><td><a href="https://ideaswood.eu/product-category/bbq-grill-cabin/">BBQ grill cabin</a></td><td>€1,300 – €8,700</td></tr>
+<tr><td><a href="https://ideaswood.eu/product-category/sauna/outdoor-sauna/">Outdoor sauna</a></td><td>€2,700 – €17,900</td></tr>
+<tr><td><a href="https://ideaswood.eu/product-category/hot-tubs/">Wood-fired hot tub</a></td><td>€2,500 – €7,800</td></tr>
+<tr><td><a href="https://ideaswood.eu/product-category/summer-houses-chalets/">Summer house / chalet</a></td><td>€12,100 – €27,900</td></tr>
+<tr><td><a href="https://ideaswood.eu/product-category/a-frames/">A-frame cabin</a></td><td>€18,100 – €31,800</td></tr>
+<tr><td><a href="https://ideaswood.eu/product-category/insulated-wooden-houses/">Year-round insulated wooden house</a></td><td>€15,800 – €62,100</td></tr>
+</tbody></table>
+
+<h2>What you get at different budgets</h2>
+<figure><a href="https://ideaswood.eu/product/maximus/"><img src="https://ideaswood.eu/wp-content/uploads/L151747-maximus-scaled.jpg" alt="Maximus garden shed" loading="lazy" /></a><figcaption>Around €2,500 — a solid garden shed (Maximus, €2,542)</figcaption></figure>
+<figure><a href="https://ideaswood.eu/product/hebe-1/"><img src="https://ideaswood.eu/wp-content/uploads/WSH010-hebe-1-1-scaled.jpg" alt="Hebe 1 garden cabin" loading="lazy" /></a><figcaption>Around €5,000 — a garden cabin you can sit in (Hebe 1, €5,157)</figcaption></figure>
+<figure><a href="https://ideaswood.eu/product/sydney-3-8x3-8-m/"><img src="https://ideaswood.eu/wp-content/uploads/44mm-Sydney-38x38-7.webp" alt="Sydney garden office" loading="lazy" /></a><figcaption>Around €5,900 — a garden office (Sydney 3.8×3.8 m, €5,874)</figcaption></figure>
+<figure><a href="https://ideaswood.eu/product/grill-cabin-6-9m/"><img src="https://ideaswood.eu/wp-content/uploads/Grill-cabin-6.9_2.jpg" alt="Grill cabin 6.9 m2" loading="lazy" /></a><figcaption>Around €6,200 — a BBQ grill cabin for year-round barbecues (6.9 m², €6,155)</figcaption></figure>
+<figure><a href="https://ideaswood.eu/product/sauna-pulse/"><img src="https://ideaswood.eu/wp-content/uploads/Sauna-Pulse_3-Photo.jpg" alt="Sauna Pulse" loading="lazy" /></a><figcaption>Around €7,400 — a garden sauna cabin (Sauna Pulse, €7,405)</figcaption></figure>
+<figure><a href="https://ideaswood.eu/product/verno/"><img src="https://ideaswood.eu/wp-content/uploads/Verno-1.webp" alt="Verno insulated wooden house" loading="lazy" /></a><figcaption>Around €16,000 — a year-round insulated wooden house (Verno, €15,812)</figcaption></figure>
+<figure><a href="https://ideaswood.eu/product/44-a-frame-moose/"><img src="https://ideaswood.eu/wp-content/uploads/44mm-A-frame-Moose-1.webp" alt="A-frame Moose" loading="lazy" /></a><figcaption>Around €18,000 — an A-frame cabin (A-frame Moose, €18,091)</figcaption></figure>
+
+<!-- SEO 2026-10-16: wall-thickness price table from the live catalogue -->
+<h2>Price by wall thickness</h2>
+<p>Wall thickness is one of the biggest price drivers. Thin walls suit sheds and summer use; thicker log walls are used for larger cabins and houses. These are the lowest and highest prices in our current catalogue (October 2026) for garden cabins, sheds, summer houses and villas, grouped by log wall thickness.</p>
+<table>
+<thead><tr><th>Wall</th><th>Models</th><th>From</th><th>Up to</th></tr></thead>
+<tbody>
+<tr><td>28 mm</td><td>48</td><td><a href="https://ideaswood.eu/product/lulu-1-2-4x1-2-m/">€1,349</a> (Lulu-1 2.4×1.2)</td><td><a href="https://ideaswood.eu/product/lynx-5x4/">€5,689</a> (Lynx 5×4)</td></tr>
+<tr><td>44 mm</td><td>66</td><td><a href="https://ideaswood.eu/product/eric-3x25-no-canopy/">€2,626</a> (Eric 3×2.5 no canopy)</td><td><a href="https://ideaswood.eu/product/iberica-t3-792x1184-premium/">€25,544</a> (Iberica T3 7.92×11.84 Premium)</td></tr>
+<tr><td>58 mm</td><td>21</td><td><a href="https://ideaswood.eu/product/58-torino-45x6/">€15,148</a> (58 Torino 4.5×6)</td><td><a href="https://ideaswood.eu/product/58-sweden-75x135/">€58,426</a> (58 Sweden 7.5×13.5)</td></tr>
+<tr><td>68 mm</td><td>35</td><td><a href="https://ideaswood.eu/product/68-ottawa-6x45/">€10,535</a> (68 Ottawa 6×4.5)</td><td><a href="https://ideaswood.eu/product/porto-9-2x13-2-m/">€61,900</a> (Porto 9.2×13.2)</td></tr>
+</tbody></table>
+<p>Not sure which thickness you need? <a href="https://ideaswood.eu/contact-us/">Send us a sketch or a photo</a> and we will price it.</p>
+
+<h2>What changes the price</h2>
+<ul>
+<li><strong>Size</strong> — the biggest factor by far.</li>
+<li><strong>Seasonal or year-round</strong> — an insulated house you can live in costs several times more than a summer cabin of the same size.</li>
+<li><strong>Extras</strong> — floor, windows and doors, roof covering, terrace. On many smaller cabins the floor is an option, so compare like with like. For winter use, budget for floor and roof <a href="https://ideaswood.eu/everything-you-need-to-know-about-insulation-kits-for-sheds-cabins-modular-homes/">insulation kits</a>.</li>
+<li><strong>Delivery</strong> — depends on where you are; we quote it for your address.</li>
+</ul>
+
+<h2>Seen something you like somewhere else?</h2>
+<p>Send us the photo or a quick sketch. We'll draw it to your size and price it for free — <a href="https://ideaswood.eu/price-my-cabin/">price my cabin</a>. IdeasWood is the manufacturer; your request is handled with the nearest IdeasWood partner for your area.</p>
+<p>Thinking about a sauna? See <a href="https://ideaswood.eu/how-much-does-a-garden-sauna-cost/">real garden sauna prices</a>.</p>
+<p><strong>Do you sell garden buildings?</strong> We work with resellers across Europe — <a href="https://ideaswood.eu/smm/">become a partner</a>.</p>
+<script>
+(function(){
+  var K='iw_first_touch', ft=null;
+  try{ ft=JSON.parse(localStorage.getItem(K)||'null'); }catch(e){}
+  if(!ft){
+    var q=new URLSearchParams(location.search), ref=document.referrer||'';
+    var ext=ref && ref.indexOf(location.hostname)===-1;
+    var src=q.get('utm_source') ? (q.get('utm_source')+' / '+(q.get('utm_medium')||'')+(q.get('utm_campaign')?' / '+q.get('utm_campaign'):'')) : (ext ? new URL(ref).hostname : 'direct');
+    ft={source:src, landing:location.pathname+location.search, referrer:ref, at:new Date().toISOString()};
+    try{ localStorage.setItem(K, JSON.stringify(ft)); }catch(e){}
+  }
+  function fill(){
+    var set=function(n,v){ document.querySelectorAll('input[name="'+n+'"]').forEach(function(i){ i.value=v||''; }); };
+    set('lead-source', ft.source); set('lead-landing', ft.landing); set('lead-referrer', ft.referrer);
+  }
+  document.addEventListener('DOMContentLoaded', fill); fill();
+  document.addEventListener('wpcf7mailsent', function(e){
+    if(typeof gtag==='function'){ gtag('event','generate_lead',{form_name:'price_my_cabin', form_id:String(e.detail&&e.detail.contactFormId||''), lead_source:ft.source, first_page:ft.landing}); }
+  });
+})();
+</script>
