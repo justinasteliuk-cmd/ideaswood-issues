@@ -1,0 +1,596 @@
+[
+ {
+  "h": 2.093,
+  "raw": "2093 mm",
+  "name": "CITRONNELLE",
+  "link": "https://ideaswood.eu/product/citronnelle/",
+  "area": "6,3 m²",
+  "wall": "34 mm",
+  "line": "Smart Line"
+ },
+ {
+  "h": 2.1,
+  "raw": "2100 mm",
+  "name": "HOUBLON",
+  "link": "https://ideaswood.eu/product/houblon/",
+  "area": "2,9 m²",
+  "wall": "34 mm",
+  "line": "Smart Line"
+ },
+ {
+  "h": 2.1,
+  "raw": "2100 mm",
+  "name": "HYSOPE",
+  "link": "https://ideaswood.eu/product/hysope/",
+  "area": "3,8 m²",
+  "wall": "34 mm",
+  "line": "Smart Line"
+ },
+ {
+  "h": 2.1,
+  "raw": "2100 mm",
+  "name": "LIVECHE",
+  "link": "https://ideaswood.eu/product/liveche/",
+  "area": "4,6 m²",
+  "wall": "34 mm",
+  "line": "Smart Line"
+ },
+ {
+  "h": 2.102,
+  "raw": "2102 mm",
+  "name": "ALISSO 3",
+  "link": "https://ideaswood.eu/product/alisso-3/",
+  "area": "14,9 m²",
+  "wall": "34 mm",
+  "line": "Smart Line"
+ },
+ {
+  "h": 2.102,
+  "raw": "2102 mm",
+  "name": "ALISSO 4",
+  "link": "https://ideaswood.eu/product/alisso-4/",
+  "area": "17,5 m²",
+  "wall": "34 mm",
+  "line": "Smart Line"
+ },
+ {
+  "h": 2.102,
+  "raw": "2102 mm",
+  "name": "ALISSO 5",
+  "link": "https://ideaswood.eu/product/alisso-5/",
+  "area": "20,1 m²",
+  "wall": "34 mm",
+  "line": "Smart Line"
+ },
+ {
+  "h": 2.16,
+  "raw": "2.16",
+  "name": "Eric 3×2,5 no canopy",
+  "link": "https://ideaswood.eu/product/eric-3x25-no-canopy/",
+  "area": "6.0",
+  "wall": "44 mm",
+  "line": "other"
+ },
+ {
+  "h": 2.228,
+  "raw": "2228 mm",
+  "name": "AGRUMES",
+  "link": "https://ideaswood.eu/product/agrumes/",
+  "area": "7,3 m²",
+  "wall": "34 mm",
+  "line": "Smart Line"
+ },
+ {
+  "h": 2.295,
+  "raw": "2295 mm",
+  "name": "PIRETRO",
+  "link": "https://ideaswood.eu/product/piretro/",
+  "area": "11,3 m²",
+  "wall": "44 mm",
+  "line": "Smart Line"
+ },
+ {
+  "h": 2.3,
+  "raw": "2.3",
+  "name": "Echo 2,99×2,99",
+  "link": "https://ideaswood.eu/product/echo-299x299/",
+  "area": "7.3",
+  "wall": "44 mm",
+  "line": "other"
+ },
+ {
+  "h": 2.3,
+  "raw": "2.3",
+  "name": "Echo 2,99×4,19",
+  "link": "https://ideaswood.eu/product/echo-299x419/",
+  "area": "10.4",
+  "wall": "44 mm",
+  "line": "other"
+ },
+ {
+  "h": 2.3,
+  "raw": "2.3",
+  "name": "Echo 2,99×5,09",
+  "link": "https://ideaswood.eu/product/echo-299x509/",
+  "area": "12.9",
+  "wall": "44 mm",
+  "line": "other"
+ },
+ {
+  "h": 2.3,
+  "raw": "2.3",
+  "name": "Eric 3,3×7,36 Premium",
+  "link": "https://ideaswood.eu/product/eric-33x736-premium/",
+  "area": "9.1",
+  "wall": "44 mm",
+  "line": "other"
+ },
+ {
+  "h": 2.3,
+  "raw": "2.3",
+  "name": "Eric 3×2,5 no canopy Premium",
+  "link": "https://ideaswood.eu/product/eric-3x25-no-canopy-premium/",
+  "area": "6.0",
+  "wall": "44 mm",
+  "line": "other"
+ },
+ {
+  "h": 2.36,
+  "raw": "2.36",
+  "name": "Nuvia 3×3",
+  "link": "https://ideaswood.eu/product/nuvia-3x3/",
+  "area": "7.4",
+  "wall": "44 mm",
+  "line": "other"
+ },
+ {
+  "h": 2.36,
+  "raw": "2.36",
+  "name": "Talon 3,5×2,5",
+  "link": "https://ideaswood.eu/product/talon-35x25/",
+  "area": "7.1",
+  "wall": "44 mm",
+  "line": "other"
+ },
+ {
+  "h": 2.36,
+  "raw": "2.36",
+  "name": "Talon 4×3",
+  "link": "https://ideaswood.eu/product/talon-4x3/",
+  "area": "10.0",
+  "wall": "44 mm",
+  "line": "other"
+ },
+ {
+  "h": 2.36,
+  "raw": "2.36 m",
+  "name": "Togo 3×3 m Premium",
+  "link": "https://ideaswood.eu/product/togo-3x3-m/",
+  "area": "7.4 m²",
+  "wall": "44 mm",
+  "line": "other"
+ },
+ {
+  "h": 2.363,
+  "raw": "2363 mm",
+  "name": "ANISE 1",
+  "link": "https://ideaswood.eu/product/anise-1/",
+  "area": "7,3 m²",
+  "wall": "44 mm",
+  "line": "Smart Line"
+ },
+ {
+  "h": 2.363,
+  "raw": "2363 mm",
+  "name": "ANISE 2",
+  "link": "https://ideaswood.eu/product/anise-2/",
+  "area": "9,8 m²",
+  "wall": "44 mm",
+  "line": "Smart Line"
+ },
+ {
+  "h": 2.363,
+  "raw": "2363 mm",
+  "name": "ANISE 3",
+  "link": "https://ideaswood.eu/product/anise-3/",
+  "area": "13,5 m²",
+  "wall": "44 mm",
+  "line": "Smart Line"
+ },
+ {
+  "h": 2.363,
+  "raw": "2363 mm",
+  "name": "ANISE 4",
+  "link": "https://ideaswood.eu/product/anise-4/",
+  "area": "14,7 m²",
+  "wall": "44 mm",
+  "line": "Smart Line"
+ },
+ {
+  "h": 2.363,
+  "raw": "2363 mm",
+  "name": "BAMBU",
+  "link": "https://ideaswood.eu/product/bambu/",
+  "area": "17,4 m²",
+  "wall": "44 mm",
+  "line": "Smart Line"
+ },
+ {
+  "h": 2.363,
+  "raw": "2363 mm",
+  "name": "COLZA 4",
+  "link": "https://ideaswood.eu/product/colza-4/",
+  "area": "3,8 m²",
+  "wall": "34 mm",
+  "line": "Smart Line"
+ },
+ {
+  "h": 2.363,
+  "raw": "2363 mm",
+  "name": "COLZA 5",
+  "link": "https://ideaswood.eu/product/colza-5/",
+  "area": "4,9 m²",
+  "wall": "34 mm",
+  "line": "Smart Line"
+ },
+ {
+  "h": 2.363,
+  "raw": "2363 mm",
+  "name": "COLZA 6",
+  "link": "https://ideaswood.eu/product/colza-6/",
+  "area": "6,0 m²",
+  "wall": "34 mm",
+  "line": "Smart Line"
+ },
+ {
+  "h": 2.363,
+  "raw": "2363 mm",
+  "name": "MARJOLAINE",
+  "link": "https://ideaswood.eu/product/marjolaine/",
+  "area": "5,5 m²",
+  "wall": "34 mm",
+  "line": "Smart Line"
+ },
+ {
+  "h": 2.363,
+  "raw": "2363 mm",
+  "name": "MELISSE",
+  "link": "https://ideaswood.eu/product/melisse/",
+  "area": "6,3 m²",
+  "wall": "34 mm",
+  "line": "Smart Line"
+ },
+ {
+  "h": 2.363,
+  "raw": "2363 mm",
+  "name": "MENTHE",
+  "link": "https://ideaswood.eu/product/menthe/",
+  "area": "8,1 m²",
+  "wall": "34 mm",
+  "line": "Smart Line"
+ },
+ {
+  "h": 2.363,
+  "raw": "2363 mm",
+  "name": "MONARDE",
+  "link": "https://ideaswood.eu/product/monarde/",
+  "area": "9,4 m²",
+  "wall": "34 mm",
+  "line": "Smart Line"
+ },
+ {
+  "h": 2.363,
+  "raw": "2363 mm",
+  "name": "OLIVIER 10",
+  "link": "https://ideaswood.eu/product/olivier-10/",
+  "area": "10,1 m²",
+  "wall": "34 mm",
+  "line": "Smart Line"
+ },
+ {
+  "h": 2.363,
+  "raw": "2363 mm",
+  "name": "OLIVIER 5",
+  "link": "https://ideaswood.eu/product/olivier-5/",
+  "area": "4,6 m²",
+  "wall": "34 mm",
+  "line": "Smart Line"
+ },
+ {
+  "h": 2.363,
+  "raw": "2363 mm",
+  "name": "OLIVIER 6",
+  "link": "https://ideaswood.eu/product/olivier-6/",
+  "area": "6,0 m²",
+  "wall": "34 mm",
+  "line": "Smart Line"
+ },
+ {
+  "h": 2.363,
+  "raw": "2363 mm",
+  "name": "OLIVIER 7",
+  "link": "https://ideaswood.eu/product/olivier-7/",
+  "area": "7,3 m²",
+  "wall": "34 mm",
+  "line": "Smart Line"
+ },
+ {
+  "h": 2.363,
+  "raw": "2363 mm",
+  "name": "OLIVIER 9",
+  "link": "https://ideaswood.eu/product/olivier-9/",
+  "area": "8,7 m²",
+  "wall": "34 mm",
+  "line": "Smart Line"
+ },
+ {
+  "h": 2.363,
+  "raw": "2363 mm",
+  "name": "RALLESTA",
+  "link": "https://ideaswood.eu/product/rallesta/",
+  "area": "10,1 m²",
+  "wall": "34 mm",
+  "line": "Smart Line"
+ },
+ {
+  "h": 2.363,
+  "raw": "2363 mm",
+  "name": "SEDUM 1",
+  "link": "https://ideaswood.eu/product/sedum-1/",
+  "area": "19,2 m²",
+  "wall": "44 mm",
+  "line": "Smart Line"
+ },
+ {
+  "h": 2.363,
+  "raw": "2363 mm",
+  "name": "SEDUM 2",
+  "link": "https://ideaswood.eu/product/sedum-2/",
+  "area": "19,2 m²",
+  "wall": "44 mm",
+  "line": "Smart Line"
+ },
+ {
+  "h": 2.43,
+  "raw": "2.43",
+  "name": "68 Ottawa 6×4,5",
+  "link": "https://ideaswood.eu/product/68-ottawa-6x45/",
+  "area": "23.8",
+  "wall": "68 mm",
+  "line": "other"
+ },
+ {
+  "h": 2.43,
+  "raw": "2.43",
+  "name": "Arlo 5×3,84",
+  "link": "https://ideaswood.eu/product/arlo-5x384/",
+  "area": "12.8",
+  "wall": "44 mm",
+  "line": "other"
+ },
+ {
+  "h": 2.43,
+  "raw": "2.43 m",
+  "name": "Bergen 4.2×8 m",
+  "link": "https://ideaswood.eu/product/bergen-4-2x8-m/",
+  "area": "16.8 m²",
+  "wall": "44 mm",
+  "line": "other"
+ },
+ {
+  "h": 2.43,
+  "raw": "2.43",
+  "name": "Emberly 4,5×3,5",
+  "link": "https://ideaswood.eu/product/emberly-45x35/",
+  "area": "13.5",
+  "wall": "44 mm",
+  "line": "other"
+ },
+ {
+  "h": 2.43,
+  "raw": "2.43",
+  "name": "Hollow 5×3",
+  "link": "https://ideaswood.eu/product/hollow-5x3/",
+  "area": "12.7",
+  "wall": "44 mm",
+  "line": "other"
+ },
+ {
+  "h": 2.43,
+  "raw": "2.43",
+  "name": "Isley 4×3",
+  "link": "https://ideaswood.eu/product/isley-4x3/",
+  "area": "10.1",
+  "wall": "44 mm",
+  "line": "other"
+ },
+ {
+  "h": 2.43,
+  "raw": "2.43",
+  "name": "Isley 5×3",
+  "link": "https://ideaswood.eu/product/isley-5x3/",
+  "area": "12.8",
+  "wall": "44 mm",
+  "line": "other"
+ },
+ {
+  "h": 2.43,
+  "raw": "2.43",
+  "name": "Isley 5×4",
+  "link": "https://ideaswood.eu/product/isley-5x4/",
+  "area": "17.5",
+  "wall": "44 mm",
+  "line": "other"
+ },
+ {
+  "h": 2.43,
+  "raw": "2.43",
+  "name": "Kairo 4×3",
+  "link": "https://ideaswood.eu/product/kairo-4x3/",
+  "area": "10.1",
+  "wall": "44 mm",
+  "line": "other"
+ },
+ {
+  "h": 2.43,
+  "raw": "2.43",
+  "name": "Kairo 5,5×4",
+  "link": "https://ideaswood.eu/product/kairo-55x4/",
+  "area": "19.3",
+  "wall": "44 mm",
+  "line": "other"
+ },
+ {
+  "h": 2.43,
+  "raw": "2.43",
+  "name": "Lumina 2,99×5,99",
+  "link": "https://ideaswood.eu/product/lumina-299x599/",
+  "area": "14.2",
+  "wall": "44 mm",
+  "line": "other"
+ },
+ {
+  "h": 2.43,
+  "raw": "2430 mm",
+  "name": "PEONIA",
+  "link": "https://ideaswood.eu/product/peonia/",
+  "area": "8,5 m²",
+  "wall": "44 mm",
+  "line": "Smart Line"
+ },
+ {
+  "h": 2.43,
+  "raw": "2.43",
+  "name": "Solara 2,99×4,49",
+  "link": "https://ideaswood.eu/product/solara-299x449/",
+  "area": "10.4",
+  "wall": "44 mm",
+  "line": "other"
+ },
+ {
+  "h": 2.43,
+  "raw": "2.43",
+  "name": "Solara 2,99×5,99",
+  "link": "https://ideaswood.eu/product/solara-299x599/",
+  "area": "14.5",
+  "wall": "44 mm",
+  "line": "other"
+ },
+ {
+  "h": 2.43,
+  "raw": "2.43",
+  "name": "Solstice 3,2×6",
+  "link": "https://ideaswood.eu/product/solstice-32x6/",
+  "area": "14.2",
+  "wall": "44 mm",
+  "line": "other"
+ },
+ {
+  "h": 2.48,
+  "raw": "2.48",
+  "name": "Sydney 3,8×3,8 Premium",
+  "link": "https://ideaswood.eu/product/sydney-3-8x3-8-m/",
+  "area": "12.3",
+  "wall": "44 mm",
+  "line": "other"
+ },
+ {
+  "h": 2.497,
+  "raw": "2497 mm",
+  "name": "PRUNES 10",
+  "link": "https://ideaswood.eu/product/prunes-10/",
+  "area": "10,3 m²",
+  "wall": "34 mm",
+  "line": "Smart Line"
+ },
+ {
+  "h": 2.497,
+  "raw": "2497 mm",
+  "name": "PRUNES 7",
+  "link": "https://ideaswood.eu/product/prunes-7/",
+  "area": "7,1 m²",
+  "wall": "34 mm",
+  "line": "Smart Line"
+ },
+ {
+  "h": 2.497,
+  "raw": "2497 mm",
+  "name": "PRUNES 9",
+  "link": "https://ideaswood.eu/product/prunes-9/",
+  "area": "8,7 m²",
+  "wall": "34 mm",
+  "line": "Smart Line"
+ },
+ {
+  "h": 2.498,
+  "raw": "2498 mm",
+  "name": "ALBIZIA",
+  "link": "https://ideaswood.eu/product/albizia/",
+  "area": "12,6 m²",
+  "wall": "44 mm",
+  "line": "Smart Line"
+ },
+ {
+  "h": 2.498,
+  "raw": "2498 mm",
+  "name": "BRUGO",
+  "link": "https://ideaswood.eu/product/brugo/",
+  "area": "9,9 m²",
+  "wall": "44 mm",
+  "line": "Smart Line"
+ },
+ {
+  "h": 2.498,
+  "raw": "2498 mm",
+  "name": "MINORKA",
+  "link": "https://ideaswood.eu/product/minorka/",
+  "area": "8,7 m²",
+  "wall": "34 mm",
+  "line": "Smart Line"
+ },
+ {
+  "h": 2.498,
+  "raw": "2498 mm",
+  "name": "OPHELIA",
+  "link": "https://ideaswood.eu/product/ophelia/",
+  "area": "14,0 m²",
+  "wall": "34 mm",
+  "line": "Smart Line"
+ },
+ {
+  "h": 2.498,
+  "raw": "2498 mm",
+  "name": "PHOTINIA",
+  "link": "https://ideaswood.eu/product/photinia/",
+  "area": "17,3 m²",
+  "wall": "44 mm",
+  "line": "Smart Line"
+ },
+ {
+  "h": 2.498,
+  "raw": "2498 mm",
+  "name": "POLYMITA",
+  "link": "https://ideaswood.eu/product/polymita/",
+  "area": "17,4 m²",
+  "wall": "44 mm",
+  "line": "Smart Line"
+ },
+ {
+  "h": 2.498,
+  "raw": "2498 mm",
+  "name": "POTALIA",
+  "link": "https://ideaswood.eu/product/potalia/",
+  "area": "16,5 m²",
+  "wall": "44 mm",
+  "line": "Smart Line"
+ },
+ {
+  "h": 2.498,
+  "raw": "2498 mm",
+  "name": "ZALEYA",
+  "link": "https://ideaswood.eu/product/zaleya/",
+  "area": "10,1 m²",
+  "wall": "34 mm",
+  "line": "Smart Line"
+ }
+]
