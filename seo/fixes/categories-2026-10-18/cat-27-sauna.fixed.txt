@@ -1,6 +1,6 @@
 <!--iw-below-->
 <p>12 saunas from €1,000 for an indoor sauna to €15,892 for the Sauna XL: barrel saunas, a sauna pod and cabin saunas for the garden, plus an indoor model in 14 sizes. Pine and spruce, 44–45 mm walls on the outdoor models, delivered to the UK, Ireland and Europe.</p>
-<!--iw-below-->
+
 <h2>Choosing an outdoor sauna</h2>
 <table>
 <thead><tr><th>Type</th><th>Models</th><th>Price</th><th>Notes</th></tr></thead>
