@@ -1,0 +1,16 @@
+<!--iw-below-->
+<p>12 saunas from €1,000 for an indoor sauna to €15,892 for the Sauna XL: barrel saunas, a sauna pod and cabin saunas for the garden, plus an indoor model in 14 sizes. Pine and spruce, 44–45 mm walls on the outdoor models, delivered to the UK, Ireland and Europe.</p>
+<!--iw-below-->
+<h2>Choosing an outdoor sauna</h2>
+<table>
+<thead><tr><th>Type</th><th>Models</th><th>Price</th><th>Notes</th></tr></thead>
+<tbody>
+<tr><td>Barrel sauna</td><td>1.7 m and 5.9 m long, Ø 1.97 m</td><td>€2,707 – €7,655</td><td>The 5.9 m barrel has a changing room and seats 4–8.</td></tr>
+<tr><td>Sauna pod</td><td>2.4 x 1.9 m</td><td>€3,896</td><td>Compact, for 2–4 people.</td></tr>
+<tr><td>Cabin sauna</td><td>Pulse, Zen, Amber, Nova, S, M, L, XL</td><td>€6,391 – €15,892</td><td>Pulse, Zen, Amber and Nova seat 2–4; L and XL seat 4–8.</td></tr>
+</tbody></table>
+<p><strong>Timber.</strong> The 1.7 m barrel is also offered in thermowood. Read about <a href="https://ideaswood.eu/thermowood-cladding-for-timber-buildings/">thermowood</a>.</p>
+<p><strong>Base and safety.</strong> Place the sauna on a level, dry base, keep vents clear, and follow the heater manual for distances and the flue.</p>
+<p>See <a href="https://ideaswood.eu/how-much-does-a-garden-sauna-cost/">what a garden sauna costs</a>. Retailers and hotels: <a href="https://ideaswood.eu/wellness-saunas/">saunas for trade</a>.</p>
+<h2>Sauna questions</h2>
+<p><strong>Do I need an electrician?</strong> For an electric heater, yes. A qualified electrician should connect it.</p>
