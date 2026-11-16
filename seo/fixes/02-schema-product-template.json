@@ -6,8 +6,8 @@
   "manufacturer": { "@id": "https://ideaswood.eu/#organization" },
   "sku": "{{SKU}}",
   "image": ["{{image-1}}", "{{image-2}}"],
-  "description": "{{Unique 2-3 sentence description: wall thickness, timber (Nordic spruce), footprint, roof, doors/windows, use case, delivery to UK/EU}}",
-  "material": "Nordic spruce",
+  "description": "{{Unique 2-3 sentence description: wall thickness, timber (spruce or pine), footprint, roof, doors/windows, use case, delivery to UK/EU}}",
+  "material": "spruce and pine",
   "additionalProperty": [
     { "@type": "PropertyValue", "name": "Wall thickness", "value": "44 mm" },
     { "@type": "PropertyValue", "name": "Internal floor area", "value": "{{m2}} m²" },

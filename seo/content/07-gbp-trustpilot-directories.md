@@ -11,10 +11,10 @@
 **Founded:** [2007 or other – one answer]
 
 **Short description (150 chars):**
-Log cabins, garden rooms, saunas and wooden house kits in Nordic spruce. Made in Lithuania, delivered across Europe and the UK. Retail and trade.
+Log cabins, garden rooms, saunas and wooden house kits in spruce and pine. Made in Lithuania, delivered across Europe and the UK. Retail and trade.
 
 **Long description (~150 words):**
-IdeasWood designs and supplies log cabins, garden rooms, summer houses, garden sheds, outdoor saunas and wooden house kits built from slow-grown Nordic spruce. [Manufacturing sentence – own factory OR partner factories in Lithuania.] Every kit is precision-cut, packed with a step-by-step assembly manual and delivered by truck to homeowners, dealers and developers across Europe, the UK and Ireland. Our range runs from 28mm garden storage to 70mm+ residential log homes, with custom layouts drawn in our IdeasPlanner 3D tool. Trade customers get mixed-load trucks, private-label options and dealer pricing. [Since YEAR, X buildings delivered to X countries – only verified numbers.]
+IdeasWood designs and supplies log cabins, garden rooms, summer houses, garden sheds, outdoor saunas and wooden house kits built from spruce and pine from northern Europe. [Manufacturing sentence – own factory OR partner factories in Lithuania.] Every kit is precision-cut, packed with a step-by-step assembly manual and delivered by truck to homeowners, dealers and developers across Europe, the UK and Ireland. Our range runs from 28mm garden storage to 70mm+ residential log homes, with custom layouts drawn in our IdeasPlanner 3D tool. Trade customers get mixed-load trucks, private-label options and dealer pricing. [Since YEAR, X buildings delivered to X countries – only verified numbers.]
 
 **Categories / keywords:** log cabins, garden buildings, prefabricated wooden houses, timber houses, saunas, glamping pods, garden sheds, summer houses, garden furniture.
 

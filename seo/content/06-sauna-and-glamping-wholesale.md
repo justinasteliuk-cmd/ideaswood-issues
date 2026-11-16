@@ -6,11 +6,11 @@ Sub-pages of /log-cabin-manufacturer/. Same trade CTA block. Fill [X] with verif
 
 ## /wholesale/saunas/
 **SEO title:** Outdoor Sauna Manufacturer & Wholesale Supplier | IdeasWood
-**Meta:** Barrel saunas, sauna pods and cabin saunas for retailers, spas and hotels. Nordic spruce and thermowood, private label, mixed trucks. Made in Lithuania.
+**Meta:** Barrel saunas, sauna pods and cabin saunas for retailers, spas and hotels. spruce, pine and thermowood, private label, mixed trucks. Made in Lithuania.
 **Focus:** sauna wholesale supplier, outdoor sauna manufacturer Europe, barrel sauna manufacturer, sauna manufacturer Lithuania
 
 ### H1: Outdoor Sauna Manufacturer & Wholesale Supplier
-Barrel, pod, cube and cabin saunas for retailers, garden centres, hotels, spas and glamping sites. Built in Lithuania from Nordic spruce and thermowood, delivered across Europe and the UK.
+Barrel, pod, cube and cabin saunas for retailers, garden centres, hotels, spas and glamping sites. Built in Lithuania from spruce, pine and thermowood, delivered across Europe and the UK.
 
 **Range**
 | Model type | Sizes | Heater | Best for |
@@ -42,7 +42,7 @@ Barrel, pod, cube and cabin saunas for retailers, garden centres, hotels, spas a
 > Old indexed URLs /product-category/camping-house/camping-pods/... redirect here once this page is live (update fixes/06-redirects.csv).
 
 ### H1: Glamping Pods for Campsites and Holiday Parks
-Insulated timber pods that earn from the first season. Nordic spruce, [X]mm walls, double glazing, ready for electrics and a small bathroom. Sold singly or by the truckload.
+Insulated timber pods that earn from the first season. Spruce and pine, [X]mm walls, double glazing, ready for electrics and a small bathroom. Sold singly or by the truckload.
 
 **Sizes**
 | Pod | Size | Sleeps | Insulated |

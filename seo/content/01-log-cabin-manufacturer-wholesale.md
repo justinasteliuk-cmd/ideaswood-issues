@@ -1,6 +1,6 @@
 # Page: /log-cabin-manufacturer/
 **SEO title:** Log Cabin Manufacturer & Wholesale Supplier – Made in Lithuania | IdeasWood
-**Meta:** Trade supply of log cabins, garden rooms, sheds and saunas in Nordic spruce. Private label, mixed trucks, dealer pricing. Made in Lithuania, delivered across Europe & the UK.
+**Meta:** Trade supply of log cabins, garden rooms, sheds and saunas in spruce and pine. Private label, mixed trucks, dealer pricing. Made in Lithuania, delivered across Europe & the UK.
 **Focus keywords:** log cabin manufacturer, log cabin wholesale supplier, log cabin manufacturer Lithuania, private label log cabins
 **Schema:** Organization (from fixes/01) + FAQPage (FAQ below)
 > ⚠️ Fill every [BRACKET] with verified facts only. The manufacturer wording must match Justinas' decision (own factory vs partner factories) — both versions given where it matters.
@@ -9,12 +9,12 @@
 
 ## H1: Log Cabin Manufacturer & Wholesale Supplier from Lithuania
 
-Log cabins, garden rooms, sheds, summer houses and outdoor saunas for dealers, garden centres, builders and hospitality projects. Nordic spruce, precision-cut in Lithuania, shipped as complete kits across Europe, the UK and Ireland.
+Log cabins, garden rooms, sheds, summer houses and outdoor saunas for dealers, garden centres, builders and hospitality projects. Spruce and pine, precision-cut in Lithuania, shipped as complete kits across Europe, the UK and Ireland.
 
 **[Get trade price list]**  **[Book a call]**
 
 ### Why retailers source from IdeasWood
-- **Nordic spruce, slow-grown.** Tight growth rings, low knots, kiln-dried to [X]% moisture. Less twisting, fewer returns.
+- **Spruce and pine, slow-grown.** Tight growth rings, low knots, kiln-dried to [X]% moisture. Less twisting, fewer returns.
 - **CNC-cut profiles.** Every log is machined to the same tolerance, so kits go together first time. *(own-factory version)* / Cut on CNC lines at our partner factories in Lithuania, inspected by our team before loading. *(partner version)*
 - **One supplier, full range.** 28mm sheds to 70mm+ residential log homes, saunas, grill cabins, pergolas and garden furniture on one truck.
 - **Mixed-load trucks.** Combine models and sizes to fill a truck. Minimum order: [X].

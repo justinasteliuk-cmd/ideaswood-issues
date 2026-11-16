@@ -39,4 +39,4 @@ Order a standard size; assemble yourself; combine delivery with neighbours or a 
 ### FAQ
 **Is a log cabin cheaper than an extension?** Usually 3–5x cheaper per m² and rarely needs planning permission.
 **Does a log cabin add value to my house?** A well-built, insulated garden room is widely seen as adding value; a cheap shed is not.
-**Why are Baltic log cabins cheaper than UK-made ones?** Timber comes from nearby Nordic forests and production costs are lower; quality depends on timber grade and moisture.
+**Why are Baltic log cabins cheaper than UK-made ones?** Timber comes from nearby northern European forests and production costs are lower; quality depends on timber grade and moisture.
