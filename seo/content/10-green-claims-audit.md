@@ -20,7 +20,7 @@ Status 2026-11-16. Legal reading is a risk reading, not legal advice. No primary
 | Insulation post (6392) | "reduced carbon footprint" | Unspecified |
 | Australia landing page | Title/H1 "Eco Scandinavian Wooden Houses in Australia" | "Eco" in a title is a generic claim |
 | Product pages | An image named "eco-vs-pre" sits at the top of every product page | If a product option is called "Eco", that name is a generic claim. Check what it says. |
-Only 60 pages were not scanned by us; a full scan of all pages, posts and 464 products must be done in the shop (Astra).
+The sender says they read 60 pages. We read only the six page backups above. A full scan of all pages, posts and about 464 products must be done in the shop (Astra).
 
 ## Rewrites (home page; facts only)
 1. "With a focus on craftsmanship, sustainability, and innovation, we serve customers across Europe, the UK, the USA and Australia." becomes "With a focus on craftsmanship and innovation, we serve customers across Europe, the UK, the USA and Australia."
