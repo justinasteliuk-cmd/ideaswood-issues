@@ -27,7 +27,7 @@ The sender says they read 60 pages. We read only the six page backups above. A f
 2. "...producing durable, eco-friendly, and stylish wooden structures for residential and commercial use" becomes "...producing durable, stylish wooden structures from Nordic spruce and pine for residential and commercial use."
 3. "We are strongly committed to sustainability and ecological responsibility. Our focus on speed, environmental care, and exceptional client service ensures..." becomes "Our focus on speed and exceptional client service ensures..." (remove the two clauses).
 4. "...you'll enjoy an energy-efficient environment that reduces heating costs and enhances comfort all year long." becomes "...with double-glazed windows and precision-cut timber walls, helping keep the space warm in winter and cool in summer."
-5. "Every Ideaswood cabin is made from sustainably sourced Nordic timber, grown in managed forests ... greener planet." becomes "Our cabins are built from Nordic spruce and pine. Wood is a natural, renewable material." Add one more sentence only if the document exists: "Our timber is [FSC / PEFC] certified (licence [number])." or "Our timber comes from [country or region]."
+5. "Every Ideaswood cabin is made from sustainably sourced Nordic timber, grown in managed forests ... greener planet." becomes "Our cabins are built from spruce and pine from northern Europe, as declared by our manufacturers. Wood is a natural, renewable material." No FSC or PEFC line: Justinas confirmed on 2026-11-16 that the company holds no FSC certificate (the buyer would need one too, to keep the chain going), so no certification wording is used anywhere.
 
 ## Rewrites (other pages)
 - Koralan post: remove "Eco-friendly" in both places. Keep "Low volatile organic compound (VOC) content" only with the figure from the product's safety data sheet. Keep "non-toxic", "food-contact safe" and "complies with BPR" only if the safety data sheet or the technical data sheet says exactly that; otherwise delete. Ask a lawyer about the biocide advertising statement that the Biocidal Products Regulation requires.
@@ -45,15 +45,21 @@ Formula: feature + fact + source. For example: "Spruce logs, 44 mm thick, kiln-d
 The text suggested in the chat you pasted has some risky words of its own: "responsibly sourced", "biodegradable", "recyclable timber", "chemical-free". Do not use them without proof.
 
 ## What Justinas needs to provide (documents, not opinions)
-1. Do you hold an FSC or PEFC chain-of-custody certificate? Licence number and scope, or "none".
-2. Which country or region does your timber come from, and do you have supplier records?
+1. FSC / PEFC: answered. None held, so no certification claim is made and none is needed.
+2. Timber origin: Justinas says it is declared as coming from the northern countries, because most manufacturers buy there. Keep the supplier declarations (a letter or invoice line per manufacturer) so the sentence can be shown to be true. Without them, say only "spruce and pine".
 3. The safety data sheet and technical data sheet for Koralan UK 110 and any other treatment product you describe.
 4. Any U-value or other test report for the insulated models.
 5. What the "eco-vs-pre" image on product pages shows.
 Until these exist, the safe route is to delete the claim, not to replace it with a softer-sounding one.
 
+## Word "Nordic"
+"Nordic" is an origin claim. Our own texts (category texts, titles and meta, drafts) use "Nordic spruce" about 26 times. The origin is declared by the manufacturers as northern countries, which is not the same as the Nordic countries. Use "spruce and pine from northern Europe" (or just "spruce and pine") in the texts we wrote. Do not touch product names such as "Nordic L" (a model name). The older site text with "Nordic timber" or "Scandinavian" is Justinas's decision: keep it only if the supplier declarations say Nordic or Scandinavian countries. Claims such as "slow-grown", "tight growth rings" and "50 to 100 years" also need a source or should go.
+
+## EUDR (deforestation regulation) is a bigger business question than the wording
+Prefabricated wooden buildings appear to fall under the EU deforestation regulation, with obligations from 30 December 2026 for larger companies (30 June 2027 for micro and small ones), per secondary sources. Each manufacturer first placing wood on the EU market is the "operator" and must have a due-diligence statement; a company that buys from them is normally a "trader" with duties to keep supplier information and, depending on size, the statements' reference numbers. This needs a lawyer or a customs adviser to confirm for your case. Practical step that costs nothing: ask each manufacturer for its EUDR status and keep the answer.
+
 ## For Astra (all five IdeasWood sites)
-1. Search all pages, posts, products, categories, menus, widgets, theme builder templates, meta descriptions, image alt text and Rank Math titles for: eco, eco-friendly, ecological, environment, environmentally, green, sustainab, climate, carbon, renewable, biodegrad, recycl, natural, non-toxic, chemical-free, responsibl, FSC, PEFC. Include the 464 products.
+1. Search all pages, posts, products, categories, menus, widgets, theme builder templates, meta descriptions, image alt text and Rank Math titles for: eco, eco-friendly, ecological, environment, environmentally, green, sustainab, climate, carbon, renewable, biodegrad, recycl, natural, non-toxic, chemical-free, responsibl, FSC, PEFC, Nordic, Scandinavian, slow-grown, "50 to 100 years". Include the 464 products.
 2. List every hit with URL and exact sentence in ASTRA-STATUS-ideaswood-green.md, with a proposed fix from the tables above.
 3. Apply fixes where the replacement is in the tables above and needs no new fact. For a replacement that needs a document, apply only the deletion of the generic claim.
 4. Back up every edited body first (UpdraftPlus DB copy is enough), keep an undo, and do not change prices, products or user accounts.
