@@ -6,9 +6,9 @@
 **Name:** IdeasWood
 **Legal entity:** IDEAS for PEOPLE, UAB (code 302555740) [confirm]
 **Address:** [ONE address], Vilnius, Lithuania
-**Phone:** +370 610 05085 [confirm single number]
+**Phone:** +370 678 22055 (confirmed by Justinas 2026-11-17)
 **Email:** info@ideaswood.eu · **Web:** https://ideaswood.eu
-**Founded:** [2007 or other – one answer]
+**Founded:** 2007 (confirmed by Justinas 2026-11-17)
 
 **Short description (150 chars):**
 Log cabins, garden rooms, saunas and wooden house kits in spruce and pine. Made in Lithuania, delivered across Europe and the UK. Retail and trade.

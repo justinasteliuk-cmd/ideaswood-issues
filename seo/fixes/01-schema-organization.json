@@ -11,7 +11,7 @@
       "foundingDate": "2007",
       "description": "European manufacturer of log cabins, wooden houses, garden rooms, garden sheds and saunas made from pine and spruce from northern Europe. Factory in Lithuania, delivery across Europe, the UK and Ireland. Retail, trade and wholesale.",
       "email": "info@ideaswood.eu",
-      "telephone": "+37061005085",
+      "telephone": "+37067822055",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "STREET ADDRESS",
@@ -27,7 +27,7 @@
       ],
       "contactPoint": [{
         "@type": "ContactPoint",
-        "telephone": "+37061005085",
+        "telephone": "+37067822055",
         "email": "info@ideaswood.eu",
         "contactType": "sales",
         "availableLanguage": ["English", "Lithuanian", "Russian"]
