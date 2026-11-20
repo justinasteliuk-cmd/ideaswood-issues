@@ -3,7 +3,7 @@
 **Meta:** Trade supply of log cabins, garden rooms, sheds and saunas in spruce and pine. Private label, mixed trucks, dealer pricing. Made in Lithuania, delivered across Europe & the UK.
 **Focus keywords:** log cabin manufacturer, log cabin wholesale supplier, log cabin manufacturer Lithuania, private label log cabins
 **Schema:** Organization (from fixes/01) + FAQPage (FAQ below)
-> SUPERSEDED by 11-trade-partners-page.md. Do not use the word manufacturer: we are a supplier and exporter working with contracted factories.
+> SUPERSEDED by 11-trade-partners-page.md. Do not use the word manufacturer: we are a supplier and exporter. NEVER mention factories or producers anywhere (Justinas rule 2026-11-20).
 > ⚠️ Fill every [BRACKET] with verified facts only. The manufacturer wording must match Justinas' decision (own factory vs partner factories) — both versions given where it matters.
 
 ---
@@ -16,7 +16,7 @@ Log cabins, garden rooms, sheds, summer houses and outdoor saunas for dealers, g
 
 ### Why retailers source from IdeasWood
 - **Spruce and pine, slow-grown.** Tight growth rings, low knots, kiln-dried to [X]% moisture. Less twisting, fewer returns.
-- **CNC-cut profiles.** Every log is machined to the same tolerance, so kits go together first time. *(own-factory version)* / Cut on CNC lines at our partner factories in Lithuania, inspected by our team before loading. *(partner version)*
+- **CNC-cut profiles.** Every log is machined to the same tolerance, so kits go together first time. [SUPERSEDED, do not use: factory wording removed]
 - **One supplier, full range.** 28mm sheds to 70mm+ residential log homes, saunas, grill cabins, pergolas and garden furniture on one truck.
 - **Mixed-load trucks.** Combine models and sizes to fill a truck. Minimum order: [X].
 - **Private label.** Your brand on packaging, manuals and labels from [X] units.
@@ -47,7 +47,7 @@ Garden building retailers, garden centres, online shops, holiday parks and glamp
 **What is the minimum order?** [X] units or one mixed truck.
 **Can you make custom sizes?** Yes. Custom sizes and layouts from [X] units, drawn in our IdeasPlanner 3D tool.
 **Do you deliver to the UK after Brexit?** Yes. We handle the export declaration and EORI paperwork; you pay UK import VAT on arrival.
-**Which certificates do you have?** No FSC/PEFC (not needed; buyers keep their own chain). No CE for saunas. Timber is declared by the manufacturers as from northern countries. Say nothing more.
-**Can I visit?** Yes, [factory / showroom] visits in Vilnius by appointment.
+**Which certificates do you have?** No FSC/PEFC (not needed; buyers keep their own chain). No CE for saunas. Do not mention who declares the origin. Say nothing more.
+**Can I visit?** [Only if confirmed; address Kaštonų g. 8.]
 
 **CTA block:** Request the trade price list — name, company, country, products of interest, expected annual volume.

@@ -5,7 +5,7 @@
 
 **Name:** IdeasWood
 **Legal entity:** IDEAS for PEOPLE, UAB (code 302555740) [confirm]
-**Address:** [ONE address], Vilnius, Lithuania
+**Address (decided 2026-11-20, same as the website, headquarters and correspondence address):** Kaštonų g. 8, Didžiosios Riešės k., Vilniaus r. sav., Lithuania [Astra: copy the exact line and postcode from the website footer]. NAP (name, address, phone) must be identical everywhere.
 **Phone:** +370 678 22055 (confirmed by Justinas 2026-11-17)
 **Email:** info@ideaswood.eu · **Web:** https://ideaswood.eu
 **Founded:** 2007 (confirmed by Justinas 2026-11-17)
@@ -14,7 +14,7 @@
 Log cabins, garden rooms, saunas and wooden house kits in spruce and pine. Made in Lithuania, delivered across Europe and the UK. Retail and trade.
 
 **Long description (~150 words):**
-IdeasWood designs and supplies log cabins, garden rooms, summer houses, garden sheds, outdoor saunas and wooden house kits built from spruce and pine from northern Europe. We work with long-standing contracted factories, so you get one supplier for the whole range. Every kit is precision-cut, packed with a step-by-step assembly manual and delivered by truck to homeowners, dealers and developers across Europe, the UK and Ireland. Our range runs from 28mm garden storage to 70mm+ residential log homes, with custom layouts drawn in our IdeasPlanner 3D tool. Trade customers get mixed-load trucks, private-label options and dealer pricing. [Since YEAR, X buildings delivered to X countries – only verified numbers.]
+IdeasWood designs and supplies log cabins, garden rooms, summer houses, garden sheds, outdoor saunas and wooden house kits built from spruce and pine from northern Europe. You get one supplier for the whole range. Every kit is precision-cut, packed with a step-by-step assembly manual and delivered by truck to homeowners, dealers and developers across Europe, the UK and Ireland. Our range runs from 28mm garden storage to 70mm+ residential log homes, with custom layouts drawn in our IdeasPlanner 3D tool. Trade customers get mixed-load trucks, private-label options and dealer pricing. [Since YEAR, X buildings delivered to X countries – only verified numbers.]
 
 **Categories / keywords:** log cabins, garden buildings, prefabricated wooden houses, timber houses, saunas, glamping pods, garden sheds, summer houses, garden furniture.
 
@@ -22,11 +22,11 @@ IdeasWood designs and supplies log cabins, garden rooms, summer houses, garden s
 
 ## 1. Google Business Profile (business.google.com)
 - **Business type:** "Log cabin supplier" or "Wholesaler" (primary; avoid "Manufacturer"); secondary: "Prefabricated house companies", "Sauna store", "Shed builder".
-- **Address:** show if customers can visit (showroom/factory); otherwise service-area business with service areas: United Kingdom, Ireland, Germany, [others].
+- **Address:** hide the street address in Google Business Profile unless customers visit; set it as a service-area business with service areas: United Kingdom, Ireland, Germany, [others].
 - **Name:** exactly "IdeasWood" — no keywords in the name (Google suspends for that).
 - **Website:** https://ideaswood.eu/?utm_source=google&utm_medium=organic&utm_campaign=gbp
 - **Products:** add 10 best-sellers with photo, price from, link.
-- **Photos:** 20+ real photos – factory/warehouse, loading trucks, finished customer cabins, team. No stock images.
+- **Photos:** 20+ real photos – loading trucks, finished customer cabins, team. No stock images.
 - **Posts:** 1 per week (new model, delivery photo, guide link).
 - **Q&A:** seed 5 questions from the delivery/planning FAQ.
 - **Verification:** video verification is common – have the premises, signage and tools ready.

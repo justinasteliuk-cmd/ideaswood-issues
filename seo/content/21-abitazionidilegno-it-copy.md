@@ -161,7 +161,7 @@ L'uso ricettivo di una struttura in area campeggio o agricola segue regole local
 
 - Telefono: +370 678 22055
 - Email: info@ideaswood.eu
-- [CHECK: orari di risposta, lingua dell'assistenza, indirizzo societario da mostrare]
+- Indirizzo: Kaštonų g. 8, Didžiosios Riešės k., Vilniaus r. sav., Lituania [CHECK: orari di risposta, lingua dell'assistenza]
 
 **H2: Cosa inviare**
 Una piantina o uno schizzo, le misure, il comune dove costruire, l'uso previsto. Se hai già un layout IdeasPlanner, allegalo.
@@ -185,7 +185,7 @@ Scrivi "rivenditore" nell'oggetto. Dopo la firma dell'accordo commerciale ricevi
 Log houses, garden cabins, saunas and camping pods, all supplied as kits. Each model starts from a base design that you can adapt to your plot.
 
 **H2: Cut for your order**
-The wood is spruce and pine, and the factories declare it as coming from northern Europe. Parts are cut once your order is confirmed and are delivered with assembly instructions.
+The wood is spruce and pine, from northern Europe [CHECK: origin wording, no factory named]. Parts are cut once your order is confirmed and are delivered with assembly instructions.
 
 **H2: Draw the plan in 3D**
 In IdeasPlanner you place walls, doors and windows and look at the result in three dimensions before asking for a quote. You can also send us your measurements and we will prepare the proposal.
@@ -206,17 +206,17 @@ If you resell or install, get in touch. After a signed trade agreement you recei
 
 ### 2. About (/en/about/)
 **Title:** About Us | IdeasWood for Italy
-**Meta:** Supplier and exporter of wooden building kits since 2007, working with contracted factories. Spruce and pine, 3D layouts, quotes on request.
+**Meta:** Supplier and exporter of wooden building kits since 2007. Spruce and pine, 3D layouts, quotes on request.
 
 **H1:** About us
 
-IdeasWood has been supplying and exporting timber building kits since 2007. We act as supplier and exporter, and the kits are made by factories under contract to us; our job is to get the right kit, with the right drawing, to the right address in Italy.
+IdeasWood has been supplying and exporting timber building kits since 2007. We act as supplier and exporter; our job is to get the right kit, with the right drawing, to the right address in Italy.
 
 **H2: How we work**
 You begin with a model or an idea. We draw the layout in IdeasPlanner, review it with you, then request a cut-to-order kit. Assembly instructions come with it.
 
 **H2: The timber**
-Spruce and pine, declared by the factories as from northern Europe. [CHECK: exact country needs a factory document]
+Spruce and pine from northern Europe. [CHECK: wording without naming any producer]
 
 ### 3. Wooden houses (/en/wooden-houses/)
 **Title:** Wooden House Kits, Spruce and Pine | IdeasWood Italy
@@ -259,5 +259,5 @@ Using a pod for guests follows local and regional rules, so ask your comune firs
 
 **H1:** Contact
 Tell us what you want to build, the plot size and the delivery town. We reply with a proposal and the transport cost for your address.
-Email info@ideaswood.eu · Phone +370 678 22055 · [CHECK: opening hours, support language, company address]
+Email info@ideaswood.eu · Phone +370 678 22055 · Address: Kaštonų g. 8, Didžiosios Riešės k., Vilniaus r. sav., Lituania [CHECK: opening hours, support language; copy the exact address line from the .eu footer]
 Resellers: write "reseller" in the subject line; wholesale prices follow a signed trade agreement, from one product.

@@ -8,7 +8,7 @@ Pages: / , /wooden-house-kits/ , /granny-flats/ , /garden-rooms/ , /saunas/ , /c
 
 **H1:** Wooden House Kits for Australian Backyards and Blocks
 
-**Intro:** The team behind Timberescapes has been supplying timber building kits since 2007, including kits for cabins, granny flats, garden rooms and saunas. The timber is spruce and pine, which the factories declare as coming from northern Europe. Choose a design and we cut the kit to your order, or sketch your own floor plan in our 3D IdeasPlanner. Insulation and add-ons are quoted on their own lines, and freight to your Australian address is worked out for every order. Council rules differ across the states, so talk to your council or a certifier before you commit. Trade buyers get wholesale pricing once a trade agreement is signed, even for a single product.
+**Intro:** The team behind Timberescapes has been supplying timber building kits since 2007, including kits for cabins, granny flats, garden rooms and saunas. The timber is spruce and pine, from northern Europe. Choose a design and we cut the kit to your order, or sketch your own floor plan in our 3D IdeasPlanner. Insulation and add-ons are quoted on their own lines, and freight to your Australian address is worked out for every order. Council rules differ across the states, so talk to your council or a certifier before you commit. Trade buyers get wholesale pricing once a trade agreement is signed, even for a single product.
 
 **H2: What we supply**
 Wooden house kits, granny flats, garden rooms and saunas. Every category begins with a base design that can be adjusted to suit your block.
@@ -29,7 +29,7 @@ Whether you need a development application, a complying development route or no 
 Freight is calculated for each order, based on where it is going and how big the load is, and shown as a separate line. [CHECK: ports, lead times, unloading expectations; no figures until confirmed]
 
 **H2: Resellers and builders**
-We work with contracted factories and handle the export ourselves. Once a trade agreement is signed, resellers and builders receive wholesale prices from one product.
+We handle the export ourselves. Once a trade agreement is signed, resellers and builders receive wholesale prices from one product.
 
 **CTA:** Get a quote: call +370 678 22055 or email info@ideaswood.eu
 
@@ -37,17 +37,17 @@ We work with contracted factories and handle the export ourselves. Once a trade 
 
 ### 2. About
 **Title:** About Timberescapes | Timber Building Kits
-**Meta:** Spruce and pine timber building kits supplied since 2007 through contracted factories. 3D floor plans and quotes on request.
+**Meta:** Spruce and pine timber building kits supplied since 2007. 3D floor plans and quotes on request.
 
 **H1:** About Timberescapes
 
-We supply timber building kits and have done so since 2007. The business behind this site sources from contracted factories as a supplier and exporter, so our focus is the quote, the drawing and the shipment rather than the sawmill floor.
+We supply timber building kits and have done so since 2007. We are a supplier and exporter, so our focus is the quote, the drawing and the shipment.
 
 **H2: How a job runs**
 You send an idea or choose a design. We draw it up in IdeasPlanner, adjust it with you, then have the kit cut to order. It arrives with assembly instructions.
 
 **H2: Timber**
-Spruce and pine. The factories declare northern Europe as the source. [CHECK: exact country only with a factory document]
+Spruce and pine. Spruce and pine from northern Europe. [CHECK: wording without naming any producer]
 
 **H2: Who we deal with**
 Homeowners adding space at the back of the property, and trade customers who resell or build. [CHECK: Australian contact person or photo, if any]

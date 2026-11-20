@@ -2,20 +2,20 @@
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": ["Organization", "Manufacturer"],
+      "@type": "Organization",
       "@id": "https://ideaswood.eu/#organization",
       "name": "IdeasWood",
       "alternateName": ["Ideaswood", "Log Cabins Factory"],
       "url": "https://ideaswood.eu/",
       "logo": "https://ideaswood.eu/wp-content/uploads/LOGO-FILE.png",
       "foundingDate": "2007",
-      "description": "European manufacturer of log cabins, wooden houses, garden rooms, garden sheds and saunas made from pine and spruce from northern Europe. Factory in Lithuania, delivery across Europe, the UK and Ireland. Retail, trade and wholesale.",
+      "description": "Supplier and exporter of log cabins, wooden houses, garden rooms, garden sheds and saunas in pine and spruce. Based in Lithuania, delivery across Europe, the UK and Ireland. Retail, trade and wholesale.",
       "email": "info@ideaswood.eu",
       "telephone": "+37067822055",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "STREET ADDRESS",
-        "addressLocality": "Vilnius",
+        "streetAddress": "Kaštonų g. 8, Didžiosios Riešės k.",
+        "addressLocality": "Didžiosios Riešės, Vilniaus r. sav.",
         "postalCode": "POSTCODE",
         "addressCountry": "LT"
       },

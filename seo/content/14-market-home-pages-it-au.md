@@ -4,7 +4,7 @@ Problem (reported by Justinas 2026-11-20): abitazionidilegno.it home text talks 
 ## Rules for every market site (.it, .com.au, logcabinsfactory.com, .com, wiseideas.eu)
 1. Each page names only ITS market. No other country in body text (footer link "IdeasWood worldwide" is the only exception).
 2. Zero shared paragraphs between domains. Same facts, different sentences, different examples (climate, planning, delivery, currency, spelling: en-AU / en-GB / it-IT).
-3. Only verified facts: founded 2007; spruce and pine, timber declared by manufacturers as from northern Europe; kits with custom layouts drawn in IdeasPlanner 3D; insulation and options priced separately; transport calculated individually; wholesale prices for B2B partners after a trade agreement, even one product.
+3. Only verified facts: founded 2007; spruce and pine from northern Europe (never say who declares it); kits with custom layouts drawn in IdeasPlanner 3D; insulation and options priced separately; transport calculated individually; wholesale prices for B2B partners after a trade agreement, even one product.
 4. Banned: "leading global supplier", "thousands of people trust", "heritage", "sustainable/eco/energy-efficient/carbon" (green-claims audit, content/10), "manufacturer", "cedar" unless sold, CE for saunas, "built for the Italian landscape" style filler.
 5. Check: no two domains share an 8-word sequence (Astra runs the same 8-gram test used for products, products-2026-10-21/PLAN.md).
 
