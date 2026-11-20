@@ -14,14 +14,14 @@
 Log cabins, garden rooms, saunas and wooden house kits in spruce and pine. Made in Lithuania, delivered across Europe and the UK. Retail and trade.
 
 **Long description (~150 words):**
-IdeasWood designs and supplies log cabins, garden rooms, summer houses, garden sheds, outdoor saunas and wooden house kits built from spruce and pine from northern Europe. [Manufacturing sentence – own factory OR partner factories in Lithuania.] Every kit is precision-cut, packed with a step-by-step assembly manual and delivered by truck to homeowners, dealers and developers across Europe, the UK and Ireland. Our range runs from 28mm garden storage to 70mm+ residential log homes, with custom layouts drawn in our IdeasPlanner 3D tool. Trade customers get mixed-load trucks, private-label options and dealer pricing. [Since YEAR, X buildings delivered to X countries – only verified numbers.]
+IdeasWood designs and supplies log cabins, garden rooms, summer houses, garden sheds, outdoor saunas and wooden house kits built from spruce and pine from northern Europe. We work with long-standing contracted factories, so you get one supplier for the whole range. Every kit is precision-cut, packed with a step-by-step assembly manual and delivered by truck to homeowners, dealers and developers across Europe, the UK and Ireland. Our range runs from 28mm garden storage to 70mm+ residential log homes, with custom layouts drawn in our IdeasPlanner 3D tool. Trade customers get mixed-load trucks, private-label options and dealer pricing. [Since YEAR, X buildings delivered to X countries – only verified numbers.]
 
 **Categories / keywords:** log cabins, garden buildings, prefabricated wooden houses, timber houses, saunas, glamping pods, garden sheds, summer houses, garden furniture.
 
 ---
 
 ## 1. Google Business Profile (business.google.com)
-- **Business type:** "Log cabin manufacturer" if available, else "Manufacturer" (primary); secondary: "Prefabricated house companies", "Sauna store", "Shed builder".
+- **Business type:** "Log cabin supplier" or "Wholesaler" (primary; avoid "Manufacturer"); secondary: "Prefabricated house companies", "Sauna store", "Shed builder".
 - **Address:** show if customers can visit (showroom/factory); otherwise service-area business with service areas: United Kingdom, Ireland, Germany, [others].
 - **Name:** exactly "IdeasWood" — no keywords in the name (Google suspends for that).
 - **Website:** https://ideaswood.eu/?utm_source=google&utm_medium=organic&utm_campaign=gbp
@@ -63,4 +63,4 @@ Use the fact sheet above for every one. Track: date submitted, URL, status, link
 
 **Outreach email for list posts (Spassio, Glampitect, Gardenforum):**
 > Subject: Lithuanian log cabin maker for your [list/guide]
-> Hi [Name], I read your [article title]. We're IdeasWood, a Lithuanian [manufacturer/supplier] of log cabins, garden rooms and saunas, delivering to the UK and Europe. Could we be considered for the list? Fact sheet, photos and a short quote are below – happy to answer any questions. [Fact sheet] — [Name, role, phone]
+> Hi [Name], I read your [article title]. We're IdeasWood, a Lithuanian supplier and exporter of log cabins, garden rooms and saunas, delivering to the UK and Europe. Could we be considered for the list? Fact sheet, photos and a short quote are below – happy to answer any questions. [Fact sheet] — [Name, role, phone]

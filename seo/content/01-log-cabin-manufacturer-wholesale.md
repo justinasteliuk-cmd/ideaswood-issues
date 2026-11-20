@@ -3,6 +3,7 @@
 **Meta:** Trade supply of log cabins, garden rooms, sheds and saunas in spruce and pine. Private label, mixed trucks, dealer pricing. Made in Lithuania, delivered across Europe & the UK.
 **Focus keywords:** log cabin manufacturer, log cabin wholesale supplier, log cabin manufacturer Lithuania, private label log cabins
 **Schema:** Organization (from fixes/01) + FAQPage (FAQ below)
+> SUPERSEDED by 11-trade-partners-page.md. Do not use the word manufacturer: we are a supplier and exporter working with contracted factories.
 > ⚠️ Fill every [BRACKET] with verified facts only. The manufacturer wording must match Justinas' decision (own factory vs partner factories) — both versions given where it matters.
 
 ---
@@ -46,7 +47,7 @@ Garden building retailers, garden centres, online shops, holiday parks and glamp
 **What is the minimum order?** [X] units or one mixed truck.
 **Can you make custom sizes?** Yes. Custom sizes and layouts from [X] units, drawn in our IdeasPlanner 3D tool.
 **Do you deliver to the UK after Brexit?** Yes. We handle the export declaration and EORI paperwork; you pay UK import VAT on arrival.
-**Which certificates do you have?** [FSC/PEFC chain of custody, CE for saunas – only list what is real.]
+**Which certificates do you have?** No FSC/PEFC (not needed; buyers keep their own chain). No CE for saunas. Timber is declared by the manufacturers as from northern countries. Say nothing more.
 **Can I visit?** Yes, [factory / showroom] visits in Vilnius by appointment.
 
 **CTA block:** Request the trade price list — name, company, country, products of interest, expected annual volume.
