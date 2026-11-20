@@ -38,3 +38,4 @@ Waiting: Google recrawl (new titles not shown yet), Saqib items (Blog module, ga
 - 2026-11-20 DECISION (Justinas): capture 'manufacturer' searchers (B2B). Trade page /trade-partners/ title+H1 use the phrase as the visitor's question; no factory described or named; brand name 'Log Cabins Factory' stays.
 - 2026-11-20 Cloud SEO session: AI search plan (research/ai-search-geo, ai-visibility-test-prompts.csv, content/23 company-facts, fixes/03c-robots-ai-bots). Decision: brand name Log Cabins Factory stays, may stay in schema.
 - 2026-11-20 Cloud SEO session: Windsor.ai (Search Console, all 5 sites) and OpenSEO connected; real 28-day GSC data in research/gsc-real-2026-11-20.md. Saunas are the demand cluster. OpenSEO project IdeasWood created (500 credits).
+- 2026-11-20 Cloud SEO session: free own crawl of 473 sitemap URLs (research/site-crawl-2026-11-20.md); UK autosuggest list tracking/autosuggest-uk-2026-11-20.csv (985 phrases). PageSpeed API quota exhausted today.
