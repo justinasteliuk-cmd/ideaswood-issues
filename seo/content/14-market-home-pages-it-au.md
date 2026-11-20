@@ -8,8 +8,8 @@ Problem (reported by Justinas 2026-11-20): abitazionidilegno.it home text talks 
 4. Banned: "leading global supplier", "thousands of people trust", "heritage", "sustainable/eco/energy-efficient/carbon" (green-claims audit, content/10), "manufacturer", "cedar" unless sold, CE for saunas, "built for the Italian landscape" style filler.
 5. Check: no two domains share an 8-word sequence (Astra runs the same 8-gram test used for products, products-2026-10-21/PLAN.md).
 
-## abitazionidilegno.it (it-IT, DECIDED 2026-11-20: Italian only)
-All pages, titles, meta, schema inLanguage and hreflang are it-IT. The English draft below is reference only, do not publish it.
+## abitazionidilegno.it (it-IT primary, English switchable) – DECIDED 2026-11-20
+Default language is Italian: the Italian page lives at the root URL (/), is the x-default, and all titles, meta, schema inLanguage are it-IT. A visible language switcher (IT / EN) lets visitors open the English version at /en/ (use the existing multilingual plugin if one is installed, else WPML/Polylang-free option agreed with Astra; do not add a second heavy plugin). English pages use hreflang en and point back to Italian; never auto-redirect by browser language. The English draft below is the text for /en/, still IT-market only (no UK/AU mentions).
 
 **H1 (IT):** Case in legno in kit per l'Italia
 **Intro (IT):** Dal 2007 forniamo ed esportiamo case in legno, casette da giardino, saune e strutture per esterni in abete e pino del nord Europa. Ogni kit è tagliato su misura, arriva con istruzioni di montaggio e può essere personalizzato nel layout con il nostro configuratore 3D IdeasPlanner. L'isolamento e le altre opzioni si quotano a parte e il trasporto verso l'Italia viene calcolato caso per caso. Prima di ordinare, verifica con il tuo comune i permessi necessari: possiamo fornire disegni e dettagli tecnici per la pratica. Per i rivenditori: prezzi all'ingrosso dopo la firma di un accordo commerciale, anche per un solo prodotto.

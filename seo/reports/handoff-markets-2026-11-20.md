@@ -13,3 +13,4 @@ Open handoffs still unanswered: gsc-measure, green(+update), trade-delivery, gla
    - Speed target per site: mobile LCP <= 2.5 s, CLS <= 0.1, INP <= 200 ms. Measure before/after with PageSpeed/CrUX, save numbers in Drive. Lazy-load below-fold images, WebP, preload the hero, remove render-blocking and unused scripts/fonts (Divi: enable static CSS, critical CSS, disable unused modules), fix GTM tags.
    - Report per site: versions before/after, plugins removed/added, speed before/after.
 Decisions 2026-11-20: IT site is Italian only (it-IT). 'Granny flat' is the AU name for a category named differently elsewhere: keep on AU, map to the matching category.
+Update: IT site keeps Italian as main language (root, x-default) but needs a visible IT/EN language switcher; English under /en/ with hreflang, no auto-redirect, no extra heavy plugin.
