@@ -1,17 +1,20 @@
 # Page: /trade-partners/  (replaces draft 01; written from facts Justinas gave on 2026-11-17)
 
 Facts used, and only these: founded 2007; wholesale prices go to a B2B partner (a reseller operating in another country) after a trade agreement is signed; a partner can order even one product (no minimum order quantity); transport is calculated individually; insulation and other options are priced separately. Not used because not confirmed: own factory vs partner factories, private label, payment terms, lead times, certificates (CE, FSC), brand of heaters.
-Do not call the company a "manufacturer" on this page. Say "supplier and exporter".
+Decision 2026-11-20 (Justinas): we MUST capture people searching for a manufacturer; how IdeasWood is presented in the sales conversation is his matter (visitors are invited to the factory and shown it). On the page: use the searched words as the visitor's question, never as a claim about IdeasWood and never name or describe any factory. Company stays "supplier and exporter" in our own statements.
 
-**SEO title:** Trade Partner Programme: Wholesale Log Cabins | IdeasWood
-**Meta:** Become an IdeasWood trade partner. Resellers outside Lithuania get wholesale prices after signing a trade agreement, with no minimum order. Cabins, saunas and sheds.
-**Focus keyword:** log cabin wholesale supplier
+**SEO title:** Log Cabin Manufacturer Sourcing, Lithuania | IdeasWood
+**Meta:** Looking for a log cabin manufacturer in Lithuania? IdeasWood supplies and exports to resellers abroad. Become a trade partner. Resellers outside Lithuania get wholesale prices after signing a trade agreement, with no minimum order. Cabins, saunas and sheds.
+**Focus keywords:** log cabin manufacturer Lithuania, log cabin wholesale supplier, wooden house manufacturer Lithuania, sauna manufacturer Lithuania, camping pods manufacturer Lithuania, private label log cabins (use each once or twice, naturally, in H2s and FAQ questions)
 **Schema:** Organization (existing) plus FAQPage markup is optional. Do not add review or rating markup.
 
-## H1: Trade Partner Programme: Wholesale Log Cabins and Garden Buildings
+## H1: Looking for a Log Cabin Manufacturer in Lithuania? Become an IdeasWood Trade Partner
 IdeasWood has supplied log cabins, garden buildings and saunas since 2007. If you sell garden buildings in your own country, you can become a trade partner and buy at wholesale prices.
 
 **[Button: Apply to become a partner → partner registration page]**
+
+### Searching for a log cabin, wooden house, sauna or camping pod manufacturer?
+If you are looking for a manufacturer in Lithuania to buy log cabins, wooden houses, saunas or camping pods from, IdeasWood is your single point of contact: we supply and export, you get wholesale prices after a signed trade agreement, from one product. Ask us for a call and a visit. [Justinas handles the visit conversation; no factory details on the page.]
 
 ## How it works
 1. **Apply.** Register as a partner. We check your company details.
