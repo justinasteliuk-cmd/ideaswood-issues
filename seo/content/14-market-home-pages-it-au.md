@@ -1,4 +1,4 @@
-# Market pages: IT and AU (and rules for UK/.com) – 2026-11-20
+# Market pages: IT and AU (SUPERSEDED by 21 and 22 for full copy; keep only the rules below) (and rules for UK/.com) – 2026-11-20
 Problem (reported by Justinas 2026-11-20): abitazionidilegno.it home text talks about "the UK and Australia" and is built from the same template as the other sites; AU text is near-identical. Google treats near-identical text across domains as duplicates and the wrong-market lines are a logic error that hurts trust. The cloud session cannot open these domains (network blocked), so Astra must apply and scan.
 
 ## Rules for every market site (.it, .com.au, logcabinsfactory.com, .com, wiseideas.eu)
@@ -20,9 +20,9 @@ Default language is Italian: the Italian page lives at the root URL (/), is the 
 **Intro (EN):** Since 2007 we have supplied and exported log houses, garden cabins and saunas in spruce and pine from northern Europe. Every kit is cut to order, comes with assembly instructions, and the layout can be drawn with our 3D IdeasPlanner. Insulation and other options are priced separately and transport to Italy is calculated per order. Check the permit route with your local comune before you order; we can supply drawings and technical details for the application. Resellers: wholesale prices after a signed trade agreement, from a single product.
 
 ## ideaswood.com.au (en-AU)
-**H1:** Scandinavian-Style Wooden House Kits for Australia
+**H1:** Wooden House Kits for Australia
 **Intro:** IdeasWood has supplied timber buildings since 2007: log cabins, granny-flat-style studios, garden rooms and saunas in spruce and pine from northern Europe. Pick a standard design or have the layout drawn in our 3D IdeasPlanner, then we quote the kit with delivery to your Australian address. Insulation and other options are quoted separately; freight is calculated for each order. Approvals vary by state and council, so confirm requirements with your council or certifier first; we provide drawings for your application. Stockists and builders can ask for wholesale terms, starting from one product.
-**Title:** Scandinavian-Style Wooden House Kits – Delivered to Australia | IdeasWood
+**Title:** Wooden House Kits – Delivered to Australia | IdeasWood
 **Meta:** Spruce and pine wooden house kits, cabins and saunas shipped to Australia. Custom 3D layouts, freight quoted per order. Trade terms for resellers.
 Note (Justinas 2026-11-20): "granny flat" is the Australian name for a category that is called something else on the EU site (small second dwelling / studio). Keep the term on the AU site; Astra maps it to the matching category and uses it in AU text only.
 

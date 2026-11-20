@@ -33,3 +33,4 @@ Waiting: Google recrawl (new titles not shown yet), Saqib items (Blog module, ga
 - 2026-11-20 Cloud SEO session: real GSC facts from mailbox added to report (20 clicks/28d, avg pos 68.3 baseline); no GSC connector in cloud session.
 - 2026-11-20 Cloud SEO session: Goal score added to report (100% = page 1 for supplier/product keywords). Parts: technical 20 pts (58%), money pages 25 (46%), trust 10 (17%), authority 15 (5%), Google visibility 30 (2%) = 26%. Recalculate at each check; update report section "Goal".
 - 2026-11-20 Cloud SEO session: draft content/15 insulated garden room / garden office page (P1 keywords).
+- 2026-11-20 Cloud SEO session: drafts 13,15-22 reviewed (research/review-2026-11-20.md); competitor + link plan research/competitors-and-links-2026-11-20.md; 'Scandinavian-Style' removed from AU title.

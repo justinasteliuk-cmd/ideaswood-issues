@@ -1,5 +1,5 @@
 # timberescapes (AU) – full market copy, en-AU – 2026-11-20
-Status: DRAFT for Astra to apply. Australia market only, en-AU spelling. No prices. Items marked [CHECK] need real data before publishing. Domain/brand to confirm: [CHECK: Timberescapes domain; content/14 mentions ideaswood.com.au]
+Status: draft; Astra applies it after review. Australia market only, en-AU spelling. No prices. Anything tagged [CHECK] must be filled with real data first. Domain/brand to confirm: [CHECK: Timberescapes domain; content/14 mentions ideaswood.com.au]
 Pages: / , /wooden-house-kits/ , /granny-flats/ , /garden-rooms/ , /saunas/ , /contact/ [CHECK slugs]
 
 ### 1. Home (/)
@@ -8,7 +8,7 @@ Pages: / , /wooden-house-kits/ , /granny-flats/ , /garden-rooms/ , /saunas/ , /c
 
 **H1:** Wooden House Kits for Australian Backyards and Blocks
 
-**Intro:** Timberescapes has worked with timber buildings since 2007, supplying kits for cabins, granny flats, garden rooms and saunas. The timber is spruce and pine, which the factories declare as coming from northern Europe. Choose a design and we cut the kit to your order, or sketch your own floor plan in our 3D IdeasPlanner. Insulation and add-ons are quoted on their own lines, and freight to your Australian address is worked out for every order. Council rules differ across the states, so talk to your council or a certifier before you commit. Trade buyers can ask about wholesale pricing, even for a single product.
+**Intro:** The team behind Timberescapes has been supplying timber building kits since 2007, including kits for cabins, granny flats, garden rooms and saunas. The timber is spruce and pine, which the factories declare as coming from northern Europe. Choose a design and we cut the kit to your order, or sketch your own floor plan in our 3D IdeasPlanner. Insulation and add-ons are quoted on their own lines, and freight to your Australian address is worked out for every order. Council rules differ across the states, so talk to your council or a certifier before you commit. Trade buyers get wholesale pricing once a trade agreement is signed, even for a single product.
 
 **H2: What we supply**
 Wooden house kits, granny flats, garden rooms and saunas. Every category begins with a base design that can be adjusted to suit your block.
@@ -29,9 +29,9 @@ Whether you need a development application, a complying development route or no 
 Freight is calculated for each order, based on where it is going and how big the load is, and shown as a separate line. [CHECK: ports, lead times, unloading expectations; no figures until confirmed]
 
 **H2: Resellers and builders**
-Our factories are under contract and we handle the export. Once a trade agreement is signed, resellers and builders receive wholesale prices from one product.
+We work with contracted factories and handle the export ourselves. Once a trade agreement is signed, resellers and builders receive wholesale prices from one product.
 
-**CTA:** Ask for a quote – info@ideaswood.eu – +370 678 22055
+**CTA:** Get a quote: call +370 678 22055 or email info@ideaswood.eu
 
 ---
 
@@ -69,7 +69,7 @@ Homeowners adding space at the back of the property, and trade customers who res
 Not part of the base kit. They are added to the quote as separate lines.
 
 **H2: Before you order**
-Check your state and council requirements with your council or certifier. Bring us the drawings you need and we will work from there.
+Check your state and council requirements with your council or certifier. Tell us which drawings they ask for and we will see what we can supply. [CHECK: exact documents available]
 
 **H2: Freight**
 Worked out per order for your delivery address.
@@ -122,7 +122,7 @@ Choose the openings you want; upgrades appear as separate items in the quote.
 Small buildings can still need approval or must meet setback rules in some places. Ask your council or certifier before you buy.
 
 **H2: Camping pods**
-[CHECK: only include if pods are sold in AU. Facts available: 2.4 x 3.0/3.5/4.0 m outside, 5.1/5.1/7.4 m2 inside, 46 mm walls, 28 mm floor, pine or thermowood, double glazed.]
+[CHECK: only include if pods are sold in AU. Facts available (content/13): widths of 2.4 m with lengths of 3.0, 3.5 or 4.0 m; inside areas 5.1, 5.1 and 7.4 m2; walls 46 mm, floor 28 mm; pine or thermowood; double glazed.]
 
 **CTA:** Request a garden room quote
 
@@ -155,9 +155,9 @@ Power supply, flue and clearances should be handled by a licensed tradesperson a
 
 **H1:** Contact
 
-**Intro:** Tell us what you have in mind, the size of your block and the suburb or town for delivery. We reply with a proposal and a freight line for your address.
+**Intro:** Tell us what you have in mind, the size of your block and the suburb or town for delivery. We reply with a proposal and a freight line for your delivery address.
 
-- Phone: +370 678 22055
+- Phone: +370 678 22055 (international call)
 - Email: info@ideaswood.eu
 - [CHECK: business hours, time-zone note for Australian callers, company details to show]
 
