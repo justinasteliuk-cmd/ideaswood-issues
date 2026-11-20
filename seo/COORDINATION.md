@@ -30,3 +30,4 @@ Waiting: Google recrawl (new titles not shown yet), Saqib items (Blog module, ga
 - 2026-11-20 Cloud SEO session: glamping page draft (content/13), manufacturer/CE wording rules handed to Astra.
 - 2026-11-20 Cloud SEO session: IT/AU market copy kit (content/14) and scan task handed to Astra.
 - 2026-11-20 Cloud SEO session: keyword research v2 and report 'Keywords' section; GSC export requested from Astra.
+- 2026-11-20 Cloud SEO session: real GSC facts from mailbox added to report (20 clicks/28d, avg pos 68.3 baseline); no GSC connector in cloud session.
