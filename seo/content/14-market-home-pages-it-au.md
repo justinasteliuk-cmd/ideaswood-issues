@@ -8,8 +8,8 @@ Problem (reported by Justinas 2026-11-20): abitazionidilegno.it home text talks 
 4. Banned: "leading global supplier", "thousands of people trust", "heritage", "sustainable/eco/energy-efficient/carbon" (green-claims audit, content/10), "manufacturer", "cedar" unless sold, CE for saunas, "built for the Italian landscape" style filler.
 5. Check: no two domains share an 8-word sequence (Astra runs the same 8-gram test used for products, products-2026-10-21/PLAN.md).
 
-## abitazionidilegno.it (en-IT / it-IT)
-Recommended: Italian text as primary (it-IT), English only if the page is meant for English readers. Draft in both.
+## abitazionidilegno.it (it-IT, DECIDED 2026-11-20: Italian only)
+All pages, titles, meta, schema inLanguage and hreflang are it-IT. The English draft below is reference only, do not publish it.
 
 **H1 (IT):** Case in legno in kit per l'Italia
 **Intro (IT):** Dal 2007 forniamo ed esportiamo case in legno, casette da giardino, saune e strutture per esterni in abete e pino del nord Europa. Ogni kit è tagliato su misura, arriva con istruzioni di montaggio e può essere personalizzato nel layout con il nostro configuratore 3D IdeasPlanner. L'isolamento e le altre opzioni si quotano a parte e il trasporto verso l'Italia viene calcolato caso per caso. Prima di ordinare, verifica con il tuo comune i permessi necessari: possiamo fornire disegni e dettagli tecnici per la pratica. Per i rivenditori: prezzi all'ingrosso dopo la firma di un accordo commerciale, anche per un solo prodotto.
@@ -24,7 +24,7 @@ Recommended: Italian text as primary (it-IT), English only if the page is meant 
 **Intro:** IdeasWood has supplied timber buildings since 2007: log cabins, granny-flat-style studios, garden rooms and saunas in spruce and pine from northern Europe. Pick a standard design or have the layout drawn in our 3D IdeasPlanner, then we quote the kit with delivery to your Australian address. Insulation and other options are quoted separately; freight is calculated for each order. Approvals vary by state and council, so confirm requirements with your council or certifier first; we provide drawings for your application. Stockists and builders can ask for wholesale terms, starting from one product.
 **Title:** Scandinavian-Style Wooden House Kits – Delivered to Australia | IdeasWood
 **Meta:** Spruce and pine wooden house kits, cabins and saunas shipped to Australia. Custom 3D layouts, freight quoted per order. Trade terms for resellers.
-Note: "granny-flat-style" only if those products really exist on the AU site; Astra to confirm or drop.
+Note (Justinas 2026-11-20): "granny flat" is the Australian name for a category that is called something else on the EU site (small second dwelling / studio). Keep the term on the AU site; Astra maps it to the matching category and uses it in AU text only.
 
 ## UK / logcabinsfactory.com / .com
 Keep UK wording (planning permission, 2.5 m boundary rule etc. from content/04 and 12) on the UK-facing pages only. .com (USA): US English, "building permit", no UK references. logcabinsfactory.com: fix the visible Divi placeholder ("Your Title Goes Here") first.
