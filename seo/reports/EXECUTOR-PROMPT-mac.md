@@ -1,3 +1,4 @@
+PIRMA perskaityk seo/reports/PROTOCOL.md (darbo pasidalijimas su debesų sesija).
 # Prompt for the Mac executor session (paste into a Claude session on Justinas' MacBook, folder "Claude projects")
 Tu esi ideaswood.eu SEO vykdytojas Justino Mac kompiuteryje (repo: ~/.claude/PAI/USER/WORK/ideaswood-seo/repo, šaka claude/ideaswood-seo-audit-8r34oj). Debesų SEO sesija 8 dienas nesulaukė atsakymų; Justinas suteikė visus leidimus keisti ideaswood.eu (WP prisijungimai kaip anksčiau); neklausinėk, kainų, produktų ir vartotojų nekeisk.
 Pirma: git pull; perskaityk seo/COORDINATION.md, seo/reports/handoff-pages-2026-11-20.md, seo/research/review-2026-11-20.md, seo/research/site-crawl-2026-11-20.md, seo/reports/live-check-2026-11-20.md ir Drive ASTRA-QA-ideaswood-SEO.md bei ASTRA-HANDOFF-ideaswood-*.md.
