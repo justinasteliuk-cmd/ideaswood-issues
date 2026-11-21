@@ -1,0 +1,439 @@
+{
+ "noindex_empty_taxonomies": true,
+ "title_separator": "|",
+ "capitalize_titles": false,
+ "twitter_card_type": "summary_large_image",
+ "knowledgegraph_type": "company",
+ "knowledgegraph_name": "IdeasWood",
+ "website_name": "IdeasWood",
+ "local_business_type": "Organization",
+ "local_address_format": "{address} {locality}, {region} {postalcode}",
+ "opening_hours": [
+  {
+   "day": "Monday",
+   "time": "09:00-17:00"
+  },
+  {
+   "day": "Tuesday",
+   "time": "09:00-17:00"
+  },
+  {
+   "day": "Wednesday",
+   "time": "09:00-17:00"
+  },
+  {
+   "day": "Thursday",
+   "time": "09:00-17:00"
+  },
+  {
+   "day": "Friday",
+   "time": "09:00-17:00"
+  },
+  {
+   "day": "Saturday",
+   "time": "09:00-17:00"
+  },
+  {
+   "day": "Sunday",
+   "time": "09:00-17:00"
+  }
+ ],
+ "opening_hours_format": false,
+ "homepage_title": "%sitename% %page% %sep% %sitedesc%",
+ "homepage_description": "",
+ "homepage_custom_robots": false,
+ "disable_author_archives": "",
+ "url_author_base": "author",
+ "author_custom_robots": true,
+ "author_robots": [
+  "noindex"
+ ],
+ "author_archive_title": "%name% %sep% %sitename% %page%",
+ "author_add_meta_box": true,
+ "disable_date_archives": true,
+ "date_archive_title": "%date% %page% %sep% %sitename%",
+ "search_title": "%search_query% %page% %sep% %sitename%",
+ "404_title": "Page Not Found %sep% %sitename%",
+ "date_archive_robots": [
+  "noindex"
+ ],
+ "noindex_search": true,
+ "noindex_archive_subpages": false,
+ "noindex_password_protected": false,
+ "pt_download_default_rich_snippet": "product",
+ "author_slack_enhanced_sharing": true,
+ "pt_post_title": "%title% %sep% IdeasWood",
+ "pt_post_description": "%excerpt%",
+ "pt_post_robots": [
+  "index"
+ ],
+ "pt_post_custom_robots": false,
+ "pt_post_default_rich_snippet": "article",
+ "pt_post_default_article_type": "BlogPosting",
+ "pt_post_default_snippet_name": "%seo_title%",
+ "pt_post_default_snippet_desc": "%seo_description%",
+ "pt_post_slack_enhanced_sharing": true,
+ "pt_post_ls_use_fk": "titles",
+ "pt_post_add_meta_box": true,
+ "pt_post_bulk_editing": "editing",
+ "pt_post_link_suggestions": true,
+ "pt_post_primary_taxonomy": "category",
+ "pt_page_title": "%title% %sep% IdeasWood",
+ "pt_page_description": "%excerpt%",
+ "pt_page_robots": [
+  "index"
+ ],
+ "pt_page_custom_robots": false,
+ "pt_page_default_rich_snippet": "article",
+ "pt_page_default_article_type": "Article",
+ "pt_page_default_snippet_name": "%seo_title%",
+ "pt_page_default_snippet_desc": "%seo_description%",
+ "pt_page_slack_enhanced_sharing": true,
+ "pt_page_ls_use_fk": "titles",
+ "pt_page_add_meta_box": true,
+ "pt_page_bulk_editing": "editing",
+ "pt_page_link_suggestions": true,
+ "pt_attachment_title": "%title% %sep% %sitename%",
+ "pt_attachment_description": "%excerpt%",
+ "pt_attachment_robots": [
+  "noindex"
+ ],
+ "pt_attachment_custom_robots": true,
+ "pt_attachment_default_rich_snippet": false,
+ "pt_attachment_default_article_type": "Article",
+ "pt_attachment_default_snippet_name": "%seo_title%",
+ "pt_attachment_default_snippet_desc": "%seo_description%",
+ "pt_attachment_slack_enhanced_sharing": false,
+ "pt_attachment_add_meta_box": false,
+ "pt_project_title": "%title% %sep% %sitename%",
+ "pt_project_description": "%excerpt%",
+ "pt_project_robots": [
+  "index"
+ ],
+ "pt_project_custom_robots": false,
+ "pt_project_default_rich_snippet": "",
+ "pt_project_default_article_type": "Article",
+ "pt_project_default_snippet_name": "%seo_title%",
+ "pt_project_default_snippet_desc": "%seo_description%",
+ "pt_project_archive_title": "%title% %page% %sep% %sitename%",
+ "pt_project_slack_enhanced_sharing": false,
+ "pt_project_ls_use_fk": "titles",
+ "pt_project_add_meta_box": true,
+ "pt_project_bulk_editing": "editing",
+ "pt_project_link_suggestions": true,
+ "pt_product_title": "%title% %sep% IdeasWood",
+ "pt_product_description": "%excerpt%",
+ "pt_product_robots": [
+  "index"
+ ],
+ "pt_product_custom_robots": false,
+ "pt_product_default_rich_snippet": "product",
+ "pt_product_default_article_type": "Article",
+ "pt_product_default_snippet_name": "%seo_title%",
+ "pt_product_default_snippet_desc": "%seo_description%",
+ "pt_product_archive_title": "%title% %page% %sep% %sitename%",
+ "pt_product_slack_enhanced_sharing": true,
+ "pt_product_ls_use_fk": "titles",
+ "pt_product_add_meta_box": true,
+ "pt_product_bulk_editing": "editing",
+ "pt_product_link_suggestions": true,
+ "pt_product_primary_taxonomy": "product_cat",
+ "pt_web-story_title": "%title% %sep% %sitename%",
+ "pt_web-story_description": "%excerpt%",
+ "pt_web-story_robots": [],
+ "pt_web-story_custom_robots": false,
+ "pt_web-story_default_rich_snippet": "article",
+ "pt_web-story_default_article_type": "Article",
+ "pt_web-story_default_snippet_name": "%seo_title%",
+ "pt_web-story_default_snippet_desc": "%seo_description%",
+ "pt_web-story_slack_enhanced_sharing": false,
+ "pt_web-story_add_meta_box": false,
+ "tax_category_title": "%term% %sep% IdeasWood",
+ "tax_category_robots": [
+  "index"
+ ],
+ "tax_category_add_meta_box": true,
+ "tax_category_custom_robots": false,
+ "tax_category_description": "%term_description%",
+ "tax_category_slack_enhanced_sharing": true,
+ "tax_post_tag_title": "%term% %sep% %sitename%",
+ "tax_post_tag_robots": [
+  "noindex"
+ ],
+ "tax_post_tag_add_meta_box": true,
+ "tax_post_tag_custom_robots": true,
+ "tax_post_tag_description": "%term_description%",
+ "tax_post_tag_slack_enhanced_sharing": true,
+ "tax_post_format_title": "%term% %sep% %sitename%",
+ "tax_post_format_robots": [
+  "noindex"
+ ],
+ "tax_post_format_add_meta_box": true,
+ "tax_post_format_custom_robots": true,
+ "tax_post_format_description": "%term_description%",
+ "tax_post_format_slack_enhanced_sharing": true,
+ "tax_project_category_title": "%term% %sep% %sitename%",
+ "tax_project_category_robots": [
+  "index"
+ ],
+ "tax_project_category_add_meta_box": true,
+ "tax_project_category_custom_robots": false,
+ "tax_project_category_description": "%term_description%",
+ "tax_project_category_slack_enhanced_sharing": true,
+ "tax_project_tag_title": "%term% %sep% %sitename%",
+ "tax_project_tag_robots": [
+  "index"
+ ],
+ "tax_project_tag_add_meta_box": true,
+ "tax_project_tag_custom_robots": false,
+ "tax_project_tag_description": "%term_description%",
+ "tax_project_tag_slack_enhanced_sharing": true,
+ "tax_product_brand_title": "%term% %sep% %sitename%",
+ "tax_product_brand_robots": [
+  "index"
+ ],
+ "tax_product_brand_add_meta_box": true,
+ "tax_product_brand_custom_robots": false,
+ "tax_product_brand_description": "%term_description%",
+ "tax_product_brand_slack_enhanced_sharing": true,
+ "tax_product_cat_title": "%term% %sep% IdeasWood",
+ "tax_product_cat_robots": [
+  "index"
+ ],
+ "tax_product_cat_add_meta_box": true,
+ "tax_product_cat_custom_robots": true,
+ "tax_product_cat_description": "%term_description%",
+ "tax_product_cat_slack_enhanced_sharing": true,
+ "tax_product_tag_title": "%term% %sep% %sitename%",
+ "tax_product_tag_robots": [
+  "noindex"
+ ],
+ "tax_product_tag_add_meta_box": true,
+ "tax_product_tag_custom_robots": true,
+ "tax_product_tag_description": "%term_description%",
+ "tax_product_tag_slack_enhanced_sharing": true,
+ "tax_fb_product_set_title": "%term% %sep% %sitename%",
+ "tax_fb_product_set_robots": [],
+ "tax_fb_product_set_add_meta_box": true,
+ "tax_fb_product_set_custom_robots": false,
+ "tax_fb_product_set_description": "%term_description%",
+ "tax_fb_product_set_slack_enhanced_sharing": true,
+ "tax_et_code_snippet_type_title": "%term% %sep% %sitename%",
+ "tax_et_code_snippet_type_robots": [
+  "index"
+ ],
+ "tax_et_code_snippet_type_add_meta_box": true,
+ "tax_et_code_snippet_type_custom_robots": false,
+ "tax_et_code_snippet_type_description": "%term_description%",
+ "tax_et_code_snippet_type_slack_enhanced_sharing": true,
+ "remove_product_cat_snippet_data": true,
+ "remove_product_tag_snippet_data": true,
+ "tax_layout_category_add_meta_box": true,
+ "tax_layout_tag_add_meta_box": true,
+ "tax_layout_pack_add_meta_box": true,
+ "tax_layout_type_add_meta_box": true,
+ "tax_module_width_add_meta_box": true,
+ "tax_scope_add_meta_box": true,
+ "tax_et_tb_item_type_add_meta_box": true,
+ "tax_product_shipping_class_add_meta_box": true,
+ "robots_global": [
+  "index"
+ ],
+ "advanced_robots_global": {
+  "max-snippet": "-1",
+  "max-video-preview": "-1",
+  "max-image-preview": "large"
+ },
+ "custom_image_overlays": [
+  {
+   "position": "bottom_right"
+  }
+ ],
+ "knowledgegraph_logo_id": "7871",
+ "knowledgegraph_logo": "https://ideaswood.eu/wp-content/uploads/Ideaswood.jpg",
+ "url": "https://ideaswood.eu",
+ "use_multiple_locations": true,
+ "email": "info@ideaswood.eu",
+ "local_address": {
+  "streetAddress": "Kastonu g. 8 D. Riese Vilniaus raj 14261",
+  "addressLocality": "Vilnius",
+  "addressRegion": "",
+  "postalCode": "",
+  "addressCountry": "LT"
+ },
+ "phone_numbers": [
+  {
+   "type": "customer support",
+   "number": "+37067822055"
+  }
+ ],
+ "additional_info": [
+  {
+   "type": "legalName"
+  }
+ ],
+ "hide_opening_hours": true,
+ "closed_label": "Closed",
+ "open_24_7": "Open 24/7",
+ "open_24h": "Open 24h",
+ "map_unit": "miles",
+ "map_style": "hybrid",
+ "limit_results": 0,
+ "primary_country": "LT",
+ "route_label": "My Route",
+ "enable_location_detection": false,
+ "same_organization_locations": false,
+ "locations_enhanced_search": false,
+ "locations_post_type_base": "locations",
+ "locations_category_base": "locations-category",
+ "locations_post_type_label": "RM Locations",
+ "locations_post_type_plural_label": "RM Locations",
+ "local_seo_about_page": "1384",
+ "local_seo_contact_page": "3481",
+ "tax_post_format_advanced_robots": {
+  "max-snippet": "-1",
+  "max-video-preview": "-1",
+  "max-image-preview": "large"
+ },
+ "author_advanced_robots": {
+  "max-snippet": "-1",
+  "max-video-preview": "-1",
+  "max-image-preview": "large"
+ },
+ "date_advanced_robots": {
+  "max-snippet": "-1",
+  "max-video-preview": "-1",
+  "max-image-preview": "large"
+ },
+ "noindex_paginated_pages": false,
+ "pt_post_autodetect_video": true,
+ "pt_post_autogenerate_image": false,
+ "pt_post_advanced_robots": {
+  "max-snippet": "-1",
+  "max-video-preview": "-1",
+  "max-image-preview": "large"
+ },
+ "pt_page_autodetect_video": true,
+ "pt_page_autogenerate_image": false,
+ "pt_page_advanced_robots": {
+  "max-snippet": "-1",
+  "max-video-preview": "-1",
+  "max-image-preview": "large"
+ },
+ "pt_project_autodetect_video": true,
+ "pt_project_autogenerate_image": false,
+ "pt_project_advanced_robots": {
+  "max-snippet": "-1",
+  "max-video-preview": "-1",
+  "max-image-preview": "large"
+ },
+ "pt_project_primary_taxonomy": "",
+ "pt_product_autodetect_video": true,
+ "pt_product_autogenerate_image": false,
+ "pt_product_advanced_robots": {
+  "max-snippet": "-1",
+  "max-video-preview": "-1",
+  "max-image-preview": "large"
+ },
+ "tax_category_advanced_robots": {
+  "max-snippet": "-1",
+  "max-video-preview": "-1",
+  "max-image-preview": "large"
+ },
+ "remove_category_snippet_data": false,
+ "tax_post_tag_advanced_robots": {
+  "max-snippet": "-1",
+  "max-video-preview": "-1",
+  "max-image-preview": "large"
+ },
+ "remove_post_tag_snippet_data": false,
+ "tax_project_category_advanced_robots": {
+  "max-snippet": "-1",
+  "max-video-preview": "-1",
+  "max-image-preview": "large"
+ },
+ "remove_project_category_snippet_data": false,
+ "tax_project_tag_advanced_robots": {
+  "max-snippet": "-1",
+  "max-video-preview": "-1",
+  "max-image-preview": "large"
+ },
+ "remove_project_tag_snippet_data": false,
+ "tax_product_brand_advanced_robots": {
+  "max-snippet": "-1",
+  "max-video-preview": "-1",
+  "max-image-preview": "large"
+ },
+ "remove_product_brand_snippet_data": false,
+ "tax_product_cat_advanced_robots": {
+  "max-snippet": "-1",
+  "max-video-preview": "-1",
+  "max-image-preview": "large"
+ },
+ "tax_product_tag_advanced_robots": {
+  "max-snippet": "-1",
+  "max-video-preview": "-1",
+  "max-image-preview": "large"
+ },
+ "tax_et_code_snippet_type_advanced_robots": {
+  "max-snippet": "-1",
+  "max-video-preview": "-1",
+  "max-image-preview": "large"
+ },
+ "remove_et_code_snippet_type_snippet_data": false,
+ "pt_rank_math_locations_title": "%title% %page% %sep% %sitename%",
+ "pt_rank_math_locations_description": "%excerpt%",
+ "pt_rank_math_locations_archive_title": "%title% %page% %sep% %sitename%",
+ "pt_rank_math_locations_default_rich_snippet": "LocalBusiness",
+ "pt_rank_math_locations_default_snippet_name": "%seo_title%",
+ "pt_rank_math_locations_default_snippet_desc": "%seo_description%",
+ "pt_rank_math_locations_default_article_type": "Article",
+ "pt_rank_math_locations_autodetect_video": true,
+ "pt_rank_math_locations_autogenerate_image": false,
+ "pt_rank_math_locations_custom_robots": false,
+ "pt_rank_math_locations_robots": [
+  "index"
+ ],
+ "pt_rank_math_locations_advanced_robots": {
+  "max-snippet": "-1",
+  "max-video-preview": "-1",
+  "max-image-preview": "large"
+ },
+ "pt_rank_math_locations_link_suggestions": true,
+ "pt_rank_math_locations_ls_use_fk": "titles",
+ "pt_rank_math_locations_primary_taxonomy": "",
+ "pt_rank_math_locations_slack_enhanced_sharing": false,
+ "pt_rank_math_locations_add_meta_box": true,
+ "pt_rank_math_locations_bulk_editing": "editing",
+ "tax_rank_math_location_category_title": "%term% Archives %page% %sep% %sitename%",
+ "tax_rank_math_location_category_description": "%term_description%",
+ "tax_rank_math_location_category_custom_robots": false,
+ "tax_rank_math_location_category_robots": [
+  "index"
+ ],
+ "tax_rank_math_location_category_advanced_robots": {
+  "max-snippet": "-1",
+  "max-video-preview": "-1",
+  "max-image-preview": "large"
+ },
+ "tax_rank_math_location_category_slack_enhanced_sharing": true,
+ "tax_rank_math_location_category_add_meta_box": false,
+ "remove_rank_math_location_category_snippet_data": false,
+ "pt_post_analyze_fields": "",
+ "pt_page_analyze_fields": "",
+ "pt_project_analyze_fields": "",
+ "pt_product_analyze_fields": "",
+ "tax_category_bulk_editing": 0,
+ "tax_post_tag_bulk_editing": 0,
+ "tax_project_category_bulk_editing": 0,
+ "tax_project_tag_bulk_editing": 0,
+ "tax_product_brand_bulk_editing": 0,
+ "tax_product_cat_bulk_editing": "editing",
+ "tax_product_tag_bulk_editing": 0,
+ "tax_et_code_snippet_type_bulk_editing": 0,
+ "pt_rank_math_locations_analyze_fields": "",
+ "tax_rank_math_location_category_bulk_editing": 0,
+ "social_url_facebook": "https://www.facebook.com/logcabinsfactory",
+ "twitter_author_names": "",
+ "social_additional_profiles": "https://www.instagram.com/ideaswoodeu"
+}

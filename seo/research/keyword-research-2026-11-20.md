@@ -1,0 +1,6 @@
+# Keyword research v2 (2026-11-20)
+Replaces the manufacturer-centred list in audit-2026-09-25/02 as the working target list. The live table is in the report page (section "Keywords"), generated from the same data.
+Why: IdeasWood is a supplier and exporter, and customers search by product ("log cabins for sale", "insulated garden room", "camping pods for sale", "barrel sauna kit"), not by "manufacturer". 24 of the 37 old tracked searches were manufacturer/factory terms.
+Lines: log cabins, garden rooms, summer houses, wooden houses, saunas/hot tubs, camping pods, garages/carports/grill cabins/pergolas, garden furniture, trade (B2B).
+Limits: no search-volume or difficulty tool in this session; priorities are judgement from SERP owners (summerhouse24, tuin.co.uk, tigersheds, gardenbuildingsdirect, palmako) and what real pages exist. Positions: US-based snapshot, unreliable; real positions = Search Console (task for Astra: ASTRA-HANDOFF-ideaswood-keywords.md).
+Next: (1) Astra exports GSC queries (28/90 days: query, page, clicks, impressions, avg position) for ideaswood.eu; (2) merge into tracking/gsc-queries.csv; (3) add Google Keyword Planner volumes (Justinas' Google Ads account) for the P1 list; (4) re-prioritise.
