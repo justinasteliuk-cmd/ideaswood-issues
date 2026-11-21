@@ -2,7 +2,7 @@
 
 **Purpose.** One page that people, search engines and AI assistants (ChatGPT, Gemini, Perplexity, Copilot, Claude) can quote without guessing. Every fact is one short sentence that still makes sense when lifted out on its own, so most sentences repeat "IdeasWood".
 
-**Facts used, and only these:** founded 2007; supplier and exporter; log cabins, garden rooms, saunas, camping pods; spruce and pine from northern Europe; kits cut to order with assembly instructions; 3D layouts in IdeasPlanner; insulation and options priced separately; transport calculated per order; wholesale to B2B partners after a signed trade agreement, from one product; address Kaštonų g. 8, Didžiosios Riešės k., Vilniaus r. sav., Lithuania; phone +370 678 22055; garden cabins with 44, 58 or 68 mm walls; saunas have no CE marking; no FSC or PEFC certification.
+**CORRECTION 2026-11-21: do NOT publish statements about CE marking or FSC/PEFC (neither claims nor denials); answer such buyer questions in conversation.** **Facts used, and only these:** founded 2007; supplier and exporter; log cabins, garden rooms, saunas, camping pods; spruce and pine from northern Europe; kits cut to order with assembly instructions; 3D layouts in IdeasPlanner; insulation and options priced separately; transport calculated per order; wholesale to B2B partners after a signed trade agreement, from one product; address Kaštonų g. 8, Didžiosios Riešės k., Vilniaus r. sav., Lithuania; phone +370 678 22055; garden cabins with 44, 58 or 68 mm walls; saunas have no CE marking; no FSC or PEFC certification.
 **Not used (unconfirmed):** delivery times, prices, warranty, number of customers or countries, staff, own production, origin of manufacture beyond "northern Europe" timber, installation service, payment terms, eco/green/sustainable claims (content/10). "Manufacturer" appears only as a visitor's question in the FAQ. No factory is described or named.
 **[CHECK]** = Astra or Justinas confirms before publishing.
 
@@ -36,8 +36,6 @@ IdeasWood is a supplier and exporter of log cabins, garden rooms, saunas and cam
 | Address | Kaštonų g. 8, Didžiosios Riešės k., Vilniaus r. sav., [postcode CHECK], Lithuania |
 | Phone | +370 678 22055 |
 | Email | [CHECK: info@ideaswood.eu, as in the current schema] |
-| Sauna certification | IdeasWood saunas do not carry CE marking. |
-| Timber certification | IdeasWood timber is not FSC or PEFC certified. |
 
 ## Who we are
 - IdeasWood was founded in 2007.
@@ -124,7 +122,6 @@ Yes, B2B partners buy at wholesale prices after signing a trade agreement.
 **Is there a minimum order for trade partners?**
 No, a trade partner can order from one product.
 
-**Do IdeasWood saunas have CE marking?**
 No, IdeasWood saunas do not carry CE marking. [CHECK wording with Justinas; keep consistent with content/18]
 
 **Is IdeasWood timber FSC or PEFC certified?**
