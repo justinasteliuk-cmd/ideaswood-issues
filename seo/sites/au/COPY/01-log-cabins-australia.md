@@ -13,7 +13,7 @@ Category page /product-category/houses/log-cabins/ keeps the model list and gets
 **H1:** Log cabins for sale in Australia, supplied as timber kits
 
 **Intro:**
-A log cabin kit is the simplest way to add a solid timber room or a small home to your property without a long build program. We supply log cabin kits to every state and territory, from a backyard cabin for storage or hobbies to multi-room log homes. Each one is cut to your order in spruce or pine and packed with assembly instructions, ready for you or your builder to put together on site.
+A log cabin kit is a practical way to add a solid timber room or a small home to your property. We quote log cabin kits for delivery across Australia [CHECK: any areas we do not deliver to], from a backyard cabin for storage or hobbies to multi-room log homes. Each one is cut to your order in spruce or pine and packed with assembly instructions, ready for you or your builder to put together on site.
 
 **H2: Choose the kind of cabin you need**
 - **Classic log cabins** – the traditional look with interlocking corners. → /product-category/houses/log-cabins/classic-log-cabins/
@@ -40,7 +40,7 @@ Whether a cabin needs approval, and which kind, depends on your state and your c
 The kit arrives with assembly instructions and numbered or clearly labelled parts. [CHECK: are parts numbered?] Smaller cabins are within reach of a handy owner with a helper; bigger cabins and log homes are best given to a carpenter or builder. Get a level, solid base ready before the kit arrives, as your council or certifier advises.
 
 **H2: Log cabins for sale in NSW, Victoria, Queensland, WA, SA and Tasmania**
-We quote freight to any Australian address, from city suburbs to rural properties. Freight depends on the size of the kit and the delivery address, and is quoted for every order. Tell us your postcode and whether a truck can get onto your block when you ask for a quote.
+We quote freight to city suburbs and rural properties alike [CHECK: delivery coverage]. Freight depends on the size of the kit and the delivery address, and is quoted for every order. Tell us your postcode and whether a truck can get onto your block when you ask for a quote.
 
 **H2: Frequently asked questions**
 

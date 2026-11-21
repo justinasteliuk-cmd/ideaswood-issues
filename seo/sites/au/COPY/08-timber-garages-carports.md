@@ -15,7 +15,7 @@ Live models (2026-11-21): Garage 3.2x5.2, 4x6, 5x5, 6x6, 7x5.5 m and Garage+carp
 **H1:** Timber garage and carport kits
 
 **Intro:**
-Not every garage has to be steel. A timber garage sits comfortably beside a weatherboard home, a cottage garden or a rural shed line, and it can double as a workshop. Our garage kits are panel-built in pine with a gable roof, cut to your order and supplied with assembly instructions. Delivery is quoted to any address in Victoria, NSW, Queensland, WA, SA, Tasmania, the ACT and the NT.
+Not every garage has to be steel. A timber garage sits comfortably beside a weatherboard home, a cottage garden or a rural shed line, and it can double as a workshop. Our garage kits are panel-built in pine with a gable roof, cut to your order and supplied with assembly instructions. Delivery is quoted to any address in Victoria, NSW, Queensland, WA, SA, Tasmania, the ACT and the NT [CHECK: delivery coverage].
 
 **H2: Garage sizes**
 [Product grid: Garages / Carports category]

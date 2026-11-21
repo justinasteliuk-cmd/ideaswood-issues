@@ -81,8 +81,13 @@ Scan result: 0 hits for "Made in Lithuania", "Scandinavian", "carbon", "green" c
 3. **Broken product data:** "People 4-Feb" on saunas (Excel date), garage spec tables in unit-less imperial figures (e.g. "Internal house area 228", "Wall height 7.3144"), hot tubs listing "Red Canadian cedar" and "People 10" while options say spruce/thermo/WPC and 4-6 or 6-8 people, Sauna Nova with two conflicting size blocks, "Hot tub with outside firewood stove" and "Double hot tub" filed under "Electric heater", "Camping Pod 3 x 5.9 m" filed under "Sauna pods".
 4. 60-month warranty is stated on pergola, garage and sauna product pages. [CHECK] Keep only if it is the real AU warranty.
 
-## 9. Categories (not in sitemap)
-[filled below]
+## 9. Product categories (35 menu URLs crawled; none is in the sitemap)
+- All 35 return 200. Titles are the bare term name ("Log cabins | timberescapes.com.au", "Barrels sauna | …", "Outdoor | …", "Standard | …", "Indoor | …").
+- **No meta description, no canonical tag and no category text** on any of them: the body is only the product grid ("Showing 1–30 of 114 results …"). /hot-tub/ and /sauna/ have 3 H1s; /furniture/ has none.
+- hreflang on 14 of 35 (bbq, furniture, hot tub, pergola, sauna top level) and none on the log cabin, garden office, saunas-outdoor or garage categories.
+- Empty categories linked from the main menu: Camping houses (0 products), Frame houses (0), Pergola cabins (0), Custom size saunas (0), Kitchens/wardrobes (0). Junk terms not in the menu: "nauja-kategorija" (Lithuanian for "new category", 0), "default-catagory" (0). Hidden categories with products but no menu link: country-houses-villas (17), garden-house (24), all-season-houses (6), garden-cabins (1).
+- The /log-cabins/ category holds 114 of the 117 house products, so it is the de facto catalogue; its sub-categories hold 2-31 each.
+- Fix: TASKS Step 7 (titles, meta, 2-sentence intro + link to the landing page) and Step 1 (sitemap, noindex/delete empties).
 
 ## 10. What we sell vs what Australians search (for KEYWORD-MAP)
 - Acrylic hot tub (GSC 31 impressions, pos 13.5): we do not sell acrylic spas; we sell timber hot tubs with an **acrylic liner** (option on round/double tubs, standard on the square tub). Covered honestly in one H2 + FAQ on /wood-fired-hot-tubs/; not a title target.

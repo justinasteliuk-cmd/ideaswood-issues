@@ -14,7 +14,7 @@ Copy lives in Google Drive as ASTRA-HANDOFF-ideaswood-SEO-ledger.md (the file Ma
 | On-site changes ideaswood.eu | Astra's executor ("ideaswood.eu SEO vykdymas") | LiteSpeed, Rank Math, redirects, titles/meta, category and post text, robots.txt, .htaccess, GA4 checks. | Prices, products, accounts, design templates. |
 | Theme and plugin code | Saqib | Divi category template (Blog module), Lepton gallery, add-ons plugin on staging, Tag Manager tags. | – |
 | Add-ons plugin | "Priedų įskiepis" session | IdeasWood Product Options (replaces WCPA). Biggest speed win on product pages. | – |
-| ideaswood.com / .com.au | No session assigned | hreflang with .eu (seo/fixes/07). | Do not edit until a session is assigned. |
+| ideaswood.com, abitazionidilegno.it, timberescapes.com.au | SEO lead: cloud session (since 2026-11-21, Justinas); edits by the Mac executor | Packs in seo/sites/com, it, au (TASKS-FOR-MAC.md) | Prices, products, accounts. |
 | Social and UTM | Nova | Posts and UTM naming. | – |
 | Security | "Gyčio prieigų auditas", "IT saugumas" | Admin users, security headers. | – |
 
@@ -100,3 +100,4 @@ Waiting: Google recrawl (new titles not shown yet), Saqib items (Blog module, ga
 - 2026-11-21 pm DECISION (Justinas): B2B: no past-customer invitations, no customer names, no Trustpilot invites. Trust via company-facts, trade pages, photos without client names, trade directories (content/07b updated).
 - 2026-11-21 pm Cloud SEO session: self-serve registration/action list research/self-serve-actions-2026-11-21.md (no customer names).
 - 2026-11-21 pm Cloud SEO session: IT site pack ready (seo/sites/it/: AUDIT, KEYWORD-MAP, TASKS-FOR-MAC 42 tasks, COPY 00-08, iw-it-schema.php). Decision: IT header keeps Gian Luca's number for Italian inquiries (tracking), company number +370 678 22055 in schema and Contatti page.
+- 2026-11-21 pm LANE CHANGE (Justinas): the cloud SEO session leads SEO for ideaswood.com, abitazionidilegno.it and timberescapes.com.au; the Mac executor applies the packs in seo/sites/<site>/TASKS-FOR-MAC.md. The old note 'do not edit .com until a session is assigned' no longer applies. .com pack ready (seo/sites/com): 16 empty categories give soft 404 (menu links Grill Cabins term 79), no H1/meta on 27 categories, no SEO plugin, banned wording on home/about/contact/windows/insulation//smm/, home 5.6 MB.

@@ -13,7 +13,7 @@ Language: en-AU. Spelling: colour, metre, organise, enquiry.
 **H1:** Timber log cabins, saunas and backyard buildings, supplied as kits across Australia
 
 **Intro (first paragraph, keep above the product grid):**
-Timberescapes supplies timber buildings in kit form to homeowners and trade buyers around Australia. Our team has been supplying and exporting spruce and pine kits since 2007: log cabins, granny flat kits, garden offices, barrel saunas, wood-fired hot tubs, grill cabins, pergolas and garages. Each kit is cut once your order is confirmed and arrives with step-by-step assembly instructions. Want to change a wall, a window or the whole floor plan first? Lay it out in our free 3D IdeasPlanner and we will price what you drew.
+Timberescapes supplies timber buildings in kit form to homeowners and trade buyers around Australia. Our team has been supplying and exporting spruce and pine kits since 2007: log cabins, granny flat kits, garden offices, barrel saunas, wood-fired hot tubs, grill cabins, pergolas and garages. Each kit is cut once your order is confirmed and arrives with step-by-step assembly instructions. Want to change a wall, a window or the whole floor plan first? Lay it out in our 3D IdeasPlanner and we will price what you drew.
 
 **H2: What would you like in your backyard?**
 - **Log cabins** – from a compact shed-sized cabin to a full-size log home. → /log-cabins-australia/

@@ -32,7 +32,7 @@ Granny flat rules are set by each state and applied by each council. They can co
 The kit is designed to be assembled from the instructions, but a granny flat is a habitable building. Most owners hire a builder or carpenter for assembly and licensed trades for plumbing and electrics, and the certifier will tell you which inspections are required.
 
 **H2: Freight to every state**
-We quote freight to NSW, Victoria, Queensland, Western Australia, South Australia, Tasmania, the ACT and the Northern Territory. The figure depends on the size of the kit and your delivery address and is shown as its own line.
+We quote freight to NSW, Victoria, Queensland, Western Australia, South Australia, Tasmania, the ACT and the Northern Territory [CHECK: delivery coverage]. The figure depends on the size of the kit and your delivery address and is shown as its own line.
 
 **H2: Frequently asked questions**
 
