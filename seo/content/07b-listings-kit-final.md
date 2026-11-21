@@ -22,11 +22,19 @@ Primary: Log cabin supplier (or Wholesaler where "supplier" is not offered). Sec
 Google only allows a business with a staffed address or a genuine service area. The headquarters is also a residential-type address: set it as a SERVICE-AREA business (hide the street address) with areas United Kingdom, Ireland, Germany, plus others as wanted. Name exactly "IdeasWood" with no keywords. Verification may need a video or postcard to the address.
 
 ## Order of signup (free first), what to supply
-1. Trustpilot business profile: invite every past customer by email (Trustpilot's own invitation tool; no incentives, no fake reviews).
-2. Google Business Profile (service area) and Bing Places.
+1. DECISION 2026-11-21 (Justinas): IdeasWood is B2B and will NOT invite past customers or publish customer names. No customer review campaigns, no Trustpilot invitations. Trust comes from the items in 'Trust without customer names' below.
+2. Google Business Profile (service area) and Bing Places: set up without asking for reviews (reviews are optional; a profile with no reviews still anchors the brand and address).
 3. Europages, Kompass, ExportHub: description above, 10 photos, product categories, "supplier and exporter".
 4. UK/IE: Yell free listing, FreeIndex garden buildings, Golden Pages Ireland (check Irish presence rules).
 5. British Sauna Society builders and equipment list (saunas).
 6. Facebook, Instagram, LinkedIn, Pinterest, YouTube bios: same short description, link ideaswood.eu, same NAP.
 Do not apply to the Lithuanian wooden-house producers' association or the Enterprise Lithuania exporters database: they list producers; IdeasWood is a supplier/exporter.
 Details and verified URLs: research/competitors-and-links-2026-11-20.md (rows 1-25).
+
+## Trust without customer names (B2B)
+- /company-facts/ and /trade-partners/ (live): who we are, terms, how ordering works.
+- Real photos of loaded trucks, packed kits and product details, no client names or logos, no addresses.
+- Partner portal description (business.ideaswood.eu): what a reseller gets, steps to sign a trade agreement.
+- Optional, only with written consent from a partner: an anonymous quote ("A reseller in Ireland") without any identifying detail; Justinas decides case by case.
+- Trade directory listings (Europages, Kompass, ExportHub), industry membership only where the body accepts suppliers/exporters.
+- Product pages: no review or rating markup (Search Console's non-critical "aggregateRating/review" suggestion is intentionally ignored).
