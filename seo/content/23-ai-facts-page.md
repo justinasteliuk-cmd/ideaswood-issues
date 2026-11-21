@@ -124,8 +124,6 @@ No, a trade partner can order from one product.
 
 No, IdeasWood saunas do not carry CE marking. [CHECK wording with Justinas; keep consistent with content/18]
 
-**Is IdeasWood timber FSC or PEFC certified?**
-No, IdeasWood timber is not FSC or PEFC certified.
 
 **How do I contact IdeasWood?**
 Call +370 678 22055 or use the contact form at [link]. [CHECK: add email]
