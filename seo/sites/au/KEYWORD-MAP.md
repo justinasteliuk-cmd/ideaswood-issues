@@ -15,9 +15,9 @@ Rule: one primary page per intent. The new landing pages (WordPress pages) carry
 | /wood-fired-hot-tubs/ | NEW | wood fired hot tub australia | hot tubs, wooden hot tub australia, custom wood-fired hot tubs victoria, acrylic (liner) hot tub | COPY/06 |
 | /timber-pergolas/ | NEW | timber pergola kits australia | timber pergola, wooden pergola, pergola kits nsw/vic/qld/perth | COPY/07 |
 | /timber-garages-carports/ | NEW | timber garage kits australia | timber garages melbourne, garage kits, carport kits | COPY/08 |
-| /product-category/bbq-grill-cabin/ | live, retitle | grill cabins | bbq hut, bbq hut for sale/prices | TASKS step 9 |
-| /product-category/houses/log-cabins/summer-house/ | live, retitle | summer houses | timber garden shed kits australia | TASKS step 9 |
-| /product-category/houses/ | live, retitle | timber kit homes australia | kit homes australia, log kit homes australia, wooden kit homes australia | TASKS step 9 |
+| /product-category/bbq-grill-cabin/ | live, retitle | grill cabins | bbq hut, bbq hut for sale/prices | TASKS Step 7 |
+| /product-category/houses/log-cabins/summer-house/ | live, retitle | summer houses | timber garden shed kits australia | TASKS Step 7 |
+| /product-category/houses/ | live, retitle | timber kit homes australia | kit homes australia, log kit homes australia, wooden kit homes australia | TASKS Step 7 |
 | /council-approval-guide/ | NEW (day 15-25) | do i need council approval for a cabin / granny flat | studio council approval, granny flat without council approval, council approval for granny flat nsw/qld/wa/sa | 30-day plan; no rules invented: explain the questions to ask, link official state planning portals [CHECK URLs] |
 
 ## 2. Search Console queries (real data, 28 days) -> target

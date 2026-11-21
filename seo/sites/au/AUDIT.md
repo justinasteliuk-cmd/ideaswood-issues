@@ -1,10 +1,10 @@
 # timberescapes.com.au – SEO audit (Australia) – 2026-11-21
 
-Method: curl with a browser user agent from the cloud session. Sitemap /wp-sitemap.xml (6 sub-sitemaps, 172 URLs) crawled at concurrency 3 with retries (concurrency 6 made the server return 503/time out: uncached pages take ~20 s; all four IdeasWood domains share one LiteSpeed server, 85.206.243.14). 167 of 172 URLs parsed (5 kept failing with 503/timeouts). The 35 product-category URLs from the main menu were crawled separately, because they are not in the sitemap. Raw data stays in the session scratchpad; the numbers below are from it.
+Method: curl with a browser user agent from the cloud session. Sitemap /wp-sitemap.xml (6 sub-sitemaps, 172 URLs) crawled at concurrency 3 with retries (concurrency 6 made the server return 503/time out: uncached pages take ~20 s; all four IdeasWood domains share one LiteSpeed server, 85.206.243.14). 171 of 172 URLs parsed after retries (checkout redirects, 302). The 35 product-category URLs from the main menu were crawled separately, because they are not in the sitemap. Raw data stays in the session scratchpad; the numbers below are from it.
 Google data: Search Console, 28 days to 2026-11-20: 1,463 impressions, 6 clicks, average position 44.5 (queries in KEYWORD-MAP.md).
 
 ## 1. Verdict in one paragraph
-The site is a WooCommerce copy of the EU catalogue with AUD prices and almost no Australian text. It ranks on page 3-7 for log cabins, saunas and hot tubs only because the catalogue is large. The fixes with the biggest effect are not technical: (1) remove unverified local details (a Victorian "office", a Tasmanian "showroom" at a holiday-cottage address, a (130) phone number, and a $15,055 "our team will build it" option on pergolas); (2) replace "Eco-Living" and the other banned claims; (3) give each money query a real landing page with Australian copy (COPY/). Technically: no SEO plugin, product categories missing from the sitemap, `lang="en-US"`, two H1s on every product page, and a raw form shortcode printed on 154 of 167 pages.
+The site is a WooCommerce copy of the EU catalogue with AUD prices and almost no Australian text. It ranks on page 3-7 for log cabins, saunas and hot tubs only because the catalogue is large. The fixes with the biggest effect are not technical: (1) remove unverified local details (a Victorian "office", a Tasmanian "showroom" at a holiday-cottage address, a (130) phone number, and a $15,055 "our team will build it" option on pergolas); (2) replace "Eco-Living" and the other banned claims; (3) give each money query a real landing page with Australian copy (COPY/). Technically: no SEO plugin, product categories missing from the sitemap, `lang="en-US"`, two H1s on every product page, and a raw form shortcode printed on 159 of 171 pages.
 
 ## 2. Domains
 | Host | Result (2026-11-21) | Meaning |
@@ -24,32 +24,34 @@ The site is a WooCommerce copy of the EU catalogue with AUD prices and almost no
 - The sitemap includes cart, checkout (302), my-account, /smm/ (a test copy of the home page) and /category/uncategorized/.
 - Fix: Rank Math sitemap with product categories, without cart/checkout/my-account//smm/ (TASKS Step 1).
 
-## 4. Page-level results (167 URLs parsed)
+## 4. Page-level results (171 URLs parsed)
 | Check | Result |
 |---|---|
 | Title pattern | "Page name \| timberescapes.com.au" everywhere; home "timberescapes.com.au \| Eco-Living". No keyword in any page title except the product name. |
 | Duplicate titles | 6 groups: Gustav A 6×6 m (/gustav-a-6x6-m/ and -2), Gustav B 6×8 m (×2), Louise 6×6 m (×2), Torino 4.5×6 m (×2), "Dinning Set" (×3, also misspelt), "Blog" (/blog/ and /category/blog/). The -2 products are duplicates or variants with the same name: rename (e.g. "Gustav A 6×6 m – 44 mm") or merge with a 301. |
-| Meta description | Missing on 20 URLs (all 13 pages incl. about, contact, guide, plus 4 products and archives). Products use the first spec line ("Description: Tongue and groove floor…", "Our standard set includes: Floor panels…"); 13 products share a duplicate meta. |
-| H1 | 151 of 167 pages have more than one H1 (product template prints the product name twice; home has 5 H1s: "Eco-Living With Our Cabins", "Latest Products", "Products By Catagory", "Experience the Hassle-free…", "Why Choose Us?"). |
-| Word count (main content, nav and footer removed) | Median 177 words; 107 pages under 250 words, 65 under 150. Home: 449 words / ~2,960 characters of body text (~4,800 characters with menus and footer), mostly menu labels and product cards. |
+| Meta description | Missing on 17 URLs (all 13 pages incl. home-adjacent about, contact, guide, /smm/, plus archives). Products use the first spec line ("Description: Tongue and groove floor…", "Our standard set includes: Floor panels…"); 13 products share a duplicate meta. |
+| H1 | 158 of 171 pages have more than one H1 (product template prints the product name twice; home has 5 H1s: "Eco-Living With Our Cabins", "Latest Products", "Products By Catagory", "Experience the Hassle-free…", "Why Choose Us?"). |
+| Word count (main content, nav and footer removed) | Median 194 words; 104 pages under 250 words, 62 under 150. Home: 449 words / ~2,960 characters of body text (~4,800 characters with menus and footer), mostly menu labels and product cards. |
 | Canonical | Self-referencing on all pages that loaded. Archives (/category/…, /product-tag/featured/) have none. |
 | `<html lang>` | **en-US on every page** (WordPress Site Language = English (United States)). Should be en-AU. |
 | Meta robots | None anywhere (everything indexable, including /smm/, cart, my-account). |
-| Schema | Product + Offer (AUD) + BreadcrumbList + Organization on products (WooCommerce default). Home: Organization {name "timberescapes.com.au", foundingDate 2007} + WebSite only: no address, phone, logo or sameAs. 28 pages have no schema. No FAQ schema. |
+| Schema | Product + Offer (AUD) + BreadcrumbList + Organization on products (WooCommerce default). Home: Organization {name "timberescapes.com.au", foundingDate 2007} + WebSite only: no address, phone, logo or sameAs. 27 pages have no schema. No FAQ schema. |
 | Prices | AUD (priceCurrency "AUD"). |
-| Raw shortcode | `[wpforms_selector form_id="5511" … _builder_version="4.27.4" …]` printed as visible text on 154 pages (curly quotes break the shortcode). |
+| Raw shortcode | `[wpforms_selector form_id="5511" … _builder_version="4.27.4" …]` printed as visible text on 159 pages (curly quotes break the shortcode). |
 | Typos visible sitewide | "Catagory/Catagories", "Standart set", "chimeney", "spa hud", "Incudes", "Dinning", "Ideaswoood", "Choose how the sauna is heated" on a hot tub. |
 | Footer copyright on /contact-us-2/ | "Copyright © 2026 Divi. All Rights Reserved." |
 
 ## 5. hreflang
-- Output on 143 of 167 pages (custom code, not a plugin): en-GB + en-IE → ideaswood.eu, en-US → ideaswood.com, en-AU → self, x-default → ideaswood.eu. The home page and /about-us/ sets are reciprocal on .eu and .com (checked).
-- 22 pages have none (cart, contact, /smm/, archives, some products), 2 pages have only 3 entries.
+- Output on 152 of 171 pages (custom code, not a plugin): en-GB + en-IE → ideaswood.eu, en-US → ideaswood.com, en-AU → self, x-default → ideaswood.eu. The home page and /about-us/ sets are reciprocal on .eu and .com (checked).
+- 19 pages have none (cart, contact, /smm/, archives, privacy), 2 pages have only 3 entries.
 - Target check of the 168 external hreflang URLs: see §5a (filled from the status check). Any hreflang pointing to a 404, a redirect or a non-equivalent page is ignored by Google and should be dropped from the set.
 - /about-us/ is paired with the EU/US About pages although the AU text is different and wrong for AU (it sends visitors to "the full European range with current prices at ideaswood.eu"). After the AU About rewrite, keep the pairing only if all three are about the same company story; otherwise remove hreflang from About.
 - New AU-only landing pages (/granny-flats/ etc.) must have no hreflang.
 
 ### 5a. hreflang target status
-[filled below]
+- 168 distinct external targets (ideaswood.eu / ideaswood.com) found on the first 167 AU pages and all checked: 163 returned 200, 1 redirected (AU /blog/ points en-GB to https://ideaswood.eu/blog/, which 301s to /category/blog/: point it to the final URL) and 4 returned 503 under load (ideaswood.eu product pages sauna-barrel-17-m-o-197m, sauna-pod-2-4-x-1-9-m, trento-6x5-m, gustav-a-6x6-m-2; recheck, probably temporary). No 404 found.
+- Return tags confirmed on ideaswood.eu and ideaswood.com for the home page, /about-us/, /product/square-hot-tub/ and /product-category/bbq-grill-cabin/: the set is reciprocal and technically valid.
+- Weak point: the 35 categories mostly have no hreflang, while the same categories exist on .eu; and hreflang on products ties the AU page to EU/US pages whose prices, units and text differ. That is allowed (same product, different market), so keep it, but localise the AU text so the pages are not near-duplicates.
 
 ## 6. Generic "Eco-Living" and banned claims (all must go)
 | Where | Text found |
