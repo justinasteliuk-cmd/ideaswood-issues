@@ -4,8 +4,7 @@ Target: capannoni in legno prezzi (GSC 74 impr.), capannoni legno, capannone in 
 Products now: 49 storage buildings, from Lulu-1 2,4×1,2 m to Eric/Rapture 3,3×7,36 m. Also assign to this term (multi-category, keep their own category): Garage 6×9, Posto auto coperto+deposito 5,7×5,3 and 5,7×7,9, Stalle e chioschi (term 583), so the page covers the larger "capannone" sizes too.
 
 **Term name:** Capannoni in legno
-**Title (55):** Capannoni in legno prefabbricati: prezzi e misure | IdeasWood
-→ if the theme appends the site name, use: Capannoni in legno prefabbricati, prezzi e misure
+**Title (51):** Capannoni in legno prefabbricati, prezzi | IdeasWood
 **Meta (150):** Capannoni e capanni in legno per attrezzi, legna, bici e mezzi: kit in abete rosso e pino tagliati su ordinazione. Prezzo su ogni modello, opzioni a parte.
 **H1:** Capannoni in legno prefabbricati
 
