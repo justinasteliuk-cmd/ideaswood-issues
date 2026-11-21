@@ -98,3 +98,4 @@ Waiting: Google recrawl (new titles not shown yet), Saqib items (Blog module, ga
 - 2026-11-21 Mac executor: GSC retried in Justinas' main Chrome (property sc-domain:ideaswood.eu is there, 348 indexed / 454 not indexed): the URL typed into URL inspection, but GSC ignores the automated submit (Enter/Search click), so Request indexing is still manual. New pages are in page-sitemap.xml; IndexNow sent to Bing.
 - 2026-11-21 pm Cloud SEO session: listings kit final seo/content/07b (NAP, 3 descriptions, categories, signup order; needs Justinas accounts: Trustpilot, Google Business, Bing Places).
 - 2026-11-21 pm DECISION (Justinas): B2B: no past-customer invitations, no customer names, no Trustpilot invites. Trust via company-facts, trade pages, photos without client names, trade directories (content/07b updated).
+- 2026-11-21 pm Cloud SEO session: self-serve registration/action list research/self-serve-actions-2026-11-21.md (no customer names).
