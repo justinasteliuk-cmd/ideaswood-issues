@@ -41,3 +41,4 @@ Waiting: Google recrawl (new titles not shown yet), Saqib items (Blog module, ga
 - 2026-11-20 Cloud SEO session: free own crawl of 473 sitemap URLs (research/site-crawl-2026-11-20.md); UK autosuggest list tracking/autosuggest-uk-2026-11-20.csv (985 phrases). PageSpeed API quota exhausted today.
 - 2026-11-20 Cloud SEO session: Nova social plan reviewed (research/social-plan-review-2026-11-20.md): 8 approved posts on hold; mix shift to saunas.
 - 2026-11-21 Cloud SEO session daily cycle: GSC 28d 22 clicks/1050 impr/pos 61.8; no Astra/Nova answers; live sites unchanged; Goal 27%.
+- 2026-11-21 Cloud SEO session: planning guide extension (content/04b) verified against official sources; corrected conservation-area rule, no C5 in England, Scotland 8 m2; see research/planning-verification-2026-11-21.md. Sauna category paste pack ready.
