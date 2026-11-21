@@ -99,3 +99,4 @@ Waiting: Google recrawl (new titles not shown yet), Saqib items (Blog module, ga
 - 2026-11-21 pm Cloud SEO session: listings kit final seo/content/07b (NAP, 3 descriptions, categories, signup order; needs Justinas accounts: Trustpilot, Google Business, Bing Places).
 - 2026-11-21 pm DECISION (Justinas): B2B: no past-customer invitations, no customer names, no Trustpilot invites. Trust via company-facts, trade pages, photos without client names, trade directories (content/07b updated).
 - 2026-11-21 pm Cloud SEO session: self-serve registration/action list research/self-serve-actions-2026-11-21.md (no customer names).
+- 2026-11-21 pm Cloud SEO session: IT site pack ready (seo/sites/it/: AUDIT, KEYWORD-MAP, TASKS-FOR-MAC 42 tasks, COPY 00-08, iw-it-schema.php). Decision: IT header keeps Gian Luca's number for Italian inquiries (tracking), company number +370 678 22055 in schema and Contatti page.
