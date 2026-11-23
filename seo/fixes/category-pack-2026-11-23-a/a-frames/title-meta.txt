@@ -1,0 +1,16 @@
+Category: A-frames (term ID 655)
+URL: https://ideaswood.eu/product-category/a-frames/
+Paste into: Rank Math box on the term edit screen (SEO Title / Description). Focus keyword: a frame house kit
+Secondary: prefab a frame homes for sale, a-frame cabin for sale, timber frame a frame, a frame log cabins
+
+LIVE NOW (curl 2026-11-23)
+Title: A-frames | IdeasWood
+Meta:  (no Rank Math description set; Google gets the whole term description as fallback, incl. prices:)
+       "A-frame cabins Three A-frame houses, from €18,091 to €31,825, with 36 to 52 m² inside. The steep roof forms the walls ..."
+H1 (inside the term description, above the grid): <h1>A-frame cabins</h1>
+
+NEW
+Title: A-Frame House Kits & A-Frame Cabins for Sale | IdeasWood
+Meta:  Prefab A-frame house kits: three A-frame cabins in pine, 32.7 to 52 m² inside, 2 to 5 rooms. Delivered to the UK, Ireland and Europe, quoted per order.
+H1 line (first line of the description, see README paste order):
+<h1>A-Frame House Kits and A-Frame Cabins</h1>
