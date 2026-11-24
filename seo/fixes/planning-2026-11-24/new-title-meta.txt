@@ -1,0 +1,19 @@
+Page: https://ideaswood.eu/log-cabin-planning-permission-uk/  (WordPress page ID 18376, SEO plugin: Rank Math)
+
+SEO TITLE (Rank Math > Edit Snippet > Title), 60 characters:
+Log Cabin Planning Permission: Garden, Holiday Let, Scotland
+
+  Live now: "Do You Need Planning Permission for a Log Cabin? England Guide"
+  The 04b draft "Log Cabin Planning Permission: England, Scotland & Holiday Lets" is 63 characters, so it is over the 60 limit.
+  Alternative if you want "England" kept (61 characters, 1 over):
+  Log Cabin Planning Permission: England, Scotland, Holiday Let
+  Do not put "UK" in the title. Wales and Northern Ireland get only short sections.
+
+META DESCRIPTION (Rank Math > Edit Snippet > Description), 148 characters:
+Do you need planning permission for a log cabin? England and Scotland garden rules, holiday lets, AONBs, living in a cabin and building regulations.
+
+H1 (the WordPress page title field: the theme prints it as <h1 class="entry-title">):
+Do You Need Planning Permission for a Log Cabin? England, Scotland and Holiday Lets
+
+  Live now: "Do You Need Planning Permission for a Log Cabin in England?"
+  Changing the page title does not change the URL slug. Leave the permalink as log-cabin-planning-permission-uk.
