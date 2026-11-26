@@ -1,0 +1,140 @@
+row,date,platform,product,status,flags,landing
+2,2026-09-21,Pinterest,Insulated Houses,APPROVED,nordic,https://ideaswood.eu/product-category/insulated-wooden-houses/
+3,2026-09-01,Instagram,Grill Cabins,PUBLISHED,manuf,https://ideaswood.eu/product-category/bbq-grill-cabin/
+4,2026-09-23,Pinterest,Grill Cabins,PUBLISHED,nordic|manuf,https://ideaswood.eu/product-category/bbq-grill-cabin/
+5,2026-09-25,Pinterest,Log Cabins,PUBLISHED,nordic|manuf,https://ideaswood.eu/product-category/garden-cabins/
+6,2026-10-08,Instagram,Insulated Houses,PUBLISHED,nordic|manuf,https://ideaswood.eu/product-category/insulated-wooden-houses/
+7,2026-09-27,Pinterest,Saunas,PUBLISHED,nordic|manuf,https://ideaswood.eu/product-category/sauna/outdoor-sauna/
+8,2026-09-01,Pinterest,Timber Frame,PUBLISHED,manuf,https://ideaswood.eu/product-category/insulated-wooden-houses/
+9,2026-09-21,LinkedIn,Timber Frame,PUBLISHED,,https://ideaswood.eu/product-category/insulated-wooden-houses/
+10,2026-09-23,Instagram,Timber Frame,PUBLISHED,,https://ideaswood.eu/product-category/insulated-wooden-houses/
+11,2026-09-22,Facebook,Timber Frame,PUBLISHED,manuf,https://ideaswood.eu/product-category/insulated-wooden-houses/
+12,2026-09-21,YouTube,Timber Frame,PUBLISHED,manuf,https://ideaswood.eu/product-category/insulated-wooden-houses/
+13,2026-10-21,Instagram,Windows (PVC),PUBLISHED,,https://ideaswood.eu/pvc-windows-for-log-cabins/
+14,2026-10-12,Instagram,Timber Frame,PUBLISHED,,https://ideaswood.eu/product-category/insulated-wooden-houses/
+15,2026-10-26,Instagram,Saunas,PUBLISHED,nordic,https://ideaswood.eu/product-category/sauna/outdoor-sauna/
+16,2026-09-28,Pinterest,Saunas,PUBLISHED,nordic,https://ideaswood.eu/product-category/sauna/outdoor-sauna/
+17,2026-09-22,LinkedIn,Saunas,PUBLISHED,manuf,https://ideaswood.eu/product-category/sauna/outdoor-sauna/
+18,2026-10-01,Pinterest,Hot Tubs,PUBLISHED,,https://ideaswood.eu/product-category/hot-tubs/
+19,2026-09-22,YouTube,Log Cabins,PUBLISHED,manuf,https://ideaswood.eu/
+20,2026-09-11,Facebook,Saunas,PUBLISHED,nordic,https://ideaswood.eu/product-category/sauna/outdoor-sauna/
+21,2026-09-23,YouTube,Saunas,PUBLISHED,nordic,https://ideaswood.eu/product-category/sauna/outdoor-sauna/
+22,2026-10-09,Instagram Reels,Saunas,PUBLISHED,nordic,https://ideaswood.eu/
+23,2026-11-01,Instagram Reels,Log Cabins,PUBLISHED,,https://ideaswood.eu/product-category/garden-cabins/
+24,2026-09-25,LinkedIn,Logistics,PUBLISHED,manuf,https://ideaswood.eu/contact-us/
+25,2026-09-14,Facebook,Log Cabins,PUBLISHED,manuf,https://ideaswood.eu/product-category/garden-cabins/
+26,2026-11-11,Instagram,Log Cabins,PUBLISHED,,https://ideaswood.eu/product-category/garden-cabins/
+27,2026-09-15,Pinterest,Log Cabins,PUBLISHED,manuf,https://ideaswood.eu/product-category/garden-cabins/
+28,2026-09-16,LinkedIn,Log Cabins,PUBLISHED,manuf,https://ideaswood.eu/product-category/garden-cabins/
+29,2026-09-17,Instagram,Log Cabins,DUPLICATE,,https://ideaswood.eu/product-category/garden-cabins/
+30,2026-09-17,Pinterest,Grill Cabins,PUBLISHED,nordic,https://ideaswood.eu/product-category/bbq-grill-cabin/
+31,2026-09-18,Facebook,Log Cabins,PUBLISHED,manuf,https://ideaswood.eu/product-category/garden-cabins/
+32,2026-09-18,YouTube,Log Cabins,PUBLISHED,nordic,https://ideaswood.eu/product-category/garden-cabins/
+33,2026-11-26,Instagram,Timber Frame,APPROVED,,https://ideaswood.eu/product-category/insulated-wooden-houses/
+34,2026-09-22,Pinterest,Pergolas,PUBLISHED,,https://ideaswood.eu/product-category/pergola/wooden-pergola/
+35,2026-09-23,Facebook,Timber Frame,PUBLISHED,manuf,https://ideaswood.eu/product-category/insulated-wooden-houses/
+36,2026-09-23,LinkedIn,Pergolas,PUBLISHED,,https://ideaswood.eu/product-category/pergola/wooden-pergola/
+37,2026-09-24,Pinterest,Timber Frame,PUBLISHED,manuf,https://ideaswood.eu/product-category/insulated-wooden-houses/
+38,2026-09-24,YouTube,Log Cabins,PUBLISHED,,https://ideaswood.eu/
+39,2026-09-25,Facebook,Pergolas,PUBLISHED,,https://ideaswood.eu/product-category/pergola/wooden-pergola/
+40,2026-09-25,YouTube,Pergolas,PUBLISHED,,https://ideaswood.eu/product-category/pergola/wooden-pergola/
+41,2026-12-10,Instagram,Timber Frame,APPROVED,,https://ideaswood.eu/product-category/insulated-wooden-houses/
+42,2026-09-26,Instagram Reels,Pergolas,PUBLISHED,,https://ideaswood.eu/
+43,2026-09-26,Pinterest,Logistics,PUBLISHED,,https://ideaswood.eu/contact-us/
+44,2026-09-27,Facebook,Thermowood,PUBLISHED,nordic,https://ideaswood.eu/
+45,2026-09-28,Instagram,Saunas,PUBLISHED,nordic|manuf,https://ideaswood.eu/product-category/sauna/outdoor-sauna/
+46,2026-09-28,Facebook,Saunas,PUBLISHED,nordic|manuf,https://ideaswood.eu/product-category/sauna/outdoor-sauna/
+47,2026-10-14,Facebook,Log Cabins,PUBLISHED,,https://ideaswood.eu/product-category/garden-cabins/
+48,2026-09-29,Pinterest,Hot Tubs,PUBLISHED,manuf,https://ideaswood.eu/product-category/hot-tubs/
+49,2026-09-29,Instagram,Logistics,PUBLISHED,,https://ideaswood.eu/contact-us/
+50,2026-10-22,Instagram,Log Cabins,PUBLISHED,manuf,https://ideaswood.eu/product-category/garden-cabins/
+51,2026-09-30,Pinterest,Pergolas,PUBLISHED,manuf,https://ideaswood.eu/product-category/pergola/wooden-pergola/
+52,2026-10-23,Instagram,Log Cabins,PUBLISHED,,https://ideaswood.eu/product-category/garden-cabins/
+53,2026-10-01,Facebook,Hot Tubs,PUBLISHED,manuf,https://ideaswood.eu/product-category/hot-tubs/
+54,2026-10-02,Instagram,Saunas,PUBLISHED,nordic|manuf,https://ideaswood.eu/product-category/sauna/outdoor-sauna/
+55,2026-10-02,Facebook,Pergolas,PUBLISHED,nordic|manuf,https://ideaswood.eu/product-category/pergola/wooden-pergola/
+56,2026-10-24,Instagram,Pergolas,PUBLISHED,,https://ideaswood.eu/product-category/pergola/wooden-pergola/
+57,2026-10-27,Instagram,Hot Tubs,PUBLISHED,manuf,https://ideaswood.eu/product-category/hot-tubs/
+58,2026-10-06,Instagram,Hot Tubs,DUPLICATE,manuf,https://ideaswood.eu/product-category/hot-tubs/
+59,2026-09-24,LinkedIn,Range,PUBLISHED,,https://ideaswood.eu/
+60,2026-11-04,Instagram,Range,PUBLISHED,,https://ideaswood.eu/
+61,2026-10-13,Facebook,Range,PUBLISHED,manuf,https://ideaswood.eu/
+62,2026-09-24,YouTube,Range,PUBLISHED,,https://ideaswood.eu/
+63,2026-10-07,Facebook,Showroom,PUBLISHED,,https://ideaswood.eu/contact-us/
+64,2026-10-15,Instagram,Saunas,PUBLISHED,,https://ideaswood.eu/contact-us/
+65,2026-10-17,Instagram,Insulated Houses,PUBLISHED,,https://ideaswood.eu/contact-us/
+66,2026-09-29,LinkedIn,Showroom,PUBLISHED,,https://ideaswood.eu/contact-us/
+67,2026-10-19,Instagram,Interiors,PUBLISHED,,https://ideaswood.eu/
+68,2026-10-15,Facebook,Interiors,PUBLISHED,,https://ideaswood.eu/
+69,2026-10-18,Instagram,Log Cabins,PUBLISHED,nordic,https://ideaswood.eu/contact-us/
+70,2026-10-08,Pinterest,Log Cabins,PUBLISHED,nordic|manuf,https://ideaswood.eu/contact-us/
+71,2026-10-09,Facebook,Log Cabins,PUBLISHED,nordic,https://ideaswood.eu/contact-us/
+72,2026-10-10,LinkedIn,Log Cabins,APPROVED,nordic,https://ideaswood.eu/contact-us/
+73,2026-10-11,Pinterest,Log Cabins,PUBLISHED,nordic,https://ideaswood.eu/contact-us/
+74,2026-10-25,Instagram Reels,Log Cabins,PUBLISHED,nordic,https://ideaswood.eu/contact-us/
+75,2026-10-16,Facebook,Grill Cabins,PUBLISHED,,https://ideaswood.eu/product-category/bbq-grill-cabin/
+76,2026-10-19,Facebook,Saunas,PUBLISHED,,https://ideaswood.eu/product-category/sauna/outdoor-sauna/barrels-sauna/
+77,2026-10-21,Facebook,Camping Pods,PUBLISHED,,https://ideaswood.eu/product-category/camping-pods/
+78,2026-10-23,Facebook,Pergolas,PUBLISHED,,https://ideaswood.eu/product-category/pergola/wooden-pergola/
+79,2026-10-26,Facebook,Hot Tubs,PUBLISHED,,https://ideaswood.eu/product-category/hot-tubs/
+80,2026-10-28,Facebook,Pavilions,PUBLISHED,,https://ideaswood.eu/product-category/garden-cabins/
+81,2026-10-30,Facebook,Windows & Doors,PUBLISHED,,https://ideaswood.eu/product-category/garden-cabins/
+82,2026-11-02,Facebook,Saunas,PUBLISHED,,https://ideaswood.eu/product-category/sauna/outdoor-sauna/
+83,2026-11-04,Facebook,Factory,PUBLISHED,manuf,https://ideaswood.eu/contact-us/
+84,2026-11-06,Facebook,Garden Rooms,PUBLISHED,,https://ideaswood.eu/product-category/home-offices-studios/
+85,2026-11-09,Facebook,Camping Pods,PUBLISHED,,https://ideaswood.eu/product-category/camping-pods/
+86,2026-11-11,Facebook,Pergolas,APPROVED,,https://ideaswood.eu/product-category/pergola/wooden-pergola/
+87,2026-11-13,Facebook,Saunas,PUBLISHED,,https://ideaswood.eu/product-category/sauna/outdoor-sauna/barrels-sauna/
+88,2026-11-16,Facebook,Hot Tubs,PUBLISHED,,https://ideaswood.eu/product-category/hot-tubs/
+89,2026-11-18,Facebook,Pavilions,PUBLISHED,,https://ideaswood.eu/product-category/garden-cabins/
+90,2026-11-20,Facebook,Windows & Doors,APPROVED,manuf,https://ideaswood.eu/product-category/garden-cabins/
+91,2026-11-23,Facebook,Camping Pods,APPROVED,,https://ideaswood.eu/product-category/camping-pods/
+92,2026-11-25,Facebook,Garden Rooms,APPROVED,,https://ideaswood.eu/product-category/garden-cabins/
+93,2026-11-27,Facebook,Carports,APPROVED,,https://ideaswood.eu/product-category/garages-carports/
+94,2026-11-30,Facebook,A-Frames,APPROVED,,https://ideaswood.eu/product-category/a-frames/
+95,2026-10-28,Instagram,Saunas,PUBLISHED,,https://ideaswood.eu/product-category/sauna/outdoor-sauna/
+96,2026-10-29,Instagram,Grill Cabins,PUBLISHED,,https://ideaswood.eu/product-category/bbq-grill-cabin/
+97,2026-10-31,Instagram,Camping Pods,PUBLISHED,,https://ideaswood.eu/product-category/camping-pods/
+98,2026-11-02,Instagram,Saunas,PUBLISHED,,https://ideaswood.eu/product-category/sauna/outdoor-sauna/barrels-sauna/
+99,2026-11-03,Instagram,Garden Rooms,PUBLISHED,,https://ideaswood.eu/product-category/home-offices-studios/
+100,2026-11-05,Instagram,Pergolas,PUBLISHED,,https://ideaswood.eu/product-category/pergola/wooden-pergola/
+101,2026-11-07,Instagram,Hot Tubs,PUBLISHED,,https://ideaswood.eu/product-category/hot-tubs/
+102,2026-11-09,Instagram,Pavilions,PUBLISHED,,https://ideaswood.eu/product-category/garden-cabins/
+103,2026-11-10,Instagram,Windows & Doors,PUBLISHED,,https://ideaswood.eu/product-category/garden-cabins/
+104,2026-11-12,Instagram,Saunas,PUBLISHED,,https://ideaswood.eu/product-category/sauna/outdoor-sauna/barrels-sauna/
+105,2026-11-14,Instagram,A-Frames,PUBLISHED,,https://ideaswood.eu/product-category/a-frames/
+106,2026-11-16,Instagram,Camping Pods,PUBLISHED,,https://ideaswood.eu/product-category/camping-pods/
+107,2026-11-17,Instagram,Garden Rooms,PUBLISHED,,https://ideaswood.eu/product-category/garden-cabins/
+108,2026-10-20,Instagram,Saunas,PUBLISHED,,https://ideaswood.eu/product-category/sauna/outdoor-sauna/
+109,2026-11-21,Instagram,Pergolas,APPROVED,,https://ideaswood.eu/product-category/pergola/wooden-pergola/
+110,2026-11-23,Instagram,Carports,APPROVED,,https://ideaswood.eu/product-category/garages-carports/
+111,2026-11-24,Instagram,Grill Cabins,APPROVED,,https://ideaswood.eu/product-category/bbq-grill-cabin/
+112,2026-10-16,Instagram,Camping Pods,PUBLISHED,,https://ideaswood.eu/product-category/camping-pods/
+113,2026-11-28,Instagram,Saunas,APPROVED,,https://ideaswood.eu/product-category/sauna/outdoor-sauna/
+114,2026-11-30,Instagram,Factory,APPROVED,manuf,https://ideaswood.eu/contact-us/
+115,2026-12-02,Facebook,Factory,APPROVED,manuf,https://ideaswood.eu/contact-us/
+116,2026-12-04,Facebook,Grill Cabins,APPROVED,,https://ideaswood.eu/product-category/bbq-grill-cabin/
+117,2026-12-07,Facebook,Saunas,APPROVED,,https://ideaswood.eu/product-category/sauna/outdoor-sauna/
+118,2026-12-09,Facebook,Windows & Doors,APPROVED,,https://ideaswood.eu/product-category/garden-cabins/
+119,2026-12-11,Facebook,Pavilions,APPROVED,,https://ideaswood.eu/product-category/garden-cabins/
+120,2026-12-14,Facebook,Camping Pods,APPROVED,,https://ideaswood.eu/product-category/camping-pods/
+121,2026-12-16,Facebook,Garden Rooms,APPROVED,,https://ideaswood.eu/product-category/home-offices-studios/
+122,2026-12-18,Facebook,Saunas,APPROVED,,https://ideaswood.eu/product-category/sauna/outdoor-sauna/
+123,2026-12-21,Facebook,Factory,APPROVED,manuf,https://ideaswood.eu/contact-us/
+124,2026-12-23,Facebook,Pergolas,APPROVED,,https://ideaswood.eu/product-category/pergola/wooden-pergola/
+125,2026-12-01,Instagram,Log Cabins,APPROVED,,https://ideaswood.eu/product-category/garden-cabins/
+126,2026-12-03,Instagram,Camping Pods,APPROVED,green,https://ideaswood.eu/product-category/camping-pods/
+127,2026-12-05,Instagram,Logistics,APPROVED,,https://ideaswood.eu/contact-us/
+128,2026-12-07,Instagram,Garden Rooms,APPROVED,,https://ideaswood.eu/product-category/home-offices-studios/
+129,2026-12-08,Instagram,Saunas,APPROVED,,https://ideaswood.eu/product-category/sauna/outdoor-sauna/sauna-pods/
+130,2026-12-12,Instagram,Grill Cabins,APPROVED,,https://ideaswood.eu/product-category/bbq-grill-cabin/
+131,2026-12-13,Instagram,Interiors,APPROVED,,https://ideaswood.eu/product-category/insulated-wooden-houses/
+132,2026-12-15,Instagram,Pergolas,APPROVED,,https://ideaswood.eu/product-category/pergola/wooden-pergola/
+133,2026-12-17,Instagram,Log Cabins,APPROVED,,https://ideaswood.eu/product-category/garden-cabins/
+134,2026-12-19,Instagram,Assembly,APPROVED,,https://ideaswood.eu/contact-us/
+135,2026-12-21,Instagram,Saunas,APPROVED,,https://ideaswood.eu/product-category/sauna/outdoor-sauna/
+136,2026-12-20,Instagram,Garden Rooms,APPROVED,,https://ideaswood.eu/product-category/home-offices-studios/
+137,2026-12-24,Instagram,Grill Cabins,APPROVED,,https://ideaswood.eu/product-category/bbq-grill-cabin/
+138,2026-12-27,Instagram,Camping Pods,APPROVED,,https://ideaswood.eu/product-category/camping-pods/
+139,2026-12-29,Instagram,Factory,APPROVED,manuf,https://ideaswood.eu/contact-us/
+140,2026-12-31,Instagram,Garden Rooms,APPROVED,,https://ideaswood.eu/product-category/home-offices-studios/

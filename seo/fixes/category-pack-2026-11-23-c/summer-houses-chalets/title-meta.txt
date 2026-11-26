@@ -1,0 +1,14 @@
+Category: Summer houses/chalets (term ID 665)
+URL: https://ideaswood.eu/product-category/summer-houses-chalets/
+Paste into: Rank Math box on the term edit screen (SEO Title / Description). Focus keyword: summer house kits
+Secondary: wooden summer house, wooden chalet
+H1 line to keep at the top of the description (this page has no other H1, see README):
+<h1>Wooden summer houses and chalets</h1>
+
+LIVE NOW (2026-11-23)
+Title: Wooden Summer Houses & Chalets – Timber Kits | IdeasWood
+Meta:  Timber summer houses and chalets with double glazing and easy self-assembly. Compare sizes, delivered to the UK, Ireland and the EU.
+
+NEW
+Title: Summer House Kits – Wooden Summer Houses | IdeasWood
+Meta:  Wooden summer house kits and chalets, 15 to 74 m² inside, 2 to 5 rooms, log walls 28 to 68 mm. Delivered to the UK, Ireland and Europe.

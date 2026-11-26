@@ -1,0 +1,14 @@
+Category: Garages/carports (term ID 656)
+URL: https://ideaswood.eu/product-category/garages-carports/
+Paste into: Rank Math box on the term edit screen (SEO Title / Description). Focus keyword: wooden garage kits
+Secondary: wooden carport kit, timber garage and carport
+H1 line to keep at the top of the description (this page has no other H1, see README):
+<h1>Wooden garage kits and carports</h1>
+
+LIVE NOW (2026-11-23)
+Title: Wooden Garages & Carports – Timber Kits | IdeasWood
+Meta:  Timber garages and carports built from log profiles. Single and double sizes, delivered as a complete kit across the UK and Europe.
+
+NEW
+Title: Wooden Garage Kits & Timber Carports | IdeasWood
+Meta:  Wooden garage kits from 3.2 x 5.2 to 6 x 9 m, carports and garage-carport combinations, all with 44 mm walls. Delivered to the UK, Ireland and Europe.

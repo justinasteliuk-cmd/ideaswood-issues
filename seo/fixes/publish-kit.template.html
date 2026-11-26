@@ -1,0 +1,113 @@
+<title>IdeasWood Publish Kit</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400&display=swap">
+<style>
+/* Layout: one narrow work column; a sticky progress strip, then one collapsible card per page in priority order. */
+:root{--bg:#f6f4f0;--card:#fffdfa;--fg:#1f1d1a;--mute:#6b665e;--line:#ddd8cf;--accent:#8a4b12;--accent-bg:#f3e6d6;--ok:#1d6b43;--ok-bg:#dff1e6;--code:#efece5;
+--sans:'IBM Plex Sans',system-ui,-apple-system,'Segoe UI',sans-serif;--mono:'IBM Plex Mono',ui-monospace,Menlo,monospace}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#171513;--card:#201d1a;--fg:#ece8e1;--mute:#a39c91;--line:#38332d;--accent:#e0a063;--accent-bg:#3a2b1b;--ok:#6fd09b;--ok-bg:#1b3326;--code:#2a2621;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#171513;--card:#201d1a;--fg:#ece8e1;--mute:#a39c91;--line:#38332d;--accent:#e0a063;--accent-bg:#3a2b1b;--ok:#6fd09b;--ok-bg:#1b3326;--code:#2a2621;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font:15px/1.55 var(--sans);padding-block:0 48px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.wrap{max-width:860px;margin:0 auto}
+h1{font-size:26px;line-height:1.2;margin:28px 0 6px;text-wrap:balance;font-weight:600}
+h2{font-size:17px;margin:0;font-weight:600}
+p{margin:0 0 10px}
+.lede{color:var(--mute);max-width:65ch}
+.bar{position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);padding:10px 0;margin-top:16px;border-bottom:1px solid var(--line);z-index:5;display:flex;gap:14px;align-items:center;flex-wrap:wrap}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--bg);z-index:10}
+.meter{flex:1;min-width:140px;height:8px;background:var(--line);border-radius:4px;overflow:hidden}
+.meter i{display:block;height:100%;background:var(--ok);width:0;transition:width .25s}
+.count{font-variant-numeric:tabular-nums;font-weight:600}
+.note{background:var(--accent-bg);border-radius:6px;padding:10px 12px;margin:16px 0;font-size:14px}
+details.card{background:var(--card);border:1px solid var(--line);border-radius:8px;margin:12px 0}
+details.card>summary{list-style:none;cursor:pointer;padding:12px 14px;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+details.card>summary::-webkit-details-marker{display:none}
+.pill{font:12px var(--mono);padding:2px 8px;border-radius:99px;background:var(--code);color:var(--mute);white-space:nowrap}
+.pill.done{background:var(--ok-bg);color:var(--ok)}
+.rank{font:12px var(--mono);color:var(--mute);min-width:22px}
+.body{padding:2px 14px 14px;display:grid;gap:14px}
+.meta{color:var(--mute);font-size:13px;overflow-wrap:anywhere}
+.field{min-width:0}
+.field label,.lbl{display:flex;justify-content:space-between;gap:8px;align-items:center;font-size:12px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--mute);margin-bottom:4px;flex-wrap:wrap}
+.box{font:13px/1.5 var(--mono);background:var(--code);border:1px solid var(--line);border-radius:6px;padding:8px 10px;width:100%;box-sizing:border-box;color:var(--fg);resize:vertical;overflow-wrap:anywhere}
+textarea.box{min-height:120px;max-height:260px}
+input.box{display:block}
+button{font:500 13px var(--sans);background:var(--fg);color:var(--bg);border:0;border-radius:6px;padding:6px 12px;cursor:pointer;min-height:32px}
+button.ghost{background:transparent;color:var(--fg);border:1px solid var(--line)}
+button:focus-visible,a:focus-visible,summary:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+button.ok{background:var(--ok);color:#fff}
+a{color:var(--accent)}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.len{font:12px var(--mono);text-transform:none;letter-spacing:0;color:var(--mute)}
+.len.bad{color:#b3261e}
+ol.steps{margin:0;padding-left:20px;color:var(--mute);font-size:13px}
+pre.small{white-space:pre-wrap;font:12px/1.5 var(--mono);background:var(--code);border-radius:6px;padding:10px;max-height:300px;overflow:auto;margin:0}
+footer{margin-top:28px;color:var(--mute);font-size:13px}
+</style>
+<div class="wrap">
+<h1>Publikavimo rinkinys: 15 kategorijų ir planavimo gidas</h1>
+<p class="lede">Visi tekstai jau parašyti ir patikrinti. Kiekvienai kategorijai čia surinkta tiksliai ta tvarka, kuria juos reikia įklijuoti į wp-admin. Atidaryk kortelę, spausk Copy, įklijuok, pažymėk „Paskelbta“. Eilė pagal naudą Google paieškai.</p>
+<div class="bar"><span class="count" id="count">0 / 16</span><div class="meter"><i id="meter"></i></div><span class="meta" id="pct">0%</span></div>
+<div class="note"><b>Svarbu:</b> aprašą įklijuok tik į <b>Text</b> skirtuką (ne Visual), kitaip WordPress nuvalys antraštes. Po „Update“ atidaryk puslapį privačiame lange ir išvalyk LiteSpeed talpyklą. Kategorijų, kurios rodo H1 iš aprašo, tvarka kitokia nei sauna: tai nurodyta kiekvienoje kortelėje.</div>
+<div id="list"></div>
+<footer>Šaltinis: seo/fixes/category-pack-2026-11-23-a, -b, -c ir planning-2026-11-24. Generuota skriptu build-publish-kit.py. Kai tik pažymėsi, Mac sesija ir kasdienis ciklas patikrins gyvus puslapius ir GSC.</footer>
+</div>
+<script>
+const D=/*DATA*/;
+const LS={get(k){try{return localStorage.getItem(k)}catch(e){return null}},set(k,v){try{localStorage.setItem(k,v)}catch(e){}}};
+const esc=s=>s.replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+function copyBtn(id,label){return `<button type="button" data-copy="${id}">${label||'Copy'}</button>`}
+function field(id,label,val,rows,limit){
+  const len=limit?`<span class="len ${val.length>limit?'bad':''}">${val.length} / ${limit}</span>`:'';
+  const ctrl=rows?`<textarea class="box" id="${id}" rows="${rows}" readonly>${esc(val)}</textarea>`:`<input class="box" id="${id}" readonly value="${esc(val)}">`;
+  return `<div class="field"><div class="lbl"><span>${label} ${len}</span>${copyBtn(id)}</div>${ctrl}</div>`;
+}
+function card(it,n){
+  const done=LS.get('iwkit-'+it.key)==='1';
+  let inner;
+  if(it.kind==='cat'){
+    inner=`<div class="meta">${esc(it.order)}</div>
+    <div class="row"><a href="${it.edit}" target="_blank" rel="noopener">Atidaryti wp-admin redagavimą</a><a href="${it.url}" target="_blank" rel="noopener">Gyvas puslapis</a></div>
+    ${field(it.key+'-d','1. Aprašas (Text skirtukas)',it.desc,9)}
+    ${field(it.key+'-t','2. Rank Math pavadinimas',it.title,0,60)}
+    ${field(it.key+'-m','3. Rank Math aprašymas',it.meta,3,160)}
+    ${field(it.key+'-k','4. Focus keyword',it.fk,0)}
+    <div class="meta">Papildomi raktažodžiai (Rank Math, nebūtina): ${esc(it.sec)}</div>
+    <ol class="steps"><li>Aprašo lauke pasirink Text, pažymėk viską, ištrink, įklijuok.</li><li>Rank Math lange įklijuok pavadinimą, aprašymą, raktažodį.</li><li>Update, tada privatus langas ir LiteSpeed Purge.</li></ol>`;
+  }else{
+    inner=`<div class="meta">Puslapis nėra Divi Builder. Redaguok Text skirtuke, ne Visual. Visos 9 pakeitimų vietos yra apačioje.</div>
+    <div class="row"><a href="${it.edit}" target="_blank" rel="noopener">Atidaryti wp-admin redagavimą</a><a href="${it.url}" target="_blank" rel="noopener">Gyvas puslapis</a></div>
+    ${field('pl-h','1. Puslapio pavadinimas (H1 laukas)',it.h1,0)}
+    ${field('pl-t','2. Rank Math pavadinimas',it.title,0,60)}
+    ${field('pl-m','3. Rank Math aprašymas',it.meta,3,160)}
+    ${field('pl-s','4. Nauji skyriai ir šaltinių sąrašas (sections.html)',it.sections,9)}
+    ${field('pl-f','5. DUK ir FAQPage JSON-LD (faq.html)',it.faq,9)}
+    <div class="field"><div class="lbl"><span>Kur ką dėti (edits.md)</span>${copyBtn('pl-e')}</div><textarea class="box" id="pl-e" rows="10" readonly>${esc(it.edits)}</textarea></div>`;
+  }
+  return `<details class="card" id="c-${it.key}"><summary><span class="rank">${n}</span><h2>${esc(it.name)}</h2><span class="pill">${it.kind==='cat'?'term '+it.id:'page '+it.id}</span><span class="pill ${done?'done':''}" id="s-${it.key}">${done?'paskelbta':'laukia'}</span></summary><div class="body">${inner}
+  <div class="row"><button type="button" class="ghost" data-done="${it.key}">${done?'Atžymėti':'Pažymėti kaip paskelbtą'}</button></div></div></details>`;
+}
+const all=[...D.items,D.planning];
+document.getElementById('list').innerHTML=all.map((it,i)=>card(it,i+1)).join('');
+function upd(){
+  const n=all.filter(it=>LS.get('iwkit-'+it.key)==='1').length;
+  document.getElementById('count').textContent=n+' / '+all.length;
+  document.getElementById('meter').style.width=(n/all.length*100)+'%';
+  document.getElementById('pct').textContent=Math.round(n/all.length*100)+'%';
+}
+upd();
+document.addEventListener('click',e=>{
+  const b=e.target.closest('button');if(!b)return;
+  if(b.dataset.copy){
+    const el=document.getElementById(b.dataset.copy);const t=el.value;
+    const fb=()=>{el.focus();el.select();try{document.execCommand('copy')}catch(x){}};
+    const flash=()=>{const o=b.textContent;b.textContent='Nukopijuota';b.classList.add('ok');setTimeout(()=>{b.textContent=o;b.classList.remove('ok')},1400)};
+    if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t).then(flash,()=>{fb();flash()})}else{fb();flash()}
+  }
+  if(b.dataset.done){
+    const k=b.dataset.done;const v=LS.get('iwkit-'+k)==='1'?'0':'1';LS.set('iwkit-'+k,v);
+    const s=document.getElementById('s-'+k);s.textContent=v==='1'?'paskelbta':'laukia';s.classList.toggle('done',v==='1');
+    b.textContent=v==='1'?'Atžymėti':'Pažymėti kaip paskelbtą';upd();
+  }
+});
+</script>

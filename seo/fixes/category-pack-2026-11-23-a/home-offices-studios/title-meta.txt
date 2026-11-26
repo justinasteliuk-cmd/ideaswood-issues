@@ -1,0 +1,15 @@
+Category: Home offices / studios (term ID 658)
+URL: https://ideaswood.eu/product-category/home-offices-studios/
+Paste into: Rank Math box on the term edit screen (SEO Title / Description). Focus keyword: garden office kits
+Secondary: garden office, garden office kits uk, insulated garden office
+
+LIVE NOW (curl 2026-11-23)
+Title: Garden Offices & Studios – Log Cabin Offices | IdeasWood
+Meta:  Garden offices and studios: Emberly, Bravik, Emily, Sydney and Oden log cabins, some with 44 mm walls. Work from home in your garden. Get a quote.
+H1: none (term description is empty; no H1 on the page at all)
+
+NEW
+Title: Garden Office Kits & Garden Studios, UK Delivery | IdeasWood
+Meta:  Garden office kits with 44 mm log walls, 12.3 to 21.3 m² inside. Add floor and roof insulation as an option. Delivered to the UK, Ireland and Europe.
+H1 line (first line of the description, see README paste order):
+<h1>Garden Offices and Studios</h1>

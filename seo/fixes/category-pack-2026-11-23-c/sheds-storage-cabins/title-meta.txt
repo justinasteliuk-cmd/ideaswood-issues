@@ -1,0 +1,14 @@
+Category: Sheds/storage cabins (term ID 663)
+URL: https://ideaswood.eu/product-category/sheds-storage-cabins/
+Paste into: Rank Math box on the term edit screen (SEO Title / Description). Focus keyword: wooden sheds
+Secondary: wooden garden shed, storage shed, prefab storage shed, garden shed kits
+H1 line to keep at the top of the description (this page has no other H1, see README):
+<h1>Wooden garden sheds and storage cabins</h1>
+
+LIVE NOW (2026-11-23)
+Title: Wooden Garden Sheds & Storage Sheds | IdeasWood
+Meta:  Solid timber garden sheds and storage cabins with strong floors and roofs. Flat-pack delivery to the UK and Europe.
+
+NEW
+Title: Wooden Sheds & Prefab Storage Sheds | IdeasWood
+Meta:  49 wooden garden sheds and storage cabins, 2 to 17.8 m² inside, 28 or 44 mm log walls, prefab kits with timber floor. UK, Ireland and EU delivery.

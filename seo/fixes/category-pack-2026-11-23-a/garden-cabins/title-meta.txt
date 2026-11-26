@@ -1,0 +1,15 @@
+Category: Garden cabins (term ID 657)
+URL: https://ideaswood.eu/product-category/garden-cabins/
+Paste into: Rank Math box on the term edit screen (SEO Title / Description). Focus keyword: garden log cabins
+Secondary: log cabins for sale, log cabin kits uk, garden log cabins insulated
+
+LIVE NOW (curl 2026-11-23)
+Title: Garden Log Cabins & Garden Houses for Sale | IdeasWood
+Meta:  Log cabin kits and wooden garden houses for a home office, studio or guest room. Nordic spruce, delivered to the UK, Ireland and Europe.
+H1 (inside the term description, above the grid): <h1>Garden cabins</h1>
+
+NEW
+Title: Garden Log Cabins for Sale: Log Cabin Kits UK | IdeasWood
+Meta:  Garden log cabins for sale as kits: over 50 models, 6 to 35 m² inside, 44, 58 or 68 mm log walls. Delivered to the UK, Ireland and Europe.
+H1 line (first line of the description, see README paste order):
+<h1>Garden Log Cabins</h1>
