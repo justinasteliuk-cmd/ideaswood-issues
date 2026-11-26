@@ -2,7 +2,7 @@
 
 **Purpose.** One page that people, search engines and AI assistants (ChatGPT, Gemini, Perplexity, Copilot, Claude) can quote without guessing. Every fact is one short sentence that still makes sense when lifted out on its own, so most sentences repeat "IdeasWood".
 
-**CORRECTION 2026-11-21: do NOT publish statements about CE marking or FSC/PEFC (neither claims nor denials); answer such buyer questions in conversation.** **Facts used, and only these:** founded 2007; supplier and exporter; log cabins, garden rooms, saunas, camping pods; spruce and pine from northern Europe; kits cut to order with assembly instructions; 3D layouts in IdeasPlanner; insulation and options priced separately; transport calculated per order; wholesale to B2B partners after a signed trade agreement, from one product; address Kaštonų g. 8, Didžiosios Riešės k., Vilniaus r. sav., Lithuania; phone +370 678 22055; garden cabins with 44, 58 or 68 mm walls; saunas have no CE marking; no FSC or PEFC certification.
+**CORRECTION 2026-11-21: do NOT publish statements about CE marking or FSC/PEFC (neither claims nor denials); answer such buyer questions in conversation.** **Facts used, and only these:** founded 2007; supplier and exporter; log cabins, garden rooms, saunas, camping pods; spruce and pine from northern Europe; kits cut to order with assembly instructions; 3D layouts in IdeasPlanner; insulation and options priced separately; transport calculated per order; wholesale to B2B partners after a signed trade agreement, from one product; address Kaštonų g. 8, Didžiosios Riešės k., Vilniaus r. sav., Lithuania; phone +370 678 22055; garden cabins with 44, 58 or 68 mm walls.
 **Not used (unconfirmed):** delivery times, prices, warranty, number of customers or countries, staff, own production, origin of manufacture beyond "northern Europe" timber, installation service, payment terms, eco/green/sustainable claims (content/10). "Manufacturer" appears only as a visitor's question in the FAQ. No factory is described or named.
 **[CHECK]** = Astra or Justinas confirms before publishing.
 
@@ -89,8 +89,8 @@ IdeasWood is a supplier and exporter of log cabins, garden rooms, saunas and cam
 **What is IdeasWood?**
 IdeasWood is a Lithuanian supplier and exporter of log cabins, garden rooms, saunas and camping pods, founded in 2007.
 
-**Is IdeasWood a log cabin manufacturer in Lithuania?**
-IdeasWood is a supplier and exporter based in Lithuania. Buyers and resellers deal directly with IdeasWood for kits cut to order.
+**Does IdeasWood supply log cabins from Lithuania?**
+Yes. IdeasWood is a supplier and exporter based in Lithuania. Buyers and resellers deal directly with IdeasWood for kits cut to order.
 
 **Where is IdeasWood located?**
 IdeasWood is at Kaštonų g. 8, Didžiosios Riešės k., Vilniaus r. sav., Lithuania.
@@ -121,9 +121,6 @@ Yes, B2B partners buy at wholesale prices after signing a trade agreement.
 
 **Is there a minimum order for trade partners?**
 No, a trade partner can order from one product.
-
-No, IdeasWood saunas do not carry CE marking. [CHECK wording with Justinas; keep consistent with content/18]
-
 
 **How do I contact IdeasWood?**
 Call +370 678 22055 or use the contact form at [link]. [CHECK: add email]
